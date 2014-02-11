@@ -2205,6 +2205,1086 @@ echo form_close();
 
 
 
+<?php 
+
+//400*******************************************************************************************************
+
+
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+
+echo form_open($this->uri->uri_string(),$attr); 
+
+echo '
+
+<div class="panel panel-info row">
+
+	<div class="panel-heading">
+		<h5 class="panel-title">400. En los ultimos tres meses, sin considerar a padres y hermanos, mencione a 10 personas con las que ha mantenido mayor comunicación o contacto</h5>
+	</div>
+	<div class="col-md-12">	
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3">401</th>
+					                 <th class="span3">402</th>
+					                 <th class="span3">403</th>
+					                 <th class="span3">404</th>
+					                 <th class="span3">405</th>
+					                 <th class="span3">406</th>
+					                 <th class="span3">407</th>
+					                 <th class="span3">408</th>
+					                 <th class="span3">409</th>
+					                 <th class="span3">410</th>
+					                </tr>					              
+					               <tr>
+					                 <th class="span3">Nro de Orden</th>
+					                 <th class="span3">Nombre</th>
+					                 <th class="span3">Tipo de relación</th>
+					                 <th class="span3">Es tu compañero en la especialidad que estudias</th>
+					                 <th class="span3">Es becario del programa Beca 18</th>
+					                 <th class="span3">Sexo</th>
+					                 <th class="span3">Vive en el Perú o en el extranjero</th>
+					                 <th class="span3">En que Departamento vive?</th>
+					                 <th class="span3">En que Provincia vive?</th>
+					                 <th class="span3">En que Distrito vive</th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error">' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+			              </tbody>
+			           </table>	
+
+
+	</div>	           
+
+</div>';
+
+
+// 400 2 cara
+
+echo '
+
+<div class="panel panel-info row">
+
+	<div class="col-md-12">	
+				<label for="">411.En los últimos tres meses. Con que frecuencia?</label>
+						<table class="table table-condensed" id="emb_table">
+					          <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Diario?</th>
+					                 <th class="span3">Interdiario</th>
+					                 <th class="span3">Semanal?</th>
+					                 <th class="span3">Mensualmente?</th>
+					                 <th class="span3">Nunca</th>
+					                </tr>					              
+					         </thead>
+					         <tbody>
+					              <tr>
+					                 <td>Has leído libros porque te gusta hacerlo (no obligado)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Has leído revistas o documentos porque te gusta hacerlo (no obligado)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Has leído diarios o semanarios porque te gusta hacerlo (no obligado)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Has escuchado música en la radio</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Has escuchado noticias en la radio</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Has escuchado otro tipo de programas en la radio</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  		
+					              <tr>
+					                 <td>Has visto noticias en la TV</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Has visto programas nacionales de entretenimiento en la TV</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Has vsito otros programas extranjeros de entretenimiento en la TV</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  					              				              				              				              					              
+			              </tbody>
+			           </table>	
+	</div>	           
+
+
+
+	<div class="col-md-6">	
+				<label for="">412. Cuál de los siguientes equipos informáticos utilizas?</label>
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span1"></th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>Computadora</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                  <td>Laptop</td>
+					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>Tablet</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>			
+
+					              <tr>
+					                 <td>Ninguno</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+			              </tbody>
+			           </table>	
+
+	</div>	           
+
+
+	<div class="col-md-6">	
+			<div class="form-group">
+				<label for="">413. Accedes al servicio de Internet?</label>
+						' . form_input($test) . '<div class="help-block error"></div>					
+			</div>
+
+	</div>	   
+
+
+	<div class="col-md-12">	
+				<label for="">414. En los últimos tres meses. Con que frecuencia accedes al servicio de internet?</label>
+						<table class="table table-condensed" id="emb_table">
+					          <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Diario?</th>
+					                 <th class="span3">Interdiario</th>
+					                 <th class="span3">Semanal?</th>
+					                 <th class="span3">Mensualmente?</th>
+					                 <th class="span3">Nunca</th>
+					                </tr>					              
+					         </thead>
+					         <tbody>
+					              <tr>
+					                 <td>Para comunicarte (correo electrónico, redes sociales, etc)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Por motivos de estudio (resolver tareas, buscar información académica, etc)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Para buscar información (noticias, libros, blogs, etc)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Para recreación (música, juegos, videos)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Para aprender cosas nuevas</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              				              				              				              					              
+			              </tbody>
+			           </table>	
+
+				<label for="">415. Participas en alguna</label>
+						<table class="table table-condensed" id="emb_table">
+					          <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3" colspan="3">415.1 Que tan involucrado está?</th>
+					                </tr>						          
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Va a las reuniones?</th>
+					                 <th class="span3">Participa en los procesos de decisión?</th>
+					                 <th class="span3">Eres uno de los líderes en el grupo u organización?</th>
+					                </tr>					              
+					         </thead>
+					         <tbody>
+					              <tr>
+					                 <td>Organización de caridad (No como beneficiario)?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Organización Comunitaria o de barrio (de base)?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Organización Religiosa?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Junta de vecinos?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Instancia de participación apoyadas por el estado?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+
+					              <tr>
+					                 <td>Organización étnica?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Organización cultural o deportiva?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>De educación (asocianes padres de familia, etc)?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Organización de conservacion del medio ambiente?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Asociación de vigilancia y seguridad??</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Sindicato, cooperativa de trabajo o agremiación de productores?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>Movimiento político?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>Otro</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td></td>
+					                  <td></td>
+					                  <td></td>
+					              </tr>						              	
+					              <tr>
+					                 <td>Ninguna</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  						              					              				              				              				              					              
+			              </tbody>
+			           </table>	
+
+
+	</div>	   
+
+</div>';
+
+?>
+<br>
+<br>
+<br>
+<br>
+
+<?php 
+
+//500*******************************************************************************************************
+
+
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+
+echo form_open($this->uri->uri_string(),$attr); 
+
+echo '
+
+<div class="panel panel-info row">
+
+	<div class="panel-heading">
+		<h5 class="panel-title">500. Empleo e Ingreso</h5>
+	</div>
+
+	<div class="col-md-6">		
+		<h4>Condición de Actividad</h4>	
+
+			<div class="form-group">
+				<label for="">501. La semana pasada, del ..... al .... Tuvo usted algún trabajo? (Sin contar los quehaceres del hogar)</label>
+						' . form_input($test) . '<div class="help-block error"></div>					
+			</div>
+
+			<div class="form-group">
+				<label for="">502. Aunque no trabajo la semana pasada. Tiene algun empleo fijo al que próximamente volverá?</label>
+						' . form_input($test) . '<div class="help-block error"></div>					
+			</div>
+
+			<div class="form-group">
+				<label for="">503. Aunque no trabajo la semana pasada. Tiene algun negocio propio al que próximamente volverá?</label>
+						' . form_input($test) . '<div class="help-block error"></div>					
+			</div>
+
+
+
+			<label for="">504. Qué estuvo haciendo la semana pasada?</label>
+				<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span1">Si / No</th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>Trabajando en algún negocio propio o del algún familiar?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                  <td>Ofreciendo algún servicio?</td>
+					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>Haciendo algo en casa para vender?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>			
+
+					              <tr>
+					                 <td>Vendiendo productos de belleza, joyas, etc. ?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Haciendo prácticas pagadas en un centro de trabajo</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Trabajando para un hogar particular</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Fabricando algún producto</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Realizando labores en la chacra o cuidado de animales</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>Otra</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+									<td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                 <td></td>
+					               </tr>
+			              </tbody>
+			    </table>	
+
+	</div>
+
+
+
+
+	<div class="col-md-6">		
+
+		<h4>Ocupados</h4>	
+			<div class="form-group">
+				<label for="">505. Ocupación principal</label>
+				<p>a. Cuál es la función principal que desempeñó?</p>
+						' . form_input($test) . '<div class="help-block error"></div>	
+				<p>a. Qué tareas realizó en su ocupación principal?</p>
+						' . form_input($test) . '<div class="help-block error"></div>												
+			</div>
+
+			<div class="form-group">
+				<label for="">506. A qué se dedica el negocio organismo o empresa en que trabajó en su ocupación principal?</label>
+						' . form_input($test) . '<div class="help-block error"></div>					
+			</div>
+
+			<div class="form-group">
+				<label for="">507. Ud. se desempeñó en su ocupación principal o negocio como:</label>
+						' . form_input($test) . '<div class="help-block error"></div>
+						<p>Especifique</p>
+						' . form_input($test) . '<div class="help-block error"></div>												
+			</div>	
+
+			<div class="form-group">
+				<label for="">508. Bajo que tipo de contrato:</label>
+						' . form_input($test) . '<div class="help-block error"></div>
+						<p>Especifique</p>
+						' . form_input($test) . '<div class="help-block error"></div>												
+			</div>	
+
+
+			<label for="">509. La semana pasada del ... al ...Cuántas horas trabajó en su ocupación principal, el dia...</label>
+				<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span1">Horas</th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>Domingo</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                  <td>Lunes</td>
+					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>Martes</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>			
+
+					              <tr>
+					                 <td>Miércoles</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Jueves</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Viernes</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Sabado</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>Total</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					               </tr>
+			              </tbody>
+			    </table>
+
+
+	</div>
+
+
+</div>';
+
+
+
+//500 2 cara
+echo '
+
+<div class="panel panel-info row">
+
+
+	<div class="col-md-6">	
+		<h4>Ingreso en la ocupación principal por trabajo dependiente</h4>
+		<p>Ingreso monetario</p>
+		<p>A continuación voy a formular algunas preguntas sobre sus ingresos percibidos en su ocupación principal que desarrollo la semana pasada:</p>
+
+			<div class="form-group">
+				<label for="">510. En su ocupación principal. A Ud. le pagan?</label>
+						' . form_input($test) . '<div class="help-block error"></div>					
+			</div>
+
+			<div class="form-group">
+					<label for="">511. Cuanto fue su ingreso total sin descuentos en el (la) ...... anterior, incluyendo horas extras, bonificaciones, pago por concepto de refrigerio, movilidad, comisiones, etc?</label>
+					<div class="row">
+							<div class="col-md-6">	
+								<p>Monetario</p>
+								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>	
+							</div>		
+							<div class="col-md-6">	
+								<p>En especie</p>
+								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>
+							</div>			
+					</div>													
+			</div>	
+
+
+		<h4>Ingreso en la ocupación principal por trabajo independiente</h4>
+		<p>Ingreso monetario / especie</p>
+		<p>A continuación voy a formular algunas preguntas sobre sus ingresos percibidos en su ocupación principal por trabajo independiente desarrollado la semana pasada:</p>
+
+			<div class="form-group">
+					<label for="">512. En su ocupación principal. Cuál fue la ganancia neta en el mes anterior?</label>
+					<p>(si solo recibe ingreso en especie, valorícelo en el recuadro)</p>
+					<div class="row">
+							<div class="col-md-6">	
+								<p>Monetario</p>
+								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>	
+							</div>		
+							<div class="col-md-6">	
+								<p>En especie</p>
+								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>
+
+							</div>	
+
+					</div>			
+					' . form_input($test) . '<div class="help-block error"></div>												
+
+			</div>	
+
+
+
+	</div>
+
+
+	<div class="col-md-6">		
+			<div class="form-group">
+				<label for="">513. El sistema de seguro de Salud al cual ud. esta afiliado es:</label>
+						' . form_input($test) . '<div class="help-block error"></div>
+						<p>Especifique</p>
+						' . form_input($test) . '<div class="help-block error"></div>												
+			</div>	
+
+			<div class="form-group">
+				<label for="">514. Por sus antepasados y de acuerdo a sus costumbres. Usted se considera?</label>
+						' . form_input($test) . '<div class="help-block error"></div>
+						<p>Especifique</p>
+						' . form_input($test) . '<div class="help-block error"></div>												
+			</div>	
+
+			<div class="form-group">
+				<label for="">Observaciones</label>
+					'.form_textarea($test).'										
+			</div>	
+	</div>
+
+</div>';
+
+?>
+<br>
+<br>
+<br>
+<br>
+
+
+<?php 
+
+//600*******************************************************************************************************
+
+
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+
+echo form_open($this->uri->uri_string(),$attr); 
+
+echo '
+
+<div class="panel panel-info row">
+
+	<div class="panel-heading">
+		<h5 class="panel-title">600. Uso de tiempo</h5>
+	</div>
+
+
+	<div class="col-md-12">	
+		<h4>La semana pasada. Realizaste alguna actividad como:</h4>	
+						<table class="table table-condensed" id="emb_table">
+					          <thead>
+					               <tr>
+					                 <th class="span3" colspan="2">Actividades</th>
+					                 <th class="span3" colspan="3">Cuánto tiempo le dedicó a ... De Lunes a viernes?</th>
+					                 <th class="span3" colspan="3">Cuánto tiempo le dedicó a ... De Sábado a domingo?</th>
+					                </tr>	
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Sí / No</th>
+					                 <th class="span3">Horas</th>
+					                 <th class="span3">Minutos</th>
+					                 <th class="span3">Anotaciones</th>	
+					                 <th class="span3">Horas</th>
+					                 <th class="span3">Minutos</th>
+					                 <th class="span3">Anotaciones</th>						                 				                 
+					                </tr>						                				              
+					         </thead>
+					         <tbody>
+					              <tr>
+					                 <td><b>A. Necesidades Personales</b></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					              </tr>  
+					              <tr>
+					                 <td>1. Dormir?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>2. Acudir a una consulta médica, realizarse análisis clínicos, terapia, rehabilitación, estudios médicos? (Ecografías, radiografías, etc)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td><b>B. Actividades Educativas</b></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					              </tr>  	
+					              <tr>
+					                 <td>3. Asistir a clase en la institución de educación superior?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>4. Estudiar o realizar tareas de educación superior en su vivienda, biblioteca u otro lugar? (fuera del horario de clase)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr> 
+
+					              <tr>
+					                 <td>5. Recibir clases particulares de nivelación o afianzamiento para sus estudios? (fuera de lo que brinda la institución de educación superior)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+
+
+					              <tr>
+					                 <td>6. Asistir a talleres de capacitación, seminarios, conferencias, fórum, etc. Sobre liderazgo, nutrición, salud reproductiva, etc., de carácter educativo</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>7. Trasladarse (ida y vuelta), universidad, academia, instituto o por alguna otra actividad educativa? (Asistencia a seminarios, conferencias, biblioteca, etc.)</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td><b>C. Tiempo libre</b></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					              </tr>  	
+
+					              <tr>
+					                 <td>8. Ver televisión sin realizar ninguna otra actividad?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>9. Leer libros, revistas, periódicos, etc.? (no incluir si es por trabajo o estudio)?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>10. Salir a pasear o a actividades de recreación </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+
+					              <tr>
+					                 <td>11. Practicar algún instrumento musical o realizar alguna actividad artística? (no incluir si es por trabajo o estudio profesional) </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+
+					              <tr>
+					                 <td>12. Descansar </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  		
+
+					              <tr>
+					                 <td>13. Navegar o chatear por internet, jugar en la computadora, jugar intendo, play station en televisión o por computadora? </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+
+					              <tr>
+					                 <td>14. Realizar algún deporte?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+
+					              <tr>
+					                 <td>15. Compartir tiempo con su familia?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+
+					              <tr>
+					                 <td><b>D. Labores domésticas</b></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					                 <td></td>
+					              </tr>  
+
+
+					              <tr>
+					                 <td>16. Lavar, cocinar, compras domésticas, planchar, entre otras?</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr> 					              
+			              </tbody>
+			           </table>	
+	</div>
+
+</div>';
+
+
+?>
+<br>
+<br>
+<br>
+<br>
+
+
+<?php 
+
+//600*******************************************************************************************************
+
+
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+
+echo form_open($this->uri->uri_string(),$attr); 
+
+echo '
+<div class="panel panel-info row">
+
+	<div class="panel-heading">
+		<h5 class="panel-title">700. Test Habilidades no Cognitivas</h5>
+	</div>
+
+
+	<div class="col-md-12">	
+				<label for="">701. Test Habilidades Laborales</label>
+						<table class="table table-condensed" id="emb_table">
+					          <thead>
+					               <tr>
+					                 <th class="span3">Marque con un circulo (O) en el número de la respuesta que más se parezca a cómo es usted</th>
+					                 <th class="span3"></th>
+					                </tr>					              
+					         </thead>
+					         <tbody>
+					              <tr>
+					                 <td>1. Me propongo ser el (la) mejor del mundo en las cosas que hago</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>2. He superado dificultades para conquistar un reto o algo importante</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>3. Nuevas ideas y proyectos a veces me distraen de los que ya tenia</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>4. Ambiciono salir adelante</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>5. Cambio de intereses de un año al otro </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>6. Las dificultades no me desalientan </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  		
+
+					              <tr>
+					                 <td>7. He estado obsesionado con ideas o proyectos pero al poco tiempo pierdo el interés en ellos </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+
+					              <tr>
+					                 <td>8. Soy una persona que trabaja duro</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>9. A menudo propongo metas, pero luego persigo otras distintas</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  		
+
+					              <tr>
+					                 <td>10. Tengo dificultad para mantener mi atención en proyectos que duran muchos meses en terminarse </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+				              	</tr>  
+
+					              <tr>
+					                 <td>11. Siempre termino lo que empiezo</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>12. Lograr algo de importancia duradera es la meta más importante de mi vida</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>13. Pienso que se le da demasiada importancia al éxito</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>14. He logrado una meta que me llevo años de esfuerzo conseguir</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>15. Siempre busco tener éxito </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>16. Cada cierto tiempo me intereso en nuevas metas </td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  		
+
+					              <tr>
+					                 <td>17. Soy dedicado y disciplinado</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+			              </tbody>
+			           </table>	
+
+
+
+				<label for="">702. Test de Bienestar</label>
+				<p>A continuación encontrará 5 afirmaciones usando la escala del 1 al 7 mostrada abajo, indique su grado de acuerdo o desacuerdo con cada afirmación, colocando el número apropiado sobre la línea que está antes de cada oración. Por favor sea transparente y sincero en sus respuestas.</p>
+						<table class="table table-condensed" id="emb_table">
+					          <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3"></th>
+					                </tr>					              
+					         </thead>
+					         <tbody>
+					              <tr>
+					                 <td>1. En la mayoría de aspectos de mi vida es cercana a mi ideal</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>2. Las condiciones de mi vida son excelentes</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>3. Estoy satisfecho/a con mi vida</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>4. Hasta ahora, he conseguido las cosas importantes que he deseado en la vida</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+					              <tr>
+					                 <td>5. Si pudiera vivir mi vida de nuevo, no cambiaría casi nada</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					              </tr>  	
+			              </tbody>
+			           </table>	
+
+
+	</div>
+
+
+
+
+
+</div>';
+
+?>
+
+
 <script type="text/javascript">
 
 $(function(){
