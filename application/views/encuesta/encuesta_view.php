@@ -13,20 +13,19 @@ $test = array(
 );
 
 
+// $departamento = array(
+// 	'name'	=> 'departamento',
+// 	'id'	=> 'departamento',
+// 	'maxlength'	=> 200,
+// 	'class' => 'input200',
+// );
 
-$departamento = array(
-	'name'	=> 'departamento',
-	'id'	=> 'departamento',
-	'maxlength'	=> 200,
-	'class' => 'input200',
-);
-
-$provincia = array(
-	'name'	=> 'provincia',
-	'id'	=> 'provincia',
-	'maxlength'	=> 200,
-	'class' => 'input200',
-);
+// $provincia = array(
+// 	'name'	=> 'provincia',
+// 	'id'	=> 'provincia',
+// 	'maxlength'	=> 200,
+// 	'class' => 'input200',
+// );
 
 // $distrito = array(
 // 	'name'	=> 'distrito',
@@ -34,6 +33,980 @@ $provincia = array(
 // 	'maxlength'	=> 200,
 // 	'class' => 'input200',
 // );
+
+
+
+$C0SELECC = array(
+	'name'	=> 'C0SELECC',
+	'id'	=> 'C0SELECC',
+	'maxlength'	=> 5,
+	'class' => 'form-control',
+);
+
+$C0PREEM = array(
+	'name'	=> 'C0PREEM',
+	'id'	=> 'C0PREEM',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C0PREEMSEL = array(
+	'name'	=> 'C0PREEMSEL',
+	'id'	=> 'C0PREEMSEL',
+	'maxlength'	=> 5,
+	'class' => 'form-control',
+);
+
+
+$C0ACCBECA = array(
+	'name'	=> 'C0ACCBECA',
+	'id'	=> 'C0ACCBECA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C0CUEST = array(
+	'name'	=> 'C0CUEST',
+	'id'	=> 'C0CUEST',
+	'maxlength'	=> 5,
+	'class' => 'form-control',
+);
+
+$C0NOMBRECP = array(
+	'name'	=> 'C0NOMBRECP',
+	'id'	=> 'C0NOMBRECP',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C0ZONNUM = array(
+	'name'	=> 'C0ZONNUM',
+	'id'	=> 'C0ZONNUM',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C0ZONALF = array(
+	'name'	=> 'C0ZONALF',
+	'id'	=> 'C0ZONALF',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C0MANZANA = array(
+	'name'	=> 'C0MANZANA',
+	'id'	=> 'C0MANZANA',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0AER = array(
+	'name'	=> 'C0AER',
+	'id'	=> 'C0AER',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C0TIPVIA = array(
+	'name'	=> 'C0TIPVIA',
+	'id'	=> 'C0TIPVIA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C0NOMVIA = array(
+	'name'	=> 'C0NOMVIA',
+	'id'	=> 'C0NOMVIA',
+	'maxlength'	=> 70,
+	'class' => 'form-control',
+);
+
+$C0PTANUM = array(
+	'name'	=> 'C0PTANUM',
+	'id'	=> 'C0PTANUM',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0BLOCK = array(
+	'name'	=> 'C0BLOCK',
+	'id'	=> 'C0BLOCK',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0INT = array(
+	'name'	=> 'C0INT',
+	'id'	=> 'C0INT',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0PISO = array(
+	'name'	=> 'C0PISO',
+	'id'	=> 'C0PISO',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C0MZ = array(
+	'name'	=> 'C0MZ',
+	'id'	=> 'C0MZ',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C0LOTE = array(
+	'name'	=> 'C0LOTE',
+	'id'	=> 'C0LOTE',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C0KM = array(
+	'name'	=> 'C0KM',
+	'id'	=> 'C0KM',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0TELEF = array(
+	'name'	=> 'C0TELEF',
+	'id'	=> 'C0TELEF',
+	'maxlength'	=> 11,
+	'class' => 'form-control',
+);
+
+$C0POSTNOMB = array(
+	'name'	=> 'C0POSTNOMB',
+	'id'	=> 'C0POSTNOMB',
+	'maxlength'	=> 80,
+	'class' => 'form-control',
+);
+
+$C0POSTDNI = array(
+	'name'	=> 'C0POSTDNI',
+	'id'	=> 'C0POSTDNI',
+	'maxlength'	=> 8,
+	'class' => 'form-control',
+);
+
+$C0POSTEMAIL = array(
+	'name'	=> 'C0POSTEMAIL',
+	'id'	=> 'C0POSTEMAIL',
+	'maxlength'	=> 70,
+	'class' => 'form-control',
+);
+
+$C0TPOSTTELF = array(
+	'name'	=> 'C0TPOSTTELF',
+	'id'	=> 'C0TPOSTTELF',
+	'maxlength'	=> 11,
+	'class' => 'form-control',
+);
+
+$C0VIVORIG = array(
+	'name'	=> 'C0VIVORIG',
+	'id'	=> 'C0VIVORIG',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C0VOTIPVIA = array(
+	'name'	=> 'C0VOTIPVIA',
+	'id'	=> 'C0VOTIPVIA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C0VONOMVIA = array(
+	'name'	=> 'C0VONOMVIA',
+	'id'	=> 'C0VONOMVIA',
+	'maxlength'	=> 70,
+	'class' => 'form-control',
+);
+
+$C0VOPTANUM = array(
+	'name'	=> 'C0VOPTANUM',
+	'id'	=> 'C0VOPTANUM',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0VOBLOCK = array(
+	'name'	=> 'C0VOBLOCK',
+	'id'	=> 'C0VOBLOCK',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0VOINT = array(
+	'name'	=> 'C0VOINT',
+	'id'	=> 'C0VOINT',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0VOPISO = array(
+	'name'	=> 'C0VOPISO',
+	'id'	=> 'C0VOPISO',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C0VOMZ = array(
+	'name'	=> 'C0VOMZ',
+	'id'	=> 'C0VOMZ',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C0VOLOTE = array(
+	'name'	=> 'C0VOLOTE',
+	'id'	=> 'C0VOLOTE',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C0VOKM = array(
+	'name'	=> 'C0VOKM',
+	'id'	=> 'C0VOKM',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C0VOTELEF = array(
+	'name'	=> 'C0VOTELEF',
+	'id'	=> 'C0VOTELEF',
+	'maxlength'	=> 11,
+	'class' => 'form-control',
+);
+
+
+$C0P18LUGENCUEST = array(
+	'name'	=> 'C0P18LUGENCUEST',
+	'id'	=> 'C0P18LUGENCUEST',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C0P20_DIA = array(
+	'name'	=> 'C0P20_DIA',
+	'id'	=> 'C0P20_DIA',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C0P20_MES = array(
+	'name'	=> 'C0P20_MES',
+	'id'	=> 'C0P20_MES',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C0P20_RFINAL = array(
+	'name'	=> 'C0P20_RFINAL',
+	'id'	=> 'C0P20_RFINAL',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C0P20_RFINAL_O = array(
+	'name'	=> 'C0P20_RFINAL_O',
+	'id'	=> 'C0P20_RFINAL_O',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C0P21_1A = array(
+	'name'	=> 'C0P21_1A',
+	'id'	=> 'C0P21_1A',
+	'maxlength'	=> 8,
+	'class' => 'form-control',
+);
+
+$C0P21_1B = array(
+	'name'	=> 'C0P21_1B',
+	'id'	=> 'C0P21_1B',
+	'maxlength'	=> 80,
+	'class' => 'form-control',
+);
+
+$C0P21_2A = array(
+	'name'	=> 'C0P21_2A',
+	'id'	=> 'C0P21_2A',
+	'maxlength'	=> 8,
+	'class' => 'form-control',
+);
+
+$C0P21_2B = array(
+	'name'	=> 'C0P21_2B',
+	'id'	=> 'C0P21_2B',
+	'maxlength'	=> 80,
+	'class' => 'form-control',
+);
+
+$C0P21_3A = array(
+	'name'	=> 'C0P21_3A',
+	'id'	=> 'C0P21_3A',
+	'maxlength'	=> 8,
+	'class' => 'form-control',
+);
+
+$C0P21_3B = array(
+	'name'	=> 'C0P21_3B',
+	'id'	=> 'C0P21_3B',
+	'maxlength'	=> 80,
+	'class' => 'form-control',
+);
+
+
+//FIN CAR
+
+
+
+
+
+
+//CAP 1
+
+//FIN CAP 1
+
+
+//CAP 2
+
+$C3P201 = array(
+	'name'	=> 'C3P201',
+	'id'	=> 'C3P201',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P202 = array(
+	'name'	=> 'C3P202',
+	'id'	=> 'C3P202',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P202A = array(
+	'name'	=> 'C3P202A',
+	'id'	=> 'C3P202A',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P203 = array(
+	'name'	=> 'C3P203',
+	'id'	=> 'C3P203',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P204 = array(
+	'name'	=> 'C3P204',
+	'id'	=> 'C3P204',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+//////////////////////////////////////////////////////////////////////// EN OBSERVACION
+//////////////////////////////////////////////////////////////////////// 
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////// 
+$C3P205 = array(
+	'name'	=> 'C3P205',
+	'id'	=> 'C3P205',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+//////////////////////////////////////////////////////////////////////// EN OBSERVACION
+//////////////////////////////////////////////////////////////////////// 
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////// 
+$C3P205_OBS = array(
+	'name'	=> 'C3P205_OBS',
+	'id'	=> 'C3P205_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+
+//FIN CAP 2
+
+
+//CAP 3
+
+$C3P301 = array(
+	'name'	=> 'C3P301',
+	'id'	=> 'C3P301',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P302 = array(
+	'name'	=> 'C3P302',
+	'id'	=> 'C3P302',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C3P303 = array(
+	'name'	=> 'C3P303',
+	'id'	=> 'C3P303',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P303A = array(
+	'name'	=> 'C3P303A',
+	'id'	=> 'C3P303A',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P305 = array(
+	'name'	=> 'C3P303A',
+	'id'	=> 'C3P303A',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P306 = array(
+	'name'	=> 'C3P306',
+	'id'	=> 'C3P306',
+	'maxlength'	=> 4,
+	'class' => 'form-control',
+);
+
+$C3P307_C1 = array(
+	'name'	=> 'C3P307_C1',
+	'id'	=> 'C3P307_C1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C1C = array(
+	'name'	=> 'C3P307_C1C',
+	'id'	=> 'C3P307_C1C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C2 = array(
+	'name'	=> 'C3P307_C2',
+	'id'	=> 'C3P307_C2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C2C = array(
+	'name'	=> 'C3P307_C2C',
+	'id'	=> 'C3P307_C2C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C3 = array(
+	'name'	=> 'C3P307_C3',
+	'id'	=> 'C3P307_C3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C3C = array(
+	'name'	=> 'C3P307_C3C',
+	'id'	=> 'C3P307_C3C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C4 = array(
+	'name'	=> 'C3P307_C4',
+	'id'	=> 'C3P307_C4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P307_C4C = array(
+	'name'	=> 'C3P307_C4C',
+	'id'	=> 'C3P307_C4C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P308 = array(
+	'name'	=> 'C3P308',
+	'id'	=> 'C3P308',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_1 = array(
+	'name'	=> 'C3P309_1',
+	'id'	=> 'C3P309_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_2 = array(
+	'name'	=> 'C3P309_2',
+	'id'	=> 'C3P309_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_3 = array(
+	'name'	=> 'C3P309_3',
+	'id'	=> 'C3P309_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_4 = array(
+	'name'	=> 'C3P309_4',
+	'id'	=> 'C3P309_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_5 = array(
+	'name'	=> 'C3P309_5',
+	'id'	=> 'C3P309_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_6 = array(
+	'name'	=> 'C3P309_6',
+	'id'	=> 'C3P309_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_7 = array(
+	'name'	=> 'C3P309_7',
+	'id'	=> 'C3P309_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_8 = array(
+	'name'	=> 'C3P309_8',
+	'id'	=> 'C3P309_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_9 = array(
+	'name'	=> 'C3P309_9',
+	'id'	=> 'C3P309_9',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P309_9OBS = array(
+	'name'	=> 'C3P309_9OBS',
+	'id'	=> 'C3P309_9OBS',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P310 = array(
+	'name'	=> 'C3P310',
+	'id'	=> 'C3P310',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P311_ANIO = array(
+	'name'	=> 'C3P311_ANIO',
+	'id'	=> 'C3P311_ANIO',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P311_MES = array(
+	'name'	=> 'C3P311_MES',
+	'id'	=> 'C3P311_MES',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P312 = array(
+	'name'	=> 'C3P312',
+	'id'	=> 'C3P312',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P313 = array(
+	'name'	=> 'C3P313',
+	'id'	=> 'C3P313',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P313A = array(
+	'name'	=> 'C3P313A',
+	'id'	=> 'C3P313A',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P315 = array(
+	'name'	=> 'C3P315',
+	'id'	=> 'C3P315',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P316_A = array(
+	'name'	=> 'C3P316_A',
+	'id'	=> 'C3P316_A',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P316_B = array(
+	'name'	=> 'C3P316_B',
+	'id'	=> 'C3P316_B',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P317_CI = array(
+	'name'	=> 'C3P317_CI',
+	'id'	=> 'C3P317_CI',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P317_CU = array(
+	'name'	=> 'C3P317_CU',
+	'id'	=> 'C3P317_CU',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P317_NCI = array(
+	'name'	=> 'C3P317_NCI',
+	'id'	=> 'C3P317_NCI',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_1 = array(
+	'name'	=> 'C3P318_1',
+	'id'	=> 'C3P318_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_2 = array(
+	'name'	=> 'C3P318_2',
+	'id'	=> 'C3P318_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_3 = array(
+	'name'	=> 'C3P318_3',
+	'id'	=> 'C3P318_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_4 = array(
+	'name'	=> 'C3P318_4',
+	'id'	=> 'C3P318_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_5 = array(
+	'name'	=> 'C3P318_5',
+	'id'	=> 'C3P318_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_6 = array(
+	'name'	=> 'C3P318_6',
+	'id'	=> 'C3P318_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_7 = array(
+	'name'	=> 'C3P318_7',
+	'id'	=> 'C3P318_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_8 = array(
+	'name'	=> 'C3P318_8',
+	'id'	=> 'C3P318_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_9 = array(
+	'name'	=> 'C3P318_8',
+	'id'	=> 'C3P318_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P318_9OBS = array(
+	'name'	=> 'C3P318_8OBS',
+	'id'	=> 'C3P318_8OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P319 = array(
+	'name'	=> 'C3P319',
+	'id'	=> 'C3P319',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P320_ANIO = array(
+	'name'	=> 'C3P320_ANIO',
+	'id'	=> 'C3P320_ANIO',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P320_MES = array(
+	'name'	=> 'C3P320_MES',
+	'id'	=> 'C3P320_MES',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+
+$C3P321_1 = array(
+	'name'	=> 'C3P321_1',
+	'id'	=> 'C3P321_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_2 = array(
+	'name'	=> 'C3P321_2',
+	'id'	=> 'C3P321_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_3 = array(
+	'name'	=> 'C3P321_3',
+	'id'	=> 'C3P321_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_4 = array(
+	'name'	=> 'C3P321_4',
+	'id'	=> 'C3P321_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_5 = array(
+	'name'	=> 'C3P321_5',
+	'id'	=> 'C3P321_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_6 = array(
+	'name'	=> 'C3P321_6',
+	'id'	=> 'C3P321_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_7 = array(
+	'name'	=> 'C3P321_7',
+	'id'	=> 'C3P321_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321_7OBS = array(
+	'name'	=> 'C3P321_7OBS',
+	'id'	=> 'C3P321_7OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P321A_1 = array(
+	'name'	=> 'C3P321A_1',
+	'id'	=> 'C3P321A_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321A_2 = array(
+	'name'	=> 'C3P321A_2',
+	'id'	=> 'C3P321A_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321A_3 = array(
+	'name'	=> 'C3P321A_3',
+	'id'	=> 'C3P321A_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321A_4 = array(
+	'name'	=> 'C3P321A_4',
+	'id'	=> 'C3P321A_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321A_5 = array(
+	'name'	=> 'C3P321A_5',
+	'id'	=> 'C3P321A_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321A_6 = array(
+	'name'	=> 'C3P321A_6',
+	'id'	=> 'C3P321A_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P321A_7 = array(
+	'name'	=> 'C3P321A_7',
+	'id'	=> 'C3P321A_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C3P322 = array(
+	'name'	=> 'C3P322',
+	'id'	=> 'C3P322',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P322_NCU = array(
+	'name'	=> 'C3P322_NCU',
+	'id'	=> 'C3P322_NCU',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C3P323 = array(
+	'name'	=> 'C3P323',
+	'id'	=> 'C3P323',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P323_NSA = array(
+	'name'	=> 'C3P323_NSA',
+	'id'	=> 'C3P323_NSA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P324 = array(
+	'name'	=> 'C3P324',
+	'id'	=> 'C3P324',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P324_NSA = array(
+	'name'	=> 'C3P324_NSA',
+	'id'	=> 'C3P324_NSA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P325 = array(
+	'name'	=> 'C3P325',
+	'id'	=> 'C3P325',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P326 = array(
+	'name'	=> 'C3P326',
+	'id'	=> 'C3P326',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P327 = array(
+	'name'	=> 'C3P327',
+	'id'	=> 'C3P327',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P328 = array(
+	'name'	=> 'C3P328',
+	'id'	=> 'C3P328',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P328_OBS = array(
+	'name'	=> 'C3P328_OBS',
+	'id'	=> 'C3P328_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//FIN CAP 3
+
+
+
+
+
+
+
+
+
+
 
 
 // $depArray = NULL;
@@ -46,336 +1019,13 @@ $depArray = array(-1 => ' -');
 $provArray = array(-1 => ' -'); 
 $distArray = array(-1 => ' -'); 
 
-
-$PC_A_4_CentroP = array(
-	'name'	=> 'PC_A_4_CentroP',
-	'id'	=> 'PC_A_4_CentroP',
-	'maxlength'	=> 200,
-	'class' => 'input200',
-);
-
-$PC_A_5_NucleoUrb = array(
-	'name'	=> 'PC_A_5_NucleoUrb',
-	'id'	=> 'PC_A_5_NucleoUrb',
-	'maxlength'	=> 200,
-	'class' => 'input200',
-);
-
-$PC_A_6_Ugel = array(
-	'name'	=> 'PC_A_6_Ugel',
-	'id'	=> 'PC_A_6_Ugel',
-	'maxlength'	=> 200,
-	'class' => 'input200',
-);
-
-$PC_A_7Dir_1_Tvia = array(
-	'name'	=> 'PC_A_7Dir_1_Tvia',
-	'id'	=> 'PC_A_7Dir_1_Tvia',
-	'maxlength'	=> 1,
-	'class' => 'input1 form-control',	
-);
-
-$PC_A_7Dir_2_Nomb = array(
-	'name'	=> 'PC_A_7Dir_2_Nomb',
-	'id'	=> 'PC_A_7Dir_2_Nomb',
-	'maxlength'	=> 200,
-	'class' => 'form-control',	
-	'width' => 300,
-);
-
-$PC_A_7Dir_3_Nro = array(
-	'name'	=> 'PC_A_7Dir_3_Nro',
-	'id'	=> 'PC_A_7Dir_3_Nro',
-	'maxlength'	=> 4,
-	'class' => 'input4 form-control',
-);
-
-$PC_A_7Dir_4_Piso = array(
-	'name'	=> 'PC_A_7Dir_4_Piso',
-	'id'	=> 'PC_A_7Dir_4_Piso',
-	'maxlength'	=> 2,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_7Dir_5_Mz = array(
-	'name'	=> 'PC_A_7Dir_5_Mz',
-	'id'	=> 'PC_A_7Dir_5_Mz',
-	'maxlength'	=> 3,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_7Dir_6_Lt = array(
-	'name'	=> 'PC_A_7Dir_6_Lt',
-	'id'	=> 'PC_A_7Dir_6_Lt',
-	'maxlength'	=> 3,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_7Dir_7_Sect = array(
-	'name'	=> 'PC_A_7Dir_7_Sect',
-	'id'	=> 'PC_A_7Dir_7_Sect',
-	'maxlength'	=> 3,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_7Dir_8_Zona = array(
-	'name'	=> 'PC_A_7Dir_8_Zona',
-	'id'	=> 'PC_A_7Dir_8_Zona',
-	'maxlength'	=> 3,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_7Dir_9_Et = array(
-	'name'	=> 'PC_A_7Dir_9_Et',
-	'id'	=> 'PC_A_7Dir_9_Et',
-	'maxlength'	=> 3,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_7Dir_10_Km = array(
-	'name'	=> 'PC_A_7Dir_10_Km',
-	'id'	=> 'PC_A_7Dir_10_Km',
-	'maxlength'	=> 3,
-	'class' => 'input3 form-control',
-);
-
-$PC_A_8_DirVerif = array(
-	'name'	=> 'PC_A_8_DirVerif',
-	'id'	=> 'PC_A_8_DirVerif',
-	'maxlength'	=> 1,
-	'class' => 'input1',
-);
-
-$PC_A_9_RefDir = array(
-	'name'	=> 'PC_A_9_RefDir',
-	'id'	=> 'PC_A_9_RefDir',
-	'maxlength'	=> 200,
-	'class' => 'input200',
-);
-
-$PC_B_1_CodLocal = array(
-	'name'	=> 'PC_B_1_CodLocal',
-	'id'	=> 'PC_B_1_CodLocal',
-	'class' => 'input6',
-	'maxlength'	=> 6,
-	// 'disabled' => 'disabled',
-);
-
-$PC_B_2_CantEv = array(
-	'name'	=> 'PC_B_2_CantEv',
-	'id'	=> 'PC_B_2_CantEv',
-	'maxlength'	=> 2,
-	'class' => 'input2',	
-);
-
-
-// DETALLE - Sección C: Entrevista y Supervision
-
-$PC_C_2_Rfinal_fecha = array(
-	'name'	=> 'PC_C_2_Rfinal_fecha',
-	'id'	=> 'PC_C_2_Rfinal_fecha',
-	'maxlength'	=> 10,
-	'class' => 'input10 fechap',
-	'onKeyUp' => "javascript:this.value=formateafecha(this.value);",
-);
-
-// FIN DETALLE - Sección C: Entrevista y Supervision
-
-$PC_C_1_NroVis = array(
-	'name'	=> 'PC_C_1_NroVis',
-	'id'	=> 'PC_C_1_NroVis',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Fecha = array(
-	'name'	=> 'PC_C_1_Et_Fecha',
-	'id'	=> 'PC_C_1_Et_Fecha',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Hini = array(
-	'name'	=> 'PC_C_1_Et_Hini',
-	'id'	=> 'PC_C_1_Et_Hini',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Hfin = array(
-	'name'	=> 'PC_C_1_Et_Hfin',
-	'id'	=> 'PC_C_1_Et_Hfin',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Fecha_Prox = array(
-	'name'	=> 'PC_C_1_Et_Fecha_Prox',
-	'id'	=> 'PC_C_1_Et_Fecha_Prox',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Hora_Prox = array(
-	'name'	=> 'PC_C_1_Et_Hora_Prox',
-	'id'	=> 'PC_C_1_Et_Hora_Prox',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Res = array(
-	'name'	=> 'PC_C_1_Et_Res',
-	'id'	=> 'PC_C_1_Et_Res',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Et_Res_O = array(
-	'name'	=> 'PC_C_1_Et_Res_O',
-	'id'	=> 'PC_C_1_Et_Res_O',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Jb_Fecha = array(
-	'name'	=> 'PC_C_1_Jb_Fecha',
-	'id'	=> 'PC_C_1_Jb_Fecha',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Jb_Hini = array(
-	'name'	=> 'PC_C_1_Jb_Hini',
-	'id'	=> 'PC_C_1_Jb_Hini',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Jb_Hfin = array(
-	'name'	=> 'PC_C_1_Jb_Hfin',
-	'id'	=> 'PC_C_1_Jb_Hfin',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Jb_Res = array(
-	'name'	=> 'PC_C_1_Jb_Res',
-	'id'	=> 'PC_C_1_Jb_Res',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-$PC_C_1_Jb_Res_O = array(
-	'name'	=> 'PC_C_1_Jb_Res_O',
-	'id'	=> 'PC_C_1_Jb_Res_O',
-	'maxlength'	=> 200,
-	'width' => 300,
-);
-
-
-///////////////////////////////////////////
-
-$PC_C_2_Rfinal_resul = array(
-	'name'	=> 'PC_C_2_Rfinal_resul',
-	'id'	=> 'PC_C_2_Rfinal_resul',
-	'class' => 'input1',
-);
-
-$PC_C_2_Rfinal_resul_O = array(
-	'name'	=> 'PC_C_2_Rfinal_resul_O',
-	'id'	=> 'PC_C_2_Rfinal_resul_O',
-	'maxlength'	=> 200,
-	'width' => 300,
-	'disabled' => 'disabled',
-);
-
-$PC_D_EvT_dni = array(
-	'name'	=> 'PC_D_EvT_dni',
-	'id'	=> 'PC_D_EvT_dni',
-	'maxlength'	=> 8,
-	'class' => 'input8 dnic',
-);
-
-$PC_D_EvT_Nomb = array(
-	'name'	=> 'PC_D_EvT_Nomb',
-	'id'	=> 'PC_D_EvT_Nomb',
-	'maxlength'	=> 200,
-	'width' => 300,
-	//'readonly' => true,
-);
-
-$PC_D_JBri_dni = array(
-	'name'	=> 'PC_D_JBri_dni',
-	'id'	=> 'PC_D_JBri_dni',
-	'maxlength'	=> 8,
-	'class' => 'input8 dnic',
-);
-
-$PC_D_JBri_Nomb = array(
-	'name'	=> 'PC_D_JBri_Nomb',
-	'id'	=> 'PC_D_JBri_Nomb',
-	'maxlength'	=> 200,
-	'width' => 300,
-	//'readonly' => true,
-);
-
-$PC_D_CProv_dni = array(
-	'name'	=> 'PC_D_CProv_dni',
-	'id'	=> 'PC_D_CProv_dni',
-	'maxlength'	=> 8,
-	'class' => 'input8 dnic',
-);
-
-$PC_D_CProv_Nomb = array(
-	'name'	=> 'PC_D_CProv_Nomb',
-	'id'	=> 'PC_D_CProv_Nomb',
-	'maxlength'	=> 200,
-	'width' => 300,
-	//'readonly' => true,
-);
-
-$PC_D_CDep_dni = array(
-	'name'	=> 'PC_D_CDep_dni',
-	'id'	=> 'PC_D_CDep_dni',
-	'maxlength'	=> 8,
-	'class' => 'input8 dnic',
-);
-
-$PC_D_CDep_Nomb = array(
-	'name'	=> 'PC_D_CDep_Nomb',
-	'id'	=> 'PC_D_CDep_Nomb',
-	'maxlength'	=> 200,
-	'width' => 300,
-	//'readonly' => true,
-);
-
-$PC_D_SupN_dni = array(
-	'name'	=> 'PC_D_SupN_dni',
-	'id'	=> 'PC_D_SupN_dni',
-	'maxlength'	=> 8,
-	'class' => 'input8 dnic',
-);
-
-$PC_D_SupN_Nomb = array(
-	'name'	=> 'PC_D_SupN_Nomb',
-	'id'	=> 'PC_D_SupN_Nomb',
-	'maxlength'	=> 200,
-	'width' => 300,
-	//'readonly' => true,
-);
-
-/////////////////
-
 // EXTRAS
 $pcar_num = array(
 	'name'	=> 'pcar_num',
 	'id'	=> 'pcar_num',
-	'class' => 'input2',
+	'class' => 'form-control input3',
 	'maxlength'	=> 2,
 );
-
-$pr = 1;
-$boss_p_ct = ($pr!=1)? 'hide' : '';
 
 ////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -391,10 +1041,12 @@ echo '
 <h2>ENCUESTA DE EVALUACIÓN DEL IMPACTO DEL PROGRAMA BECA18</h2>
 <div class="panel panel-info row">
 		
+
+
 			<div class="col-md-2">		
 						<div class="form-group">
 							 <label for="">Nro Seleccion del Postulante</label>
-							 ' . form_input($test) . '<div class="help-block error"></div>
+							 ' . form_input($C0SELECC) . '<div class="help-block error"></div>
 						</div>
 
 			</div>
@@ -402,10 +1054,10 @@ echo '
 			<div class="col-md-4">
 						<div class="form-group">
 							 <label for="">Es un postulante de reemplazo?</label>
-							 ' . form_input($test) . '<div class="help-block error"></div>
+							 ' . form_input($C0PREEM) . '<div class="help-block error"></div>
 
 							 <label for="">Anote el Nro de seleccion del postulante de reemplazo</label>
-							 ' . form_input($test) . '<div class="help-block error"></div>
+							 ' . form_input($C0PREEMSEL) . '<div class="help-block error"></div>
 
 						</div>
 			</div>	
@@ -413,7 +1065,7 @@ echo '
 			<div class="col-md-3">
 						<div class="form-group">
 							 <label for="">Accedio a la beca?</label>
-							 ' . form_input($test) . '<div class="help-block error"></div>
+							 ' . form_input($C0ACCBECA) . '<div class="help-block error"></div>
 						</div>			
 
 
@@ -422,12 +1074,11 @@ echo '
 			<div class="col-md-3">
 						<div class="form-group">
 							 <label for="">Cuestionario Nro</label>
-							 ' . form_input($test) . '<div class="help-block error"></div>
+							 ' . form_input($C0CUEST) . '<div class="help-block error"></div>
 						</div>					
 			</div>
 
 </div>
-
 ';
 
 
@@ -438,31 +1089,32 @@ echo '
 
 echo '
 
-<div class="panel panel-info row">
+<div class="row">
 		
 			<div class="col-md-6">		
-							<div class="form-group">
+						<div class="form-group">
 								<h4 class="panel-title">Ubicación Geográfica</h4>
-							</div>	
+								
 
 							<ul class="list-group">
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">1. Departamento </div> '. form_dropdown('PC_A_1_Dep', $depArray, FALSE,'class="input200" id="PC_A_1_Dep"') .' </li>
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">2. Provincia </div> '. form_dropdown('PC_A_2_Prov', $provArray, FALSE,'class="input200" id="PC_A_2_Prov"') .' <div class="help-block error"></div></li>
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">3. Distrito </div> '. form_dropdown('PC_A_3_Dist', $distArray, FALSE,'class="input200" id="PC_A_3_Dist"') .' <div class="help-block error"></div></li>
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">4. Centro Poblado </div> '.form_input($PC_A_4_CentroP).'<div class="help-block error"></div></li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">1. Departamento </div> '. form_dropdown('C0CCDD', $depArray, FALSE,'class="form-control input200" id="C0CCDD"') .' </li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">2. Provincia </div> '. form_dropdown('C0CCPP', $provArray, FALSE,'class="form-control input200" id="C0CCPP"') .' <div class="help-block error"></div></li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">3. Distrito </div> '. form_dropdown('C0CCDI', $distArray, FALSE,'class="form-control input200" id="C0CCDI"') .' <div class="help-block error"></div></li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">4. Centro Poblado </div> '.form_input($C0NOMBRECP).'<div class="help-block error"></div></li>
 							</ul>
-			</div>
+			</div>		</div>
 
 			<div class="col-md-6">
-							<div class="panel-heading">
+							<div class="form-group">
 								<h4 class="panel-title">Ubicación Muestral</h4>
-							</div>	
 
 							<ul class="list-group">
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">5. Zona Nro </div> '. form_input($PC_A_4_CentroP) .' </li>
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">6. Manzana Nro </div> '. form_input($PC_A_4_CentroP) .' <div class="help-block error"></div></li>
-									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">7. Aer Nro </div> '. form_input($PC_A_4_CentroP) .' <div class="help-block error"></div></li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">5. Zona Nro </div> '. form_input($C0ZONNUM) .' </li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">6. Manzana Nro </div> '. form_input($C0MANZANA) .' <div class="help-block error"></div></li>
+									<li class="list-group-item"><div style="width:150px; margin-left:10px; float:left;">7. Aer Nro </div> '. form_input($C0AER) .' <div class="help-block error"></div></li>
 							</ul>
+						</div>	
+
 			</div>	
 
 </div>
@@ -471,12 +1123,12 @@ echo '
 
 
 echo '
-<div class="panel panel-info row">
+<div class="row">
 	<div class="col-md-12">	
 				<h4 class="panel-title">8. Dirección actual donde vive actualmente el postulante</h4>
 				<div class="form-group">
 					<label class="">Tipo de Vía</label>
-						'.form_input($test).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
+						'.form_input($C0TIPVIA).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
 					
 				</div>
 				<div class="table-responsive">
@@ -485,35 +1137,32 @@ echo '
 													<tr>
 														<th>Nombre de la via</th>
 														<th>N° de Puerta</th>
+														<th>Block</th>
+														<th>Int.</th>
 														<th>Piso</th>
 														<th>Mz.</th>
 														<th>Lote</th>
-														<th>Sector</th>
-														<th>Zona</th>
-														<th>Etapa</th>
-														<th>Km</th>
+														<th>Km.</th>
+														<th>Teléfono</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>'.form_input($PC_A_7Dir_2_Nomb).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_3_Nro).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_4_Piso).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_5_Mz).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_6_Lt).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_7_Sect).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_8_Zona).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_9_Et).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_10_Km).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0NOMVIA).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0PTANUM).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0BLOCK).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0INT).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0PISO).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0MZ).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0LOTE).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0KM).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0TELEF).'<div class="help-block error"></div></td>
 													</tr>
 												</tbody>
 					</table>
 				</div>
 				
-				<div class="form-group">
-						<label for="">Teléfono</label>
-						' . form_input($test) . '
-				</div>		
+	
 	</div>			
 </div>
 
@@ -526,18 +1175,18 @@ echo '
 
 echo '
 
-<div class="panel panel-info row">
+<div class="row">
 	<div class="col-md-6">	
 				<div class="form-group">
 						<label for="">9. Nombres y Apellidos del Postulate BECA18</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C0POSTNOMB) . '<div class="help-block error"></div>
 				</div>	
 
 	</div>	
 	<div class="col-md-6">	
 				<div class="form-group">
 						<label for="">10. Nro DNI</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C0POSTDNI) . '<div class="help-block error"></div>
 				</div>	
 	</div>							
 </div>
@@ -546,18 +1195,18 @@ echo '
 
 echo '
 
-<div class="panel panel-info row">
+<div class="row">
 	<div class="col-md-6">	
 				<div class="form-group">
 						<label for="">11. Correo Electrónico</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C0POSTEMAIL) . '<div class="help-block error"></div>
 				</div>	
 
 	</div>	
 	<div class="col-md-6">	
 				<div class="form-group">
 						<label for="">12. Teléfono Celular</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C0TPOSTTELF) . '<div class="help-block error"></div>
 				</div>	
 	</div>							
 </div>
@@ -566,11 +1215,11 @@ echo '
 
 echo '
 
-<div class="panel panel-info row">
+<div class="row">
 	<div class="col-md-12">	
 				<div class="form-group">
 						<label for="">13. La vivienda en la que vives actualmente es tu vivienda de origen?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C0VIVORIG) . '<div class="help-block error"></div>
 				</div>	
 
 	</div>						
@@ -580,12 +1229,12 @@ echo '
 
 
 echo '
-<div class="panel panel-info row">
+<div class="row">
 	<div class="col-md-12">	
 				<h4 class="panel-title">14. Dirección de la vivienda de origen del postulante</h4>
 				<div class="form-group">
 					<label class="">Tipo de Vía</label>
-						'.form_input($test).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
+						'.form_input($C0VOTIPVIA).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
 					
 				</div>
 				<div class="table-responsive">
@@ -594,51 +1243,46 @@ echo '
 													<tr>
 														<th>Nombre de la via</th>
 														<th>N° de Puerta</th>
+														<th>Block</th>
+														<th>Int.</th>
 														<th>Piso</th>
 														<th>Mz.</th>
 														<th>Lote</th>
-														<th>Sector</th>
-														<th>Zona</th>
-														<th>Etapa</th>
-														<th>Km</th>
+														<th>Km.</th>
+														<th>Teléfono</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>'.form_input($PC_A_7Dir_2_Nomb).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_3_Nro).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_4_Piso).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_5_Mz).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_6_Lt).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_7_Sect).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_8_Zona).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_9_Et).'<div class="help-block error"></div></td>
-														<td>'.form_input($PC_A_7Dir_10_Km).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VONOMVIA).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOPTANUM).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOBLOCK).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOINT).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOPISO).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOMZ).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOLOTE).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOKM).'<div class="help-block error"></div></td>
+														<td>'.form_input($C0VOTELEF).'<div class="help-block error"></div></td>
 													</tr>
 												</tbody>
 					</table>
 				</div>
-				
-				<div class="form-group">
-						<label for="">Teléfono</label>
-						' . form_input($test) . '<div class="help-block error"></div>
-				</div>		
-			
+
 	</div>	
 				<div class="col-md-4">
 						<label for="">15. Departamento</label>
-						' . form_input($test) . '<div class="help-block error"></div>		
+						' . form_dropdown('C0VOCCDD', $depArray, FALSE,'class="form-control input200" id="C0VOCCDD"') . '<div class="help-block error"></div>		
 				</div>		
 
 				<div class="col-md-4">
 						<label for="">16. Provincia</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_dropdown('C0VOCCPP', $provArray, FALSE,'class="form-control input200" id="C0VOCCPP"') . '<div class="help-block error"></div>					
 				</div>	
 
 
 				<div class="col-md-4">
 						<label for="">17. Distrito</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_dropdown('C0VOCCDI', $distArray, FALSE,'class="form-control input200" id="C0VOCCDI"') . '<div class="help-block error"></div>					
 				</div>	
 </div>
 
@@ -647,11 +1291,11 @@ echo '
 
 echo '
 
-<div class="panel panel-info row">
+<div class="row">
 	<div class="col-md-12">	
 				<div class="form-group">
 						<label for="">18. La Encuesta se realizó en</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C0P18LUGENCUEST) . '<div class="help-block error"></div>
 				</div>	
 
 	</div>						
@@ -662,10 +1306,10 @@ echo '
 
 echo '
 
-<div class="panel panel-info">
-							<div class="panel-heading">
-								<h5 class="panel-title">19. Entrevista y Supervision</h5> 
-							</div>
+<div class="row">
+		<div class="col-md-12">	
+
+							<h4>19. Entrevista y Supervision</h4> 
 
 							<div>Número de visitas: '.form_input($pcar_num).'<div class="help-block error"></div></div>
 
@@ -675,42 +1319,54 @@ echo '
 								<thead>
 
 									<tr>
-										<th style="text-align:center;vertical-align:middle;" rowspan="3">Visitas</th>
+										<th style="text-align:center;vertical-align:middle;" rowspan="4">Visita</th>
 
-										<th style="text-align:center;" colspan="6">Encuestador/a</th>
-										<!-- <th>Piso</th> -->
-										<!-- <th>Mz.</th>
-										<th>Lote</th>
-										<th>Sector</th>
-										<th>Zona</th> -->
-										<th style="text-align:center;" colspan="4">Jefe/a de Brigada</th>
+										<th style="text-align:center;" colspan="11">Encuestador/a</th>
+										<th style="text-align:center;" colspan="7">Jefe/a de Brigada</th>
 									</tr>
 									<tr>
 
-										<th style="text-align:center;vertical-align:middle;" rowspan="2">Fecha</th>
-										<th style="text-align:center;" colspan="2">Hora</th>
-										<th style="text-align:center;" colspan="2">Próxima Visita</th>
-										<th style="text-align:center;vertical-align:middle;" rowspan="2">Resultado de la visita (*)</th>
-										<th style="text-align:center;vertical-align:middle;" rowspan="2">Fecha</th>
-										<th style="text-align:center;" colspan="2">Hora</th>
-										<th style="text-align:center;vertical-align:middle;" rowspan="2">Resultado de la visita (*)</th>
+										<th style="text-align:center;vertical-align:middle;" colspan="2" rowspan="2">Fecha</th>
+										<th style="text-align:center;" colspan="4">Hora</th>
+										<th style="text-align:center;" colspan="4">Próxima Visita</th>
+										<th style="text-align:center;vertical-align:middle;" rowspan="3">Resultado de la visita (*)</th>
+										<th style="text-align:center;vertical-align:middle;" colspan="2" rowspan="2">Fecha</th>
+										<th style="text-align:center;" colspan="4">Hora</th>
+										<th style="text-align:center;vertical-align:middle;" rowspan="3">Resultado de la visita (*)</th>
 
 									</tr>
 
 									<tr>
 
-										<th style="text-align:center;">De</th>
-										<th style="text-align:center;">A</th>
-										<th style="text-align:center;">Fecha</th>
-										<th style="text-align:center;">Hora</th>
-										<th style="text-align:center;">De</th>
-										<th style="text-align:center;">A</th>
-
+										<th style="text-align:center;" colspan="2">De</th>
+										<th style="text-align:center;" colspan="2">A</th>
+										<th style="text-align:center;" colspan="2">Fecha</th>
+										<th style="text-align:center;" colspan="2">Hora</th>
+										<th style="text-align:center;" colspan="2">De</th>
+										<th style="text-align:center;" colspan="2">A</th>							
 									</tr>
 
+									<tr>
+
+										<th style="text-align:center;" >Día</th>
+										<th style="text-align:center;" >Mes</th>
+										<th style="text-align:center;" >Hora</th>
+										<th style="text-align:center;" >Minutos</th>
+										<th style="text-align:center;" >Hora</th>
+										<th style="text-align:center;" >Minutos</th>	
+										<th style="text-align:center;">Día</th>
+										<th style="text-align:center;">Mes</th>
+										<th style="text-align:center;" >Hora</th>
+										<th style="text-align:center;" >Minutos</th>	
+										<th style="text-align:center;" >Día</th>
+										<th style="text-align:center;" >Mes</th>	
+										<th style="text-align:center;" >Hora</th>
+										<th style="text-align:center;" >Minutos</th>
+										<th style="text-align:center;" >Hora</th>
+										<th style="text-align:center;" >Minutos</th>																																					
+									</tr>
 								</thead>
-								<tbody>
-
+								<tbody>													
 								</tbody>
 							</table>
 
@@ -724,7 +1380,10 @@ echo '
 								<tbody>
 									<tr>
 										<td>Fecha: </td>
-										<td>'.form_input($PC_C_2_Rfinal_fecha).'<div class="help-block error"></div></td>
+										<td>Día'.form_input($C0P20_DIA).'<div class="help-block error"></div>
+										<br />
+										Mes'.form_input($C0P20_MES).'<div class="help-block error"></div>
+										</td>
 										<td rowspan="2">
 											<ul>
 												<li>1. Completa</li>
@@ -733,24 +1392,27 @@ echo '
 												<li>4. Ausente</li>
 												<li>5. Vivienda Desocupada</li>
 												<li>6. No se inició la entrevista</li>
-												<li>7. Otro'.form_input($test).'</li>
+												<li>7. Otro</li>
 											</ul>
 										</td>
 									</tr>
 									<tr>
 										<td>Resultado: </td>
-										<td>'.form_input($PC_C_2_Rfinal_resul).' - Especifique '.form_input($PC_C_2_Rfinal_resul_O).'<div class="help-block error"></div></td>
+										<td>'.form_input($C0P20_RFINAL).' - Especifique '.form_input($C0P20_RFINAL_O).'<div class="help-block error"></div></td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
+				</div>
 
 ';
 
 
 echo '
 
-<div class="panel panel-info">
+<div class="row">
+				<div class="col-md-12">				
+
 							<div class="panel-heading">
 								<h5 class="panel-title">21. Funcionarios de la Encuesta</h5>
 							</div>
@@ -766,26 +1428,28 @@ echo '
 								<tbody>
 									<tr>
 										<td>Encuestador/a</td>
-										<td>'.form_input($PC_D_EvT_dni).' <div class="help-block error"></div></td>
-										<td>'.form_input($PC_D_EvT_Nomb).'<div class="help-block error"></div></td>
+										<td>'.form_input($C0P21_1A).' <div class="help-block error"></div></td>
+										<td>'.form_input($C0P21_1B).'<div class="help-block error"></div></td>
 									</tr>
 
 									<tr>
 										<td>Jefe/a de Brigada</td>
-										<td>'.form_input($PC_D_JBri_dni).' <div class="help-block error"></div></td>
-										<td>'.form_input($PC_D_JBri_Nomb).'</td>
+										<td>'.form_input($C0P21_2A).' <div class="help-block error"></div></td>
+										<td>'.form_input($C0P21_2B).'</td>
 									</tr>
 
 									<tr>
 										<td>Coordinador/a Departamental</td>
-										<td>'.form_input($PC_D_CDep_dni).' <div class="help-block error"></div></td>
-										<td>'.form_input($PC_D_CDep_Nomb).'</td>
+										<td>'.form_input($C0P21_3A).' <div class="help-block error"></div></td>
+										<td>'.form_input($C0P21_3B).'</td>
 									</tr>
 
 								</tbody>
 							</table>
 
 						</div>
+			</div>
+
 
 ';
 
@@ -805,10 +1469,12 @@ echo form_open($this->uri->uri_string(),$attr);
 
 echo '
 
-<div class="panel panel-info">
+<div class="panel panel-info row">
 							<div class="panel-heading">
 								<h5 class="panel-title">100. Características de los miembros del hogar de origen y de los hermanos que no son miembros del hogar</h5>
 							</div>
+	<div class="col-md-12">			
+
 
 							<table class="table table-bordered">
 								<thead>
@@ -890,6 +1556,7 @@ echo '
 								</tbody>
 							</table>							
 
+				</div>
 </div>
 
 ';
@@ -919,24 +1586,24 @@ echo '
 	<div class="col-md-6">	
 				<div class="form-group">
 						<label for="">201. La Institución con la que postulaste a BECA 18 fue tu primera opción?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C3P201) . '<div class="help-block error"></div>
 				</div>	
 
 				<div class="form-group">
 						<label for="">202. En que institución educativa te hubiera gustado estudiar?</label>
-						' . form_input($test) . '
+						' . form_input($C3P202) . '
 						<label for="">... Es una?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P202A) . '<div class="help-block error"></div>						
 				</div>	
 
 				<div class="form-group">
 						<label for="">203. La carrera con la que postulaste a BECA 18 fue tu primera opción?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C3P203) . '<div class="help-block error"></div>					
 				</div>	
 
 				<div class="form-group">
 						<label for="">204. Qué carrera te hubiera gustado estudiar como primera opción?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C3P204) . '<div class="help-block error"></div>					
 				</div>	
 
 				<div class="form-group">
@@ -1134,18 +1801,18 @@ echo '
 
 			<div class="form-group">
 				<label for="">301. Actualmente. Te encuentras matriculado en alguna institución de educación superior</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P301) . '<div class="help-block error"></div>						
 			</div>		
 
 			<div class="form-group">
 				<label for="">302. La Institución donde te encuentras matriculado es una(un)...</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P302) . '<div class="help-block error"></div>						
 			</div>	
 
 
 			<div class="form-group">
 				<label for="">303. Cual es el nombre de la (del)...</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P303) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
@@ -1160,24 +1827,54 @@ echo '
 
 			<div class="form-group">
 				<label for="">305. En que carrera o especialidad te encuentras matriculado?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P305) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
 				<label for="">306. Desde el año 2013. En qué semestres estuviste matriculado?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P306) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
 				<label for="">307. En que ciclo y en cuantos cursos te encuentras actualmente matriculado?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span1"></th>
+					                 <th class="span3">Ciclo</th>
+					                 <th class="span1">Nro de Cursos</th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>1</td>
+					                 <td>' . form_input($C3P307_C1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P307_C1C) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                 <td>2</td>
+					                 <td>' . form_input($C3P307_C2) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P307_C2C) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>3</td>
+					                 <td>' . form_input($C3P307_C3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P307_C3C) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>4</td>
+					                 <td>' . form_input($C3P307_C4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P307_C4C) . '<div class="help-block error"></div></td>
+					               </tr>		               				               					                					                						               				               					               					               
+			              </tbody>
+			           </table>							
 			</div>	
 	</div>
 
 	<div class="col-md-6">	
 			<div class="form-group">
 				<label for="">308. En el año 2013. Estuviste matriculado en alguna institución de educación superior?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P308) . '<div class="help-block error"></div>						
 			</div>		
 
 			<div class="form-group">
@@ -1192,42 +1889,42 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Servicio militar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                 <td>Tenia que trabajar por necesidad económica</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P309_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>No podia financiar mi carrera</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_3) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Deseaba trabajar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_4) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>No me gustó la carrera</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_5) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Me fue mal académicamente (malas notas)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_6) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Por motivos familiares (paternidad/maternidad/matrimonio)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_7) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Por motivos de salud (accidente/enfermedad)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_8) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P309_9) . '<div class="help-block error"></div></td>
 					              </tr>		
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P309_9OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					              </tr>			               				               					                					                						               				               					               					               
 			              </tbody>
@@ -1236,7 +1933,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">310. Tienes planes de retomar tus estudios</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P310) . '<div class="help-block error"></div>						
 			</div>
 
 
@@ -1245,23 +1942,23 @@ echo '
 						<div class="row">
 							<div class="col-md-6">	
 								<p>Años</p>
-								' . form_input($test) . '<div class="help-block error"></div>	
+								' . form_input($C3P311_ANIO) . '<div class="help-block error"></div>	
 							</div>		
 							<div class="col-md-6">	
 								<p>Meses</p>
-								' . form_input($test) . '<div class="help-block error"></div>
+								' . form_input($C3P311_MES) . '<div class="help-block error"></div>
 							</div>			
 						</div>													
 				</div>		
 
 			<div class="form-group">
 				<label for="">312. La institución educativa donde te encontrabas matriculado es una(un)</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P312) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">313. Cuál es el nombre de la (del)...</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P313) . '<div class="help-block error"></div>						
 			</div>		
 
 
@@ -1294,12 +1991,12 @@ echo '
 
 			<div class="form-group">
 				<label for="">315. En qué carrera o especialidad te matriculaste?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P315) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
 				<label for="">316. Durante el 2013. En que semestre estuviste matriculado?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P316_A) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
@@ -1350,42 +2047,42 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Servicio militar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                 <td>Tenia que trabajar por necesidad económica</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P318_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>No podia financiar mi carrera</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_3) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Deseaba trabajar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_4) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-					                 <td>No me gustó la carrera</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>No me gustó</td>
+					                 <td>' . form_input($C3P318_5) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Me fue mal académicamente (malas notas)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_6) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Por motivos familiares (paternidad/maternidad/matrimonio)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_7) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Por motivos de salud (accidente/enfermedad)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_8) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P318_9) . '<div class="help-block error"></div></td>
 					              </tr>		
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P318_9OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					              </tr>			               				               					                					                						               				               					               					               
 			              </tbody>
@@ -1394,7 +2091,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">319. Tienes planes de estudiar en alguna institución de educación superior en el futuro?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P319) . '<div class="help-block error"></div>						
 			</div>	
 
 	</div>
@@ -1402,7 +2099,16 @@ echo '
 	<div class="col-md-6">	
 			<div class="form-group">
 				<label for="">320. Dentro de qué plazo planeas matricularte en alguna institución de educación superior?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						<div class="row">
+							<div class="col-md-6">	
+								<p>Años</p>
+								' . form_input($C3P320_ANIO) . '<div class="help-block error"></div>	
+							</div>		
+							<div class="col-md-6">	
+								<p>Meses</p>
+								' . form_input($C3P320_MES) . '<div class="help-block error"></div>
+							</div>			
+						</div>						
 			</div>	
 
 			<h4>Asistencia Médica</h4>
@@ -1424,38 +2130,38 @@ echo '
 					                </tr>
 					              <tr>
 					                 <td>Estaba enfermo?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>No tenía para pasaje o para cubrir gastos?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_2) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>No quiso asistir?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Tuvo que hacer trámites relacionados con BECA 18?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_4) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Tenía problemas socioemoconales(falta de aprecio, extrañaba a sus Padres, etc)?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_5) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Prefería estudiar para otro curso?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_6) . '<div class="help-block error"></div></td>
 					              </tr>  
 						          <tr>
-					                 <td>Otra razón?... Especifique ' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>Otra razón?... Especifique ' . form_input($C3P321_7OBS) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P321A_7) . '<div class="help-block error"></div></td>
 					              </tr>  				              
 
 
@@ -2210,7 +2916,7 @@ echo form_close();
 //400*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_4');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -2584,6 +3290,9 @@ echo '
 
 </div>';
 
+
+echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
+echo form_close(); 
 ?>
 <br>
 <br>
@@ -2595,7 +3304,7 @@ echo '
 //500*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_5');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -2859,6 +3568,8 @@ echo '
 
 </div>';
 
+echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
+echo form_close(); 
 ?>
 <br>
 <br>
@@ -2871,7 +3582,7 @@ echo '
 //600*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_6');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -3127,7 +3838,8 @@ echo '
 
 </div>';
 
-
+echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
+echo form_close(); 
 ?>
 <br>
 <br>
@@ -3137,10 +3849,10 @@ echo '
 
 <?php 
 
-//600*******************************************************************************************************
+//700*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap_7');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -3281,7 +3993,8 @@ echo '
 
 
 </div>';
-
+echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
+echo form_close(); 
 ?>
 
 
@@ -3299,17 +4012,28 @@ $('#pcar_c_n tr').remove('.entrev');
 	if(ahua >= 0 && ahua<=10){
 	  for(var i=1; i<=ahua;i++){
 	    var asd = '<tr class="entrev">';
-	    asd +='<td><input type="text" class="input1 embc' + i + '" maxlength="1" readonly name="PC_C_1_NroVis[]" id="PC_C_1_NroVis_' + i + '" value="' + i + '" ></td>';
-	    asd +='<td><input type="text" class="input10 embc' + i + ' fechap" onKeyUp="javascript:this.value=formateafecha(this.value);"  maxlength="10" name="PC_C_1_Et_Fecha[]" id="PC_C_1_Et_Fecha_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input5 embc' + i + '" maxlength="5" name="PC_C_1_Et_Hini[]" onKeyUp="javascript:this.value=makehour(this.value);" id="PC_C_1_Et_Hini_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input5 embc' + i + '" maxlength="5" name="PC_C_1_Et_Hfin[]" onKeyUp="javascript:this.value=makehour(this.value);" id="PC_C_1_Et_Hfin_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input10 embc' + i + ' fechap caraaf" onKeyUp="javascript:this.value=formateafecha(this.value);" maxlength="10" name="PC_C_1_Et_Fecha_Prox[]" id="PC_C_1_Et_Fecha_Prox_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input5 embc' + i + '" maxlength="5" name="PC_C_1_Et_Hora_Prox[]" onKeyUp="javascript:this.value=makehour(this.value);" id="PC_C_1_Et_Hora_Prox_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input1 embc' + i + ' car_res" maxlength="1" name="PC_C_1_Et_Res[]" id="PC_C_1_Et_Res_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="input10 embc' + i + '" readonly maxlength="80" name="PC_C_1_Et_Res_O[]" id="PC_C_1_Et_Res_O' + '_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input10 embc' + i + ' fechap carbbf" onKeyUp="javascript:this.value=formateafecha(this.value);" maxlength="10" name="PC_C_1_Jb_Fecha[]" id="PC_C_1_Jb_Fecha_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input5 embe' + i + '" maxlength="5" name="PC_C_1_Jb_Hini[]" onKeyUp="javascript:this.value=makehour(this.value);" id="PC_C_1_Jb_Hini_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input5 embe' + i + '" maxlength="5" name="PC_C_1_Jb_Hfin[]" onKeyUp="javascript:this.value=makehour(this.value);" id="PC_C_1_Jb_Hfin_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="input1 embc' + i + ' car_res" maxlength="1" name="PC_C_1_Jb_Res[]" id="PC_C_1_Jb_Res_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="input10 embc' + i + '" readonly maxlength="80" name="PC_C_1_Jb_Res_O[]" id="PC_C_1_Jb_Res_O' + '_' + i + '" value="" ></div></td>';
+	    asd +='<td><input type="text" class="form-control input1 embc' + i + '" maxlength="1" readonly name="C0P19[]" id="C0P19_' + i + '" value="' + i + '" ></td>';
+	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_DIA[]" id="C0P19_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_MES[]" id="C0P19_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_IH[]"  id="C0P19_IH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_IM[]"  id="C0P19_IM_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_FH[]"  id="C0P19_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_FM[]"  id="C0P19_FM_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_DIAPROX[]" id="C0P19_DIAPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_MESPROX[]" id="C0P19_MESPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_HPROX[]" id="C0P19_HPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_MPROX[]" id="C0P19_MPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input1 embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" readonly maxlength="80" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O' + '_' + i + '" value="" ><div class="help-block error"></div></td>';
+
+	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_JEF_DIA[]" id="C0P19_JEF_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_JEF_MES[]" id="C0P19_JEF_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_IH[]"  id="C0P19_JEF_IH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_IM[]"  id="C0P19_JEF_IM_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_FH[]"  id="C0P19_JEF_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_RVISITA[]"  id="C0P19_JEF_RVISITA_' + i + '" value="" ><div class="help-block error"></div></td>';	    
+	
+	    asd +='<td><input type="text" class="form-control input1 embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" readonly maxlength="80" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O' + '_' + i + '" value="" ><div class="help-block error"></div></td>';
+
 	    asd += '</tr>';
 	    $('#pcar_c_n > tbody').append(asd);
 	  }
