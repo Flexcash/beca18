@@ -980,26 +980,2191 @@ $C3P328_OBS = array(
 	'class' => 'form-control',
 );
 
+$C3P329 = array(
+	'name'	=> 'C3P329',
+	'id'	=> 'C3P329',
+	'maxlength'	=> 10,
+	'class' => 'form-control',
+);
+
+$C3P330 = array(
+	'name'	=> 'C3P330',
+	'id'	=> 'C3P330',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P330_NSA = array(
+	'name'	=> 'C3P330_NSA',
+	'id'	=> 'C3P330_NSA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P331 = array(
+	'name'	=> 'C3P331',
+	'id'	=> 'C3P331',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P331_NSA = array(
+	'name'	=> 'C3P331_NSA',
+	'id'	=> 'C3P331_NSA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P332 = array(
+	'name'	=> 'C3P332',
+	'id'	=> 'C3P332',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P332_NSA = array(
+	'name'	=> 'C3P332_NSA',
+	'id'	=> 'C3P332_NSA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
 
+$C3P333 = array(
+	'name'	=> 'C3P333',
+	'id'	=> 'C3P333',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P334 = array(
+	'name'	=> 'C3P334',
+	'id'	=> 'C3P334',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P334_OBS = array(
+	'name'	=> 'C3P334_OBS',
+	'id'	=> 'C3P334_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
 
+$C3P335 = array(
+	'name'	=> 'C3P335',
+	'id'	=> 'C3P335',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P335_1 = array(
+	'name'	=> 'C3P335_1',
+	'id'	=> 'C3P335_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
 
+$C3P336_2 = array(
+	'name'	=> 'C3P336_2',
+	'id'	=> 'C3P336_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P336_3 = array(
+	'name'	=> 'C3P336_3',
+	'id'	=> 'C3P336_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P336_4 = array(
+	'name'	=> 'C3P336_4',
+	'id'	=> 'C3P336_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P336_5 = array(
+	'name'	=> 'C3P336_5',
+	'id'	=> 'C3P336_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P336_OBS = array(
+	'name'	=> 'C3P336_OBS',
+	'id'	=> 'C3P336_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
 
+$C3P337 = array(
+	'name'	=> 'C3P337',
+	'id'	=> 'C3P337',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
 
+$C3P337_OBS = array(
+	'name'	=> 'C3P337_OBS',
+	'id'	=> 'C3P337_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
 
+$C3P338_1 = array(
+	'name'	=> 'C3P338_1',
+	'id'	=> 'C3P338_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P338_2 = array(
+	'name'	=> 'C3P338_2',
+	'id'	=> 'C3P338_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P338_3 = array(
+	'name'	=> 'C3P338_3',
+	'id'	=> 'C3P338_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P338_4 = array(
+	'name'	=> 'C3P338_4',
+	'id'	=> 'C3P338_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P338_5 = array(
+	'name'	=> 'C3P338_5',
+	'id'	=> 'C3P338_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P338_OBS = array(
+	'name'	=> 'C3P338_OBS',
+	'id'	=> 'C3P338_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P339_1 = array(
+	'name'	=> 'C3P339_1',
+	'id'	=> 'C3P339_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P339_2 = array(
+	'name'	=> 'C3P339_2',
+	'id'	=> 'C3P339_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P339_3 = array(
+	'name'	=> 'C3P339_3',
+	'id'	=> 'C3P339_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P339_4 = array(
+	'name'	=> 'C3P339_4',
+	'id'	=> 'C3P339_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P339_5 = array(
+	'name'	=> 'C3P339_5',
+	'id'	=> 'C3P339_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_1 = array(
+	'name'	=> 'C3P340_1',
+	'id'	=> 'C3P340_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_2 = array(
+	'name'	=> 'C3P340_2',
+	'id'	=> 'C3P340_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_3 = array(
+	'name'	=> 'C3P340_3',
+	'id'	=> 'C3P340_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_4 = array(
+	'name'	=> 'C3P340_4',
+	'id'	=> 'C3P340_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_5 = array(
+	'name'	=> 'C3P340_5',
+	'id'	=> 'C3P340_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_6 = array(
+	'name'	=> 'C3P340_6',
+	'id'	=> 'C3P340_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P340_7 = array(
+	'name'	=> 'C3P340_7',
+	'id'	=> 'C3P340_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_1 = array(
+	'name'	=> 'C3P341_1',
+	'id'	=> 'C3P341_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_2 = array(
+	'name'	=> 'C3P341_2',
+	'id'	=> 'C3P341_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_3 = array(
+	'name'	=> 'C3P341_3',
+	'id'	=> 'C3P341_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_4 = array(
+	'name'	=> 'C3P341_4',
+	'id'	=> 'C3P341_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_5 = array(
+	'name'	=> 'C3P341_5',
+	'id'	=> 'C3P341_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_6 = array(
+	'name'	=> 'C3P341_6',
+	'id'	=> 'C3P341_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P341_7 = array(
+	'name'	=> 'C3P341_7',
+	'id'	=> 'C3P341_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P342_1 = array(
+	'name'	=> 'C3P342_1',
+	'id'	=> 'C3P342_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P342_2 = array(
+	'name'	=> 'C3P342_2',
+	'id'	=> 'C3P342_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P342_3 = array(
+	'name'	=> 'C3P342_3',
+	'id'	=> 'C3P342_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P342_4 = array(
+	'name'	=> 'C3P342_4',
+	'id'	=> 'C3P342_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P342_5 = array(
+	'name'	=> 'C3P342_5',
+	'id'	=> 'C3P342_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P342_OBS = array(
+	'name'	=> 'C3P342_OBS',
+	'id'	=> 'C3P342_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P343_1 = array(
+	'name'	=> 'C3P343_1',
+	'id'	=> 'C3P343_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P343_2 = array(
+	'name'	=> 'C3P343_2',
+	'id'	=> 'C3P343_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P343_3 = array(
+	'name'	=> 'C3P343_3',
+	'id'	=> 'C3P343_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P343_4 = array(
+	'name'	=> 'C3P343_4',
+	'id'	=> 'C3P343_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P343_5 = array(
+	'name'	=> 'C3P343_5',
+	'id'	=> 'C3P343_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_1 = array(
+	'name'	=> 'C3P344_1',
+	'id'	=> 'C3P344_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_2 = array(
+	'name'	=> 'C3P344_2',
+	'id'	=> 'C3P344_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_3 = array(
+	'name'	=> 'C3P344_3',
+	'id'	=> 'C3P344_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_4 = array(
+	'name'	=> 'C3P344_4',
+	'id'	=> 'C3P344_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_5 = array(
+	'name'	=> 'C3P344_5',
+	'id'	=> 'C3P344_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_6 = array(
+	'name'	=> 'C3P344_6',
+	'id'	=> 'C3P344_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P344_7 = array(
+	'name'	=> 'C3P344_7',
+	'id'	=> 'C3P344_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_1 = array(
+	'name'	=> 'C3P345_1',
+	'id'	=> 'C3P345_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_2 = array(
+	'name'	=> 'C3P345_2',
+	'id'	=> 'C3P345_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_3 = array(
+	'name'	=> 'C3P345_3',
+	'id'	=> 'C3P345_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_4 = array(
+	'name'	=> 'C3P345_4',
+	'id'	=> 'C3P345_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_5 = array(
+	'name'	=> 'C3P345_5',
+	'id'	=> 'C3P345_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_6 = array(
+	'name'	=> 'C3P345_6',
+	'id'	=> 'C3P345_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P345_7 = array(
+	'name'	=> 'C3P345_7',
+	'id'	=> 'C3P345_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P346_1 = array(
+	'name'	=> 'C3P346_1',
+	'id'	=> 'C3P346_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P346_2 = array(
+	'name'	=> 'C3P346_2',
+	'id'	=> 'C3P346_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_1 = array(
+	'name'	=> 'C3P347_1',
+	'id'	=> 'C3P347_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_2 = array(
+	'name'	=> 'C3P347_2',
+	'id'	=> 'C3P347_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_3 = array(
+	'name'	=> 'C3P347_3',
+	'id'	=> 'C3P347_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_4 = array(
+	'name'	=> 'C3P347_4',
+	'id'	=> 'C3P347_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_5 = array(
+	'name'	=> 'C3P347_5',
+	'id'	=> 'C3P347_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_6 = array(
+	'name'	=> 'C3P347_6',
+	'id'	=> 'C3P347_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_7 = array(
+	'name'	=> 'C3P347_7',
+	'id'	=> 'C3P347_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_8 = array(
+	'name'	=> 'C3P347_8',
+	'id'	=> 'C3P347_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P347_OBS = array(
+	'name'	=> 'C3P347_OBS',
+	'id'	=> 'C3P347_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P348 = array(
+	'name'	=> 'C3P348',
+	'id'	=> 'C3P348',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P349 = array(
+	'name'	=> 'C3P349',
+	'id'	=> 'C3P349',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P349_OBS = array(
+	'name'	=> 'C3P349_OBS',
+	'id'	=> 'C3P349_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
 
 
 //FIN CAP 3
 
 
+//CAP 4
+$C4P401 = array(
+	'name'	=> 'C4P401',
+	'id'	=> 'C4P401',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
 
+$C4P402 = array(
+	'name'	=> 'C4P402',
+	'id'	=> 'C4P402',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C4P403 = array(
+	'name'	=> 'C4P403',
+	'id'	=> 'C4P403',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P403_OBS = array(
+	'name'	=> 'C4P403_OBS',
+	'id'	=> 'C4P403_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C4P404 = array(
+	'name'	=> 'C4P404',
+	'id'	=> 'C4P404',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P405 = array(
+	'name'	=> 'C4P405',
+	'id'	=> 'C4P405',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P406 = array(
+	'name'	=> 'C4P406',
+	'id'	=> 'C4P406',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P407 = array(
+	'name'	=> 'C4P407',
+	'id'	=> 'C4P407',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P408 = array(
+	'name'	=> 'C4P408',
+	'id'	=> 'C4P408',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C4P409 = array(
+	'name'	=> 'C4P409',
+	'id'	=> 'C4P409',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C4P410 = array(
+	'name'	=> 'C4P410',
+	'id'	=> 'C4P410',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C4_OBS = array(
+	'name'	=> 'C4_OBS',
+	'id'	=> 'C4_OBS',
+	'maxlength'	=> 1000,
+	'class' => 'form-control',
+);
+
+$C4P411_1 = array(
+	'name'	=> 'C4P411_1',
+	'id'	=> 'C4P411_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_2 = array(
+	'name'	=> 'C4P411_2',
+	'id'	=> 'C4P411_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_3 = array(
+	'name'	=> 'C4P411_3',
+	'id'	=> 'C4P411_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_4 = array(
+	'name'	=> 'C4P411_4',
+	'id'	=> 'C4P411_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_5 = array(
+	'name'	=> 'C4P411_5',
+	'id'	=> 'C4P411_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_6 = array(
+	'name'	=> 'C4P411_6',
+	'id'	=> 'C4P411_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_7 = array(
+	'name'	=> 'C4P411_7',
+	'id'	=> 'C4P411_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_8 = array(
+	'name'	=> 'C4P411_8',
+	'id'	=> 'C4P411_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P411_9 = array(
+	'name'	=> 'C4P411_9',
+	'id'	=> 'C4P411_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P412_1 = array(
+	'name'	=> 'C4P412_1',
+	'id'	=> 'C4P412_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P412_2 = array(
+	'name'	=> 'C4P412_2',
+	'id'	=> 'C4P412_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P412_3 = array(
+	'name'	=> 'C4P412_3',
+	'id'	=> 'C4P412_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P412_4 = array(
+	'name'	=> 'C4P412_4',
+	'id'	=> 'C4P412_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P413 = array(
+	'name'	=> 'C4P413',
+	'id'	=> 'C4P413',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P414_1 = array(
+	'name'	=> 'C4P414_1',
+	'id'	=> 'C4P414_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P414_2 = array(
+	'name'	=> 'C4P414_2',
+	'id'	=> 'C4P414_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P414_3 = array(
+	'name'	=> 'C4P414_3',
+	'id'	=> 'C4P414_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P414_4 = array(
+	'name'	=> 'C4P414_4',
+	'id'	=> 'C4P414_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P414_5 = array(
+	'name'	=> 'C4P414_5',
+	'id'	=> 'C4P414_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C4P415_1 = array(
+	'name'	=> 'C4P415_1',
+	'id'	=> 'C4P415_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_2 = array(
+	'name'	=> 'C4P415_2',
+	'id'	=> 'C4P415_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_3 = array(
+	'name'	=> 'C4P415_3',
+	'id'	=> 'C4P415_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_4 = array(
+	'name'	=> 'C4P415_4',
+	'id'	=> 'C4P415_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_5 = array(
+	'name'	=> 'C4P415_5',
+	'id'	=> 'C4P415_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_6 = array(
+	'name'	=> 'C4P415_6',
+	'id'	=> 'C4P415_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_7 = array(
+	'name'	=> 'C4P415_7',
+	'id'	=> 'C4P415_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_8 = array(
+	'name'	=> 'C4P415_8',
+	'id'	=> 'C4P415_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_9 = array(
+	'name'	=> 'C4P415_9',
+	'id'	=> 'C4P415_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_10 = array(
+	'name'	=> 'C4P415_10',
+	'id'	=> 'C4P415_10',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_11 = array(
+	'name'	=> 'C4P415_11',
+	'id'	=> 'C4P415_11',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_12 = array(
+	'name'	=> 'C4P415_12',
+	'id'	=> 'C4P415_12',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_13 = array(
+	'name'	=> 'C4P415_13',
+	'id'	=> 'C4P415_13',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415_13OBS = array(
+	'name'	=> 'C4P415_13OBS',
+	'id'	=> 'C4P415_13OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+//FIN CAP 4
+
+
+
+//CAP 5
+
+$C5P501 = array(
+	'name'	=> 'C5P501',
+	'id'	=> 'C5P501',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P502 = array(
+	'name'	=> 'C5P502',
+	'id'	=> 'C5P502',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P503 = array(
+	'name'	=> 'C5P503',
+	'id'	=> 'C5P503',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_1 = array(
+	'name'	=> 'C5P504_1',
+	'id'	=> 'C5P504_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_2 = array(
+	'name'	=> 'C5P504_2',
+	'id'	=> 'C5P504_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_3 = array(
+	'name'	=> 'C5P504_3',
+	'id'	=> 'C5P504_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_4 = array(
+	'name'	=> 'C5P504_4',
+	'id'	=> 'C5P504_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_5 = array(
+	'name'	=> 'C5P504_5',
+	'id'	=> 'C5P504_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_6 = array(
+	'name'	=> 'C5P504_6',
+	'id'	=> 'C5P504_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_7 = array(
+	'name'	=> 'C5P504_7',
+	'id'	=> 'C5P504_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_8 = array(
+	'name'	=> 'C5P504_8',
+	'id'	=> 'C5P504_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_9 = array(
+	'name'	=> 'C5P504_9',
+	'id'	=> 'C5P504_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P504_9OBS = array(
+	'name'	=> 'C5P504_9OBS',
+	'id'	=> 'C5P504_9OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P505A = array(
+	'name'	=> 'C5P505A',
+	'id'	=> 'C5P505A',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P505B = array(
+	'name'	=> 'C5P505B',
+	'id'	=> 'C5P505B',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P506 = array(
+	'name'	=> 'C5P506',
+	'id'	=> 'C5P506',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P507 = array(
+	'name'	=> 'C5P507',
+	'id'	=> 'C5P507',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P507_OBS = array(
+	'name'	=> 'C5P507_OBS',
+	'id'	=> 'C5P507_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P508 = array(
+	'name'	=> 'C5P508',
+	'id'	=> 'C5P508',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P508_OBS = array(
+	'name'	=> 'C5P508_OBS',
+	'id'	=> 'C5P508_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P509_1 = array(
+	'name'	=> 'C5P509_1',
+	'id'	=> 'C5P509_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_2 = array(
+	'name'	=> 'C5P509_2',
+	'id'	=> 'C5P509_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_3 = array(
+	'name'	=> 'C5P509_3',
+	'id'	=> 'C5P509_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_4 = array(
+	'name'	=> 'C5P509_4',
+	'id'	=> 'C5P509_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_5 = array(
+	'name'	=> 'C5P509_5',
+	'id'	=> 'C5P509_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_6 = array(
+	'name'	=> 'C5P509_6',
+	'id'	=> 'C5P509_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_7 = array(
+	'name'	=> 'C5P509_7',
+	'id'	=> 'C5P509_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C5P509_8 = array(
+	'name'	=> 'C5P509_8',
+	'id'	=> 'C5P509_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C5P510 = array(
+	'name'	=> 'C5P510',
+	'id'	=> 'C5P510',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P511_MON = array(
+	'name'	=> 'C5P511_MON',
+	'id'	=> 'C5P511_MON',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C5P511_ESP = array(
+	'name'	=> 'C5P511_ESP',
+	'id'	=> 'C5P511_ESP',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C5P512_MON = array(
+	'name'	=> 'C5P512_MON',
+	'id'	=> 'C5P512_MON',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C5P512_ESP = array(
+	'name'	=> 'C5P512_ESP',
+	'id'	=> 'C5P512_ESP',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C5P512_NSA = array(
+	'name'	=> 'C5P512_NSA',
+	'id'	=> 'C5P512_NSA',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P512_NGAN = array(
+	'name'	=> 'C5P512_NGAN',
+	'id'	=> 'C5P512_NGAN',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C5P513 = array(
+	'name'	=> 'C5P513',
+	'id'	=> 'C5P513',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P513_OBS = array(
+	'name'	=> 'C5P513_OBS',
+	'id'	=> 'C5P513_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5P514 = array(
+	'name'	=> 'C5P514',
+	'id'	=> 'C5P514',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C5P514_OBS = array(
+	'name'	=> 'C5P514_OBS',
+	'id'	=> 'C5P514_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C5_OBS = array(
+	'name'	=> 'C5_OBS',
+	'id'	=> 'C5_OBS',
+	'maxlength'	=> 1000,
+	'class' => 'form-control',
+);
+
+
+//FIN CAP 5
+
+
+
+
+
+
+//CAP 6
+
+$C6P601_1 = array(
+	'name'	=> 'C6P601A_1',
+	'id'	=> 'C6P601A_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_2 = array(
+	'name'	=> 'C6P601_2',
+	'id'	=> 'C6P601_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_3 = array(
+	'name'	=> 'C6P601_3',
+	'id'	=> 'C6P601_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_4 = array(
+	'name'	=> 'C6P601_4',
+	'id'	=> 'C6P601_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C6P601_5 = array(
+	'name'	=> 'C6P601_5',
+	'id'	=> 'C6P601_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C6P601_6 = array(
+	'name'	=> 'C6P601_6',
+	'id'	=> 'C6P601_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C6P601_7 = array(
+	'name'	=> 'C6P601_7',
+	'id'	=> 'C6P601_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C6P601_8 = array(
+	'name'	=> 'C6P601_8',
+	'id'	=> 'C6P601_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_9 = array(
+	'name'	=> 'C6P601_9',
+	'id'	=> 'C6P601_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_10 = array(
+	'name'	=> 'C6P601_10',
+	'id'	=> 'C6P601_10',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C6P601_11 = array(
+	'name'	=> 'C6P601_11',
+	'id'	=> 'C6P601_11',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_12 = array(
+	'name'	=> 'C6P601_12',
+	'id'	=> 'C6P601_12',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_13 = array(
+	'name'	=> 'C6P601_13',
+	'id'	=> 'C6P601_13',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_14 = array(
+	'name'	=> 'C6P601_14',
+	'id'	=> 'C6P601_14',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_15 = array(
+	'name'	=> 'C6P601_15',
+	'id'	=> 'C6P601_15',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P601_16 = array(
+	'name'	=> 'C6P601_16',
+	'id'	=> 'C6P601_16',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C6P602H_1 = array(
+	'name'	=> 'C6P602H_1',
+	'id'	=> 'C6P602H_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_2 = array(
+	'name'	=> 'C6P602H_2',
+	'id'	=> 'C6P602H_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_3 = array(
+	'name'	=> 'C6P602H_3',
+	'id'	=> 'C6P602H_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_4 = array(
+	'name'	=> 'C6P602H_4',
+	'id'	=> 'C6P602H_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_5 = array(
+	'name'	=> 'C6P602H_5',
+	'id'	=> 'C6P602H_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_6 = array(
+	'name'	=> 'C6P602H_6',
+	'id'	=> 'C6P602H_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_7 = array(
+	'name'	=> 'C6P602H_7',
+	'id'	=> 'C6P602H_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_8 = array(
+	'name'	=> 'C6P602H_8',
+	'id'	=> 'C6P602H_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_9 = array(
+	'name'	=> 'C6P602H_9',
+	'id'	=> 'C6P602H_9',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_10 = array(
+	'name'	=> 'C6P602H_10',
+	'id'	=> 'C6P602H_10',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_11 = array(
+	'name'	=> 'C6P602H_11',
+	'id'	=> 'C6P602H_11',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_12 = array(
+	'name'	=> 'C6P602H_12',
+	'id'	=> 'C6P602H_12',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_13 = array(
+	'name'	=> 'C6P602H_13',
+	'id'	=> 'C6P602H_13',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_14 = array(
+	'name'	=> 'C6P602H_14',
+	'id'	=> 'C6P602H_14',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_15 = array(
+	'name'	=> 'C6P602H_15',
+	'id'	=> 'C6P602H_15',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602H_16 = array(
+	'name'	=> 'C6P602H_16',
+	'id'	=> 'C6P602H_16',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_1 = array(
+	'name'	=> 'C6P602M_1',
+	'id'	=> 'C6P602M_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_2 = array(
+	'name'	=> 'C6P602M_2',
+	'id'	=> 'C6P602M_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_3 = array(
+	'name'	=> 'C6P602M_3',
+	'id'	=> 'C6P602M_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_4 = array(
+	'name'	=> 'C6P602M_4',
+	'id'	=> 'C6P602M_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_5 = array(
+	'name'	=> 'C6P602M_5',
+	'id'	=> 'C6P602M_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_6 = array(
+	'name'	=> 'C6P602M_6',
+	'id'	=> 'C6P602M_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_7 = array(
+	'name'	=> 'C6P602M_7',
+	'id'	=> 'C6P602M_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_8 = array(
+	'name'	=> 'C6P602M_8',
+	'id'	=> 'C6P602M_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_9 = array(
+	'name'	=> 'C6P602M_9',
+	'id'	=> 'C6P602M_9',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_10 = array(
+	'name'	=> 'C6P602M_10',
+	'id'	=> 'C6P602M_10',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_11 = array(
+	'name'	=> 'C6P602M_11',
+	'id'	=> 'C6P602M_11',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_12 = array(
+	'name'	=> 'C6P602M_12',
+	'id'	=> 'C6P602M_12',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_13 = array(
+	'name'	=> 'C6P602M_13',
+	'id'	=> 'C6P602M_13',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_14 = array(
+	'name'	=> 'C6P602M_14',
+	'id'	=> 'C6P602M_14',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_15 = array(
+	'name'	=> 'C6P602M_15',
+	'id'	=> 'C6P602M_15',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602M_16 = array(
+	'name'	=> 'C6P602M_16',
+	'id'	=> 'C6P602M_16',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P602A_1 = array(
+	'name'	=> 'C6P602A_1',
+	'id'	=> 'C6P602A_1',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_2 = array(
+	'name'	=> 'C6P602A_2',
+	'id'	=> 'C6P602A_2',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_3 = array(
+	'name'	=> 'C6P602A_3',
+	'id'	=> 'C6P602A_3',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_4 = array(
+	'name'	=> 'C6P602A_4',
+	'id'	=> 'C6P602A_4',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_5 = array(
+	'name'	=> 'C6P602A_5',
+	'id'	=> 'C6P602A_5',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_6 = array(
+	'name'	=> 'C6P602A_6',
+	'id'	=> 'C6P602A_6',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_7 = array(
+	'name'	=> 'C6P602A_7',
+	'id'	=> 'C6P602A_7',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_8 = array(
+	'name'	=> 'C6P602A_8',
+	'id'	=> 'C6P602A_8',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_9 = array(
+	'name'	=> 'C6P602A_9',
+	'id'	=> 'C6P602A_9',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_10 = array(
+	'name'	=> 'C6P602A_10',
+	'id'	=> 'C6P602A_10',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_11 = array(
+	'name'	=> 'C6P602A_11',
+	'id'	=> 'C6P602A_11',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_12 = array(
+	'name'	=> 'C6P602A_12',
+	'id'	=> 'C6P602A_12',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_13 = array(
+	'name'	=> 'C6P602A_13',
+	'id'	=> 'C6P602A_13',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_14 = array(
+	'name'	=> 'C6P602A_14',
+	'id'	=> 'C6P602A_14',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_15 = array(
+	'name'	=> 'C6P602A_15',
+	'id'	=> 'C6P602A_15',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P602A_16 = array(
+	'name'	=> 'C6P602A_16',
+	'id'	=> 'C6P602A_16',
+	'maxlength'	=> 100,
+	'class' => 'form-control',
+);
+
+$C6P603H_1 = array(
+	'name'	=> 'C6P603H_1',
+	'id'	=> 'C6P603H_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_2 = array(
+	'name'	=> 'C6P603H_2',
+	'id'	=> 'C6P603H_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_3 = array(
+	'name'	=> 'C6P603H_3',
+	'id'	=> 'C6P603H_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_4 = array(
+	'name'	=> 'C6P603H_4',
+	'id'	=> 'C6P603H_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_5 = array(
+	'name'	=> 'C6P603H_5',
+	'id'	=> 'C6P603H_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_6 = array(
+	'name'	=> 'C6P603H_6',
+	'id'	=> 'C6P603H_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_7 = array(
+	'name'	=> 'C6P603H_7',
+	'id'	=> 'C6P603H_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_8 = array(
+	'name'	=> 'C6P603H_8',
+	'id'	=> 'C6P603H_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_9 = array(
+	'name'	=> 'C6P603H_9',
+	'id'	=> 'C6P603H_9',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_10 = array(
+	'name'	=> 'C6P603H_10',
+	'id'	=> 'C6P603H_10',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_11 = array(
+	'name'	=> 'C6P603H_11',
+	'id'	=> 'C6P603H_11',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_12 = array(
+	'name'	=> 'C6P603H_12',
+	'id'	=> 'C6P603H_12',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_13 = array(
+	'name'	=> 'C6P603H_13',
+	'id'	=> 'C6P603H_13',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_14 = array(
+	'name'	=> 'C6P603H_14',
+	'id'	=> 'C6P603H_14',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_15 = array(
+	'name'	=> 'C6P603H_15',
+	'id'	=> 'C6P603H_15',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603H_16 = array(
+	'name'	=> 'C6P603H_16',
+	'id'	=> 'C6P603H_16',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_1 = array(
+	'name'	=> 'C6P603M_1',
+	'id'	=> 'C6P603M_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_2 = array(
+	'name'	=> 'C6P603M_2',
+	'id'	=> 'C6P603M_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_3 = array(
+	'name'	=> 'C6P603M_3',
+	'id'	=> 'C6P603M_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_4 = array(
+	'name'	=> 'C6P603M_4',
+	'id'	=> 'C6P603M_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_5 = array(
+	'name'	=> 'C6P603M_5',
+	'id'	=> 'C6P603M_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_6 = array(
+	'name'	=> 'C6P603M_6',
+	'id'	=> 'C6P603M_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_7 = array(
+	'name'	=> 'C6P603M_7',
+	'id'	=> 'C6P603M_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_8 = array(
+	'name'	=> 'C6P603M_8',
+	'id'	=> 'C6P603M_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_9 = array(
+	'name'	=> 'C6P603M_9',
+	'id'	=> 'C6P603M_9',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_10 = array(
+	'name'	=> 'C6P603M_10',
+	'id'	=> 'C6P603M_10',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_11 = array(
+	'name'	=> 'C6P603M_11',
+	'id'	=> 'C6P603M_11',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_12 = array(
+	'name'	=> 'C6P603M_12',
+	'id'	=> 'C6P603M_12',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_13 = array(
+	'name'	=> 'C6P603M_13',
+	'id'	=> 'C6P603M_13',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_14 = array(
+	'name'	=> 'C6P603M_14',
+	'id'	=> 'C6P603M_14',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_15 = array(
+	'name'	=> 'C6P603M_15',
+	'id'	=> 'C6P603M_15',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603M_16 = array(
+	'name'	=> 'C6P603M_16',
+	'id'	=> 'C6P603M_16',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C6P603A_1 = array(
+	'name'	=> 'C6P603A_1',
+	'id'	=> 'C6P603A_1',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_2 = array(
+	'name'	=> 'C6P603A_2',
+	'id'	=> 'C6P603A_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_3 = array(
+	'name'	=> 'C6P603A_3',
+	'id'	=> 'C6P603A_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_4 = array(
+	'name'	=> 'C6P603A_4',
+	'id'	=> 'C6P603A_4',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_5 = array(
+	'name'	=> 'C6P603A_5',
+	'id'	=> 'C6P603A_5',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_6 = array(
+	'name'	=> 'C6P603A_6',
+	'id'	=> 'C6P603A_6',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_7 = array(
+	'name'	=> 'C6P603A_7',
+	'id'	=> 'C6P603A_7',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_8 = array(
+	'name'	=> 'C6P603A_8',
+	'id'	=> 'C6P603A_8',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_9 = array(
+	'name'	=> 'C6P603A_9',
+	'id'	=> 'C6P603A_9',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_10 = array(
+	'name'	=> 'C6P603A_10',
+	'id'	=> 'C6P603A_10',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_11 = array(
+	'name'	=> 'C6P603A_11',
+	'id'	=> 'C6P603A_11',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_12 = array(
+	'name'	=> 'C6P603A_12',
+	'id'	=> 'C6P603A_12',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_13 = array(
+	'name'	=> 'C6P603A_13',
+	'id'	=> 'C6P603A_13',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_14 = array(
+	'name'	=> 'C6P603A_14',
+	'id'	=> 'C6P603A_14',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_15 = array(
+	'name'	=> 'C6P603A_15',
+	'id'	=> 'C6P603A_15',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C6P603A_16 = array(
+	'name'	=> 'C6P603A_16',
+	'id'	=> 'C6P603A_16',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+//FIN CAP 6
+
+//CAP 7
+
+$C7P701_1 = array(
+	'name'	=> 'C7P701_1',
+	'id'	=> 'C7P701_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_2 = array(
+	'name'	=> 'C7P701_2',
+	'id'	=> 'C7P701_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_3 = array(
+	'name'	=> 'C7P701_3',
+	'id'	=> 'C7P701_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_4 = array(
+	'name'	=> 'C7P701_4',
+	'id'	=> 'C7P701_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_5 = array(
+	'name'	=> 'C7P701_5',
+	'id'	=> 'C7P701_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_6 = array(
+	'name'	=> 'C7P701_6',
+	'id'	=> 'C7P701_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_7 = array(
+	'name'	=> 'C7P701_7',
+	'id'	=> 'C7P701_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_8 = array(
+	'name'	=> 'C7P701_8',
+	'id'	=> 'C7P701_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_9 = array(
+	'name'	=> 'C7P701_9',
+	'id'	=> 'C7P701_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_10 = array(
+	'name'	=> 'C7P701_10',
+	'id'	=> 'C7P701_10',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_11 = array(
+	'name'	=> 'C7P701_11',
+	'id'	=> 'C7P701_11',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_12 = array(
+	'name'	=> 'C7P701_12',
+	'id'	=> 'C7P701_12',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_13 = array(
+	'name'	=> 'C7P701_13',
+	'id'	=> 'C7P701_13',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_14 = array(
+	'name'	=> 'C7P701_14',
+	'id'	=> 'C7P701_14',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_15 = array(
+	'name'	=> 'C7P701_15',
+	'id'	=> 'C7P701_15',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_16 = array(
+	'name'	=> 'C7P701_16',
+	'id'	=> 'C7P701_16',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_17 = array(
+	'name'	=> 'C7P701_17',
+	'id'	=> 'C7P701_17',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P701_17 = array(
+	'name'	=> 'C7P701_17',
+	'id'	=> 'C7P701_17',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C7P702_1 = array(
+	'name'	=> 'C7P702_1',
+	'id'	=> 'C7P702_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P702_2 = array(
+	'name'	=> 'C7P702_2',
+	'id'	=> 'C7P702_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P702_3 = array(
+	'name'	=> 'C7P702_3',
+	'id'	=> 'C7P702_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P702_4 = array(
+	'name'	=> 'C7P702_4',
+	'id'	=> 'C7P702_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P702_5 = array(
+	'name'	=> 'C7P702_5',
+	'id'	=> 'C7P702_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C7P702_6 = array(
+	'name'	=> 'C7P702_6',
+	'id'	=> 'C7P702_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$OBS = array(
+	'name'	=> 'OBS',
+	'id'	=> 'OBS',
+	'maxlength'	=> 1000,
+	'class' => 'form-control',
+);
+
+
+
+
+
+
+
+
+
+
+
+
+//FIN CAP 7
 
 
 
@@ -2173,13 +4338,13 @@ echo '
 			<div class="form-group">
 				<label for="">322. Durante el último ciclo cursado completo. en cuántos cursos te matriculaste?</label>
 						<p>Número de cursos</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P322) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
 				<label for="">323. Durante el último ciclo cursado completo. en cuántos créditos te matriculaste?</label>
 						<p>Número de créditos</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P323) . '<div class="help-block error"></div>						
 			</div>	
 
 	</div>
@@ -2197,36 +4362,36 @@ echo '
 			<div class="form-group">
 				<label for="">324. Durante el último ciclo cursado completo. Cual fue el número regular de créditos en los que deberias haberte matriculado?</label>
 						<p>Número de créditos</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P324) . '<div class="help-block error"></div>						
 			</div>	
 
 			<div class="form-group">
 				<label for="">325. Cuál es la nota mínima para aprobar un curso en la universidad / instituto en donde te matriculaste?</label>
 						<p>Nota mínima</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P325) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">326. Durante el último ciclo cursado completo. Cuántos cursos aprobaste con...?</label>
 						<p>Número de cursos aprobados</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P326) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">327. Durante el último ciclo cursado completo. Cuántos cursos aprobaste con una nota mayor a...?</label>
 						<p>Número de cursos aprobados</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P327) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">328. Durante el último ciclo cursado completo. Cuántos cursos desaprobaste?</label>
 						<p>Número de cursos desaprobados</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P328) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">329. Cuál es la principal razón por la que no aprobaste esos cursos?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C3P329) . '<div class="help-block error"></div>
 						<p>Especifique</p>
 						' . form_input($test) . '<div class="help-block error"></div>	
 			</div>
@@ -2241,19 +4406,19 @@ echo '
 			<div class="form-group">
 				<label for="">330. Durante el último ciclo cursado completo. Cuál fue tu promedio ponderado?</label>
 						<p>Promedio Ponderado</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P330) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">331. Durante el último ciclo cursado completo. Cuál fue tu promedio ponderado acumulado?</label>
 						<p>Promedio Ponderado acumulado</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P331) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">332. En toda tu carrera. Cuantos cursos desaprobaste más de una vez?</label>
 						<p>Número de cursos desaprobados más de una vez</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P332) . '<div class="help-block error"></div>						
 			</div>
 
 
@@ -2262,12 +4427,12 @@ echo '
 			<div class="form-group">
 				<label for="">333. En cuánto tiempo esperas acabar tu carrera?</label>
 						<p>Número de años</p>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P333) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
 				<label for="">334. Crees que terminarás la carrera sin haber desaprobado algún curso?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C3P334) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
@@ -2957,16 +5122,16 @@ echo '
 					             </thead>
 					              <tbody>
 					              <tr>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error">' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P401) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P402) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P403) . '<div class="help-block error">' . form_input($C4P403_OBS) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P404) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P405) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P406) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P407) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P408) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P409) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P410) . '<div class="help-block error"></div></td>
 					              </tr>  
 			              </tbody>
 			           </table>	
@@ -2989,85 +5154,49 @@ echo '
 					          <thead>
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Diario?</th>
-					                 <th class="span3">Interdiario</th>
-					                 <th class="span3">Semanal?</th>
-					                 <th class="span3">Mensualmente?</th>
-					                 <th class="span3">Nunca</th>
+					                 <th class="span3">Diario? / Interdiario? / Semanal? / Mensualmente? / Nunca</th>
+					                 <th class="span3"></th>
+					                 <th class="span3"></th>
+					                 <th class="span3"></th>
+					                 <th class="span3"></th>
 					                </tr>					              
 					         </thead>
 					         <tbody>
 					              <tr>
 					                 <td>Has leído libros porque te gusta hacerlo (no obligado)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Has leído revistas o documentos porque te gusta hacerlo (no obligado)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_2) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Has leído diarios o semanarios porque te gusta hacerlo (no obligado)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Has escuchado música en la radio</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_4) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Has escuchado noticias en la radio</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_5) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Has escuchado otro tipo de programas en la radio</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_6) . '<div class="help-block error"></div></td>
 					              </tr>  		
 					              <tr>
 					                 <td>Has visto noticias en la TV</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_7) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Has visto programas nacionales de entretenimiento en la TV</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_8) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Has vsito otros programas extranjeros de entretenimiento en la TV</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P411_9) . '<div class="help-block error"></div></td>
 					              </tr>  					              				              				              				              					              
 			              </tbody>
 			           </table>	
@@ -3087,20 +5216,20 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Computadora</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P412_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                  <td>Laptop</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C4P412_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Tablet</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P412_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Ninguno</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P412_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
 			              </tbody>
@@ -3112,7 +5241,7 @@ echo '
 	<div class="col-md-6">	
 			<div class="form-group">
 				<label for="">413. Accedes al servicio de Internet?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C4P413) . '<div class="help-block error"></div>					
 			</div>
 
 	</div>	   
@@ -3124,53 +5253,29 @@ echo '
 					          <thead>
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span3">Diario?</th>
-					                 <th class="span3">Interdiario</th>
-					                 <th class="span3">Semanal?</th>
-					                 <th class="span3">Mensualmente?</th>
-					                 <th class="span3">Nunca</th>
+					                 <th class="span3">Diario? / Interdiario? / Semanal? / Mensualmente? / Nunca</th>
 					                </tr>					              
 					         </thead>
 					         <tbody>
 					              <tr>
 					                 <td>Para comunicarte (correo electrónico, redes sociales, etc)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P414_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Por motivos de estudio (resolver tareas, buscar información académica, etc)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P414_2) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Para buscar información (noticias, libros, blogs, etc)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P414_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Para recreación (música, juegos, videos)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P414_4) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Para aprender cosas nuevas</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P414_5) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              				              				              				              					              
 			              </tbody>
@@ -3180,10 +5285,11 @@ echo '
 						<table class="table table-condensed" id="emb_table">
 					          <thead>
 					               <tr>
-					                 <th class="span3"></th>
+					                 <th class="span3" colspan="2"></th>
 					                 <th class="span3" colspan="3">415.1 Que tan involucrado está?</th>
 					                </tr>						          
 					               <tr>
+					                 <th class="span3"></th>
 					                 <th class="span3"></th>
 					                 <th class="span3">Va a las reuniones?</th>
 					                 <th class="span3">Participa en los procesos de decisión?</th>
@@ -3193,30 +5299,35 @@ echo '
 					         <tbody>
 					              <tr>
 					                 <td>Organización de caridad (No como beneficiario)?</td>
+					                 <td>' . form_input($C4P415_1) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Organización Comunitaria o de barrio (de base)?</td>
+					                 <td>' . form_input($C4P415_2) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Organización Religiosa?</td>
+					                 <td>' . form_input($C4P415_3) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Junta de vecinos?</td>
+					                 <td>' . form_input($C4P415_4) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Instancia de participación apoyadas por el estado?</td>
+					                 <td>' . form_input($C4P415_5) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
@@ -3224,48 +5335,56 @@ echo '
 
 					              <tr>
 					                 <td>Organización étnica?</td>
+					                 <td>' . form_input($C4P415_6) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Organización cultural o deportiva?</td>
+					                 <td>' . form_input($C4P415_7) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>De educación (asocianes padres de familia, etc)?</td>
+					                 <td>' . form_input($C4P415_8) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Organización de conservacion del medio ambiente?</td>
+					                 <td>' . form_input($C4P415_9) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Asociación de vigilancia y seguridad??</td>
+					                 <td>' . form_input($C4P415_10) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Sindicato, cooperativa de trabajo o agremiación de productores?</td>
+					                 <td>' . form_input($C4P415_11) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Movimiento político?</td>
+					                 <td>' . form_input($C4P415_12) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Otro</td>
+					                 <td>' . form_input($C4P415_13) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
@@ -3278,6 +5397,7 @@ echo '
 					              </tr>						              	
 					              <tr>
 					                 <td>Ninguna</td>
+					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
@@ -3321,17 +5441,17 @@ echo '
 
 			<div class="form-group">
 				<label for="">501. La semana pasada, del ..... al .... Tuvo usted algún trabajo? (Sin contar los quehaceres del hogar)</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C5P501) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
 				<label for="">502. Aunque no trabajo la semana pasada. Tiene algun empleo fijo al que próximamente volverá?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C5P502) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
 				<label for="">503. Aunque no trabajo la semana pasada. Tiene algun negocio propio al que próximamente volverá?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C5P503) . '<div class="help-block error"></div>					
 			</div>
 
 
@@ -3347,47 +5467,47 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Trabajando en algún negocio propio o del algún familiar?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                  <td>Ofreciendo algún servicio?</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C5P504_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Haciendo algo en casa para vender?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Vendiendo productos de belleza, joyas, etc. ?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Haciendo prácticas pagadas en un centro de trabajo</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_5) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Trabajando para un hogar particular</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_6) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Fabricando algún producto</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_7) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Realizando labores en la chacra o cuidado de animales</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_8) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Otra</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P504_9) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-									<td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+									<td>' . form_input($C5P504_9OBS) . '<div class="help-block error"></div>Especifique</td>
 					                 <td></td>
 					               </tr>
 			              </tbody>
@@ -3404,28 +5524,28 @@ echo '
 			<div class="form-group">
 				<label for="">505. Ocupación principal</label>
 				<p>a. Cuál es la función principal que desempeñó?</p>
-						' . form_input($test) . '<div class="help-block error"></div>	
+						' . form_input($C5P505A) . '<div class="help-block error"></div>	
 				<p>a. Qué tareas realizó en su ocupación principal?</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
+						' . form_input($C5P505B) . '<div class="help-block error"></div>												
 			</div>
 
 			<div class="form-group">
 				<label for="">506. A qué se dedica el negocio organismo o empresa en que trabajó en su ocupación principal?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C5P506) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
 				<label for="">507. Ud. se desempeñó en su ocupación principal o negocio como:</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C5P507) . '<div class="help-block error"></div>
 						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
+						' . form_input($C5P507_OBS) . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
 				<label for="">508. Bajo que tipo de contrato:</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C5P508) . '<div class="help-block error"></div>
 						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
+						' . form_input($C5P508_OBS) . '<div class="help-block error"></div>												
 			</div>	
 
 
@@ -3440,35 +5560,35 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Domingo</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                  <td>Lunes</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C5P509_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Martes</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Miércoles</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Jueves</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_5) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Viernes</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_7) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Sabado</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_8) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
@@ -3499,7 +5619,7 @@ echo '
 
 			<div class="form-group">
 				<label for="">510. En su ocupación principal. A Ud. le pagan?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+						' . form_input($C5P510) . '<div class="help-block error"></div>					
 			</div>
 
 			<div class="form-group">
@@ -3507,11 +5627,11 @@ echo '
 					<div class="row">
 							<div class="col-md-6">	
 								<p>Monetario</p>
-								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>	
+								S/. ' . form_input($C5P511_MON) . '(En enteros)<div class="help-block error"></div>	
 							</div>		
 							<div class="col-md-6">	
 								<p>En especie</p>
-								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>
+								S/. ' . form_input($C5P511_ESP) . '(En enteros)<div class="help-block error"></div>
 							</div>			
 					</div>													
 			</div>	
@@ -3527,11 +5647,11 @@ echo '
 					<div class="row">
 							<div class="col-md-6">	
 								<p>Monetario</p>
-								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>	
+								S/. ' . form_input($C5P512_MON) . '(En enteros)<div class="help-block error"></div>	
 							</div>		
 							<div class="col-md-6">	
 								<p>En especie</p>
-								S/. ' . form_input($test) . '(En enteros)<div class="help-block error"></div>
+								S/. ' . form_input($C5P512_ESP) . '(En enteros)<div class="help-block error"></div>
 
 							</div>	
 
@@ -3548,21 +5668,21 @@ echo '
 	<div class="col-md-6">		
 			<div class="form-group">
 				<label for="">513. El sistema de seguro de Salud al cual ud. esta afiliado es:</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C5P513) . '<div class="help-block error"></div>
 						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
+						' . form_input($C5P513_OBS) . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
 				<label for="">514. Por sus antepasados y de acuerdo a sus costumbres. Usted se considera?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+						' . form_input($C5P514) . '<div class="help-block error"></div>
 						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
+						' . form_input($C5P514_OBS) . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
 				<label for="">Observaciones</label>
-					'.form_textarea($test).'										
+					'.form_textarea($C5_OBS).'										
 			</div>	
 	</div>
 
@@ -3629,23 +5749,23 @@ echo '
 					              </tr>  
 					              <tr>
 					                 <td>1. Dormir?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_1) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>2. Acudir a una consulta médica, realizarse análisis clínicos, terapia, rehabilitación, estudios médicos? (Ecografías, radiografías, etc)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_2) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td><b>B. Actividades Educativas</b></td>
@@ -3660,56 +5780,56 @@ echo '
 					              </tr>  	
 					              <tr>
 					                 <td>3. Asistir a clase en la institución de educación superior?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>4. Estudiar o realizar tareas de educación superior en su vivienda, biblioteca u otro lugar? (fuera del horario de clase)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_4) . '<div class="help-block error"></div></td>
 					              </tr> 
 
 					              <tr>
 					                 <td>5. Recibir clases particulares de nivelación o afianzamiento para sus estudios? (fuera de lo que brinda la institución de educación superior)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_5) . '<div class="help-block error"></div></td>
 					              </tr>  
 
 
 					              <tr>
 					                 <td>6. Asistir a talleres de capacitación, seminarios, conferencias, fórum, etc. Sobre liderazgo, nutrición, salud reproductiva, etc., de carácter educativo</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_6) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>7. Trasladarse (ida y vuelta), universidad, academia, instituto o por alguna otra actividad educativa? (Asistencia a seminarios, conferencias, biblioteca, etc.)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_7) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td><b>C. Tiempo libre</b></td>
@@ -3725,88 +5845,88 @@ echo '
 
 					              <tr>
 					                 <td>8. Ver televisión sin realizar ninguna otra actividad?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_8) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>9. Leer libros, revistas, periódicos, etc.? (no incluir si es por trabajo o estudio)?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_9) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>10. Salir a pasear o a actividades de recreación </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_10) . '<div class="help-block error"></div></td>
 					              </tr>  
 
 					              <tr>
 					                 <td>11. Practicar algún instrumento musical o realizar alguna actividad artística? (no incluir si es por trabajo o estudio profesional) </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_11) . '<div class="help-block error"></div></td>
 					              </tr>  
 
 					              <tr>
 					                 <td>12. Descansar </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_12) . '<div class="help-block error"></div></td>
 					              </tr>  		
 
 					              <tr>
 					                 <td>13. Navegar o chatear por internet, jugar en la computadora, jugar intendo, play station en televisión o por computadora? </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_13) . '<div class="help-block error"></div></td>
 					              </tr>  
 
 					              <tr>
 					                 <td>14. Realizar algún deporte?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_14) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_14) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_14) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_14) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_14) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_14) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_14) . '<div class="help-block error"></div></td>
 					              </tr>  
 
 					              <tr>
 					                 <td>15. Compartir tiempo con su familia?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_15) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_15) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_15) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_15) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_15) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_15) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_15) . '<div class="help-block error"></div></td>
 					              </tr>  
 
 					              <tr>
@@ -3824,13 +5944,13 @@ echo '
 
 					              <tr>
 					                 <td>16. Lavar, cocinar, compras domésticas, planchar, entre otras?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P601_16) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602H_16) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602M_16) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P602A_16) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603H_16) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603M_16) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C6P603A_16) . '<div class="help-block error"></div></td>
 					              </tr> 					              
 			              </tbody>
 			           </table>	
@@ -3876,76 +5996,76 @@ echo '
 					         <tbody>
 					              <tr>
 					                 <td>1. Me propongo ser el (la) mejor del mundo en las cosas que hago</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>2. He superado dificultades para conquistar un reto o algo importante</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_2) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>3. Nuevas ideas y proyectos a veces me distraen de los que ya tenia</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>4. Ambiciono salir adelante</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_4) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>5. Cambio de intereses de un año al otro </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_5) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>6. Las dificultades no me desalientan </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_6) . '<div class="help-block error"></div></td>
 					              </tr>  		
 
 					              <tr>
 					                 <td>7. He estado obsesionado con ideas o proyectos pero al poco tiempo pierdo el interés en ellos </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_7) . '<div class="help-block error"></div></td>
 					              </tr>  	
 
 					              <tr>
 					                 <td>8. Soy una persona que trabaja duro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_8) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>9. A menudo propongo metas, pero luego persigo otras distintas</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_9) . '<div class="help-block error"></div></td>
 					              </tr>  		
 
 					              <tr>
 					                 <td>10. Tengo dificultad para mantener mi atención en proyectos que duran muchos meses en terminarse </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_10) . '<div class="help-block error"></div></td>
 				              	</tr>  
 
 					              <tr>
 					                 <td>11. Siempre termino lo que empiezo</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_11) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>12. Lograr algo de importancia duradera es la meta más importante de mi vida</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_12) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>13. Pienso que se le da demasiada importancia al éxito</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_13) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>14. He logrado una meta que me llevo años de esfuerzo conseguir</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_14) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>15. Siempre busco tener éxito </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_15) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>16. Cada cierto tiempo me intereso en nuevas metas </td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_16) . '<div class="help-block error"></div></td>
 					              </tr>  		
 
 					              <tr>
 					                 <td>17. Soy dedicado y disciplinado</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P701_17) . '<div class="help-block error"></div></td>
 					              </tr>  
 			              </tbody>
 			           </table>	
@@ -3964,28 +6084,31 @@ echo '
 					         <tbody>
 					              <tr>
 					                 <td>1. En la mayoría de aspectos de mi vida es cercana a mi ideal</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P702_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>2. Las condiciones de mi vida son excelentes</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P702_2) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>3. Estoy satisfecho/a con mi vida</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P702_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>4. Hasta ahora, he conseguido las cosas importantes que he deseado en la vida</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P702_4) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>5. Si pudiera vivir mi vida de nuevo, no cambiaría casi nada</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C7P702_5) . '<div class="help-block error"></div></td>
 					              </tr>  	
 			              </tbody>
 			           </table>	
 
-
+			<div class="form-group">
+				<label for="">Observaciones</label>
+					'.form_textarea($C5_OBS).'										
+			</div>	
 	</div>
 
 
