@@ -411,32 +411,198 @@ $C3P204 = array(
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
-//////////////////////////////////////////////////////////////////////// EN OBSERVACION
-//////////////////////////////////////////////////////////////////////// 
-////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////// 
-//////////////////////////////////////////////////////////////////////// 
-//////////////////////////////////////////////////////////////////////// 
-//////////////////////////////////////////////////////////////////////// 
-$C3P205 = array(
-	'name'	=> 'C3P205',
-	'id'	=> 'C3P205',
+
+$C2P205_1 = array(
+	'name'	=> 'C2P205_1',
+	'id'	=> 'C2P205_1',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
-//////////////////////////////////////////////////////////////////////// EN OBSERVACION
-//////////////////////////////////////////////////////////////////////// 
-////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////// 
-//////////////////////////////////////////////////////////////////////// 
-//////////////////////////////////////////////////////////////////////// 
-//////////////////////////////////////////////////////////////////////// 
-$C3P205_OBS = array(
-	'name'	=> 'C3P205_OBS',
-	'id'	=> 'C3P205_OBS',
+
+$C2P205_2 = array(
+	'name'	=> 'C2P205_2',
+	'id'	=> 'C2P205_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_3 = array(
+	'name'	=> 'C2P205_3',
+	'id'	=> 'C2P205_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_4 = array(
+	'name'	=> 'C2P205_4',
+	'id'	=> 'C2P205_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_5 = array(
+	'name'	=> 'C2P205_5',
+	'id'	=> 'C2P205_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_6 = array(
+	'name'	=> 'C2P205_6',
+	'id'	=> 'C2P205_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_7 = array(
+	'name'	=> 'C2P205_7',
+	'id'	=> 'C2P205_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_8 = array(
+	'name'	=> 'C2P205_8',
+	'id'	=> 'C2P205_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P205_8OBS = array(
+	'name'	=> 'C2P205_8OBS',
+	'id'	=> 'C2P205_8OBS',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P206_1 = array(
+	'name'	=> 'C2P206_1',
+	'id'	=> 'C2P206_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P206_2 = array(
+	'name'	=> 'C2P206_2',
+	'id'	=> 'C2P206_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P206_3 = array(
+	'name'	=> 'C2P206_3',
+	'id'	=> 'C2P206_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P206_4 = array(
+	'name'	=> 'C2P206_4',
+	'id'	=> 'C2P206_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P206_5 = array(
+	'name'	=> 'C2P206_5',
+	'id'	=> 'C2P206_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P206_5OBS = array(
+	'name'	=> 'C2P206_5OBS',
+	'id'	=> 'C2P206_5OBS',
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
+
+
+$C2P207 = array(
+	'name'	=> 'C2P207',
+	'id'	=> 'C2P207',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C2P207_OBS = array(
+	'name'	=> 'C2P207_OBS',
+	'id'	=> 'C2P207_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C2P208 = array(
+	'name'	=> 'C2P208',
+	'id'	=> 'C2P208',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P208_OBS = array(
+	'name'	=> 'C2P208_OBS',
+	'id'	=> 'C2P208_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C2P209_ANIO = array(
+	'name'	=> 'C2P209_ANIO',
+	'id'	=> 'C2P209_ANIO',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C2P209_MES = array(
+	'name'	=> 'C2P209_MES',
+	'id'	=> 'C2P209_MES',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C2P210 = array(
+	'name'	=> 'C2P210',
+	'id'	=> 'C2P210',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P211 = array(
+	'name'	=> 'C2P211',
+	'id'	=> 'C2P211',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P212 = array(
+	'name'	=> 'C2P212',
+	'id'	=> 'C2P212',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C2P212_OBS = array(
+	'name'	=> 'C2P212_OBS',
+	'id'	=> 'C2P212_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C2P213 = array(
+	'name'	=> 'C2P213',
+	'id'	=> 'C2P213',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C2P214 = array(
+	'name'	=> 'C2P214',
+	'id'	=> 'C2P214',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+//////////////////////////////////////////////////////////////////////// 
 
 
 //FIN CAP 2
@@ -471,6 +637,49 @@ $C3P303A = array(
 	'maxlength'	=> 2,
 	'class' => 'form-control',
 );
+
+$C3P304_CCDD = array(
+	'name'	=> 'C3P304_CCDD',
+	'id'	=> 'C3P304_CCDD',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P304_DD = array(
+	'name'	=> 'C3P304_DD',
+	'id'	=> 'C3P304_DD',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P304_CCPP = array(
+	'name'	=> 'C3P304_CCPP',
+	'id'	=> 'C3P304_CCPP',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P304_PP = array(
+	'name'	=> 'C3P304_PP',
+	'id'	=> 'C3P304_PP',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P304_CCDI = array(
+	'name'	=> 'C3P304_CCDI',
+	'id'	=> 'C3P304_CCDI',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P304_DI = array(
+	'name'	=> 'C3P304_DI',
+	'id'	=> 'C3P304_DI',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
 
 $C3P305 = array(
 	'name'	=> 'C3P303A',
@@ -660,6 +869,55 @@ $C3P313A = array(
 	'maxlength'	=> 2,
 	'class' => 'form-control',
 );
+
+
+$C3P314_CCDD = array(
+	'name'	=> 'C3P314_CCDD',
+	'id'	=> 'C3P314_CCDD',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C3P314_DD = array(
+	'name'	=> 'C3P314_DD',
+	'id'	=> 'C3P314_DD',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P314_CCPP = array(
+	'name'	=> 'C3P314_CCPP',
+	'id'	=> 'C3P314_CCPP',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P314_PP = array(
+	'name'	=> 'C3P314_PP',
+	'id'	=> 'C3P314_PP',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+
+$C3P314_CCDI = array(
+	'name'	=> 'C3P314_CCDI',
+	'id'	=> 'C3P314_CCDI',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C3P314_DI = array(
+	'name'	=> 'C3P314_DI',
+	'id'	=> 'C3P314_DI',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+
+
 
 $C3P315 = array(
 	'name'	=> 'C3P315',
@@ -973,19 +1231,21 @@ $C3P328 = array(
 	'class' => 'form-control',
 );
 
-$C3P328_OBS = array(
-	'name'	=> 'C3P328_OBS',
-	'id'	=> 'C3P328_OBS',
-	'maxlength'	=> 50,
-	'class' => 'form-control',
-);
-
 $C3P329 = array(
 	'name'	=> 'C3P329',
 	'id'	=> 'C3P329',
 	'maxlength'	=> 10,
 	'class' => 'form-control',
 );
+
+
+$C3P329_OBS = array(
+	'name'	=> 'C3P328_OBS',
+	'id'	=> 'C3P328_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
 
 $C3P330 = array(
 	'name'	=> 'C3P330',
@@ -1065,6 +1325,13 @@ $C3P335_1 = array(
 	'class' => 'form-control',
 );
 
+$C3P336_1 = array(
+	'name'	=> 'C3P336_1',
+	'id'	=> 'C3P336_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
 $C3P336_2 = array(
 	'name'	=> 'C3P336_2',
 	'id'	=> 'C3P336_2',
@@ -1079,6 +1346,14 @@ $C3P336_3 = array(
 	'class' => 'form-control',
 );
 
+$C3P336_3OBS = array(
+	'name'	=> 'C3P336_5',
+	'id'	=> 'C3P336_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
 $C3P336_4 = array(
 	'name'	=> 'C3P336_4',
 	'id'	=> 'C3P336_4',
@@ -1086,19 +1361,7 @@ $C3P336_4 = array(
 	'class' => 'form-control',
 );
 
-$C3P336_5 = array(
-	'name'	=> 'C3P336_5',
-	'id'	=> 'C3P336_5',
-	'maxlength'	=> 1,
-	'class' => 'form-control',
-);
 
-$C3P336_OBS = array(
-	'name'	=> 'C3P336_OBS',
-	'id'	=> 'C3P336_OBS',
-	'maxlength'	=> 50,
-	'class' => 'form-control',
-);
 
 $C3P337 = array(
 	'name'	=> 'C3P337',
@@ -1562,6 +1825,297 @@ $C3P349_OBS = array(
 	'class' => 'form-control',
 );
 
+$C3P350 = array(
+	'name'	=> 'C3P350',
+	'id'	=> 'C3P350',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P351_1 = array(
+	'name'	=> 'C3P351_1',
+	'id'	=> 'C3P351_1',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P351_2 = array(
+	'name'	=> 'C3P351_2',
+	'id'	=> 'C3P351_2',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P351_3 = array(
+	'name'	=> 'C3P351_3',
+	'id'	=> 'C3P351_3',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P352 = array(
+	'name'	=> 'C3P352',
+	'id'	=> 'C3P352',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P353 = array(
+	'name'	=> 'C3P353',
+	'id'	=> 'C3P353',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P354 = array(
+	'name'	=> 'C3P354',
+	'id'	=> 'C3P354',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P355 = array(
+	'name'	=> 'C3P355',
+	'id'	=> 'C3P355',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P355_OBS = array(
+	'name'	=> 'C3P355_OBS',
+	'id'	=> 'C3P355_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P356 = array(
+	'name'	=> 'C3P356',
+	'id'	=> 'C3P356',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P357 = array(
+	'name'	=> 'C3P357',
+	'id'	=> 'C3P357',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P358 = array(
+	'name'	=> 'C3P358',
+	'id'	=> 'C3P358',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C3P359 = array(
+	'name'	=> 'C3P359',
+	'id'	=> 'C3P359',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_1 = array(
+	'name'	=> 'C3P360_1',
+	'id'	=> 'C3P360_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_2 = array(
+	'name'	=> 'C3P360_2',
+	'id'	=> 'C3P360_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_3 = array(
+	'name'	=> 'C3P360_3',
+	'id'	=> 'C3P360_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_4 = array(
+	'name'	=> 'C3P360_4',
+	'id'	=> 'C3P360_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_5 = array(
+	'name'	=> 'C3P360_5',
+	'id'	=> 'C3P360_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_6 = array(
+	'name'	=> 'C3P360_6',
+	'id'	=> 'C3P360_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+
+$C3P360_7 = array(
+	'name'	=> 'C3P360_7',
+	'id'	=> 'C3P360_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_7 = array(
+	'name'	=> 'C3P360_7',
+	'id'	=> 'C3P360_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_8 = array(
+	'name'	=> 'C3P360_8',
+	'id'	=> 'C3P360_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P360_OBS = array(
+	'name'	=> 'C3P360_OBS',
+	'id'	=> 'C3P360_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P361_1 = array(
+	'name'	=> 'C3P361',
+	'id'	=> 'C3P361',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P361_2 = array(
+	'name'	=> 'C3P361_2',
+	'id'	=> 'C3P361_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P361_3 = array(
+	'name'	=> 'C3P361_3',
+	'id'	=> 'C3P361_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P361_4 = array(
+	'name'	=> 'C3P361_4',
+	'id'	=> 'C3P361_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P361_5 = array(
+	'name'	=> 'C3P361_5',
+	'id'	=> 'C3P361_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P361_5OBS = array(
+	'name'	=> 'C3P361_OBS',
+	'id'	=> 'C3P361_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P362_1 = array(
+	'name'	=> 'C3P362_1',
+	'id'	=> 'C3P362_1',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_2 = array(
+	'name'	=> 'C3P362_2',
+	'id'	=> 'C3P362_2',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_3 = array(
+	'name'	=> 'C3P362_3',
+	'id'	=> 'C3P362_3',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_4 = array(
+	'name'	=> 'C3P362_4',
+	'id'	=> 'C3P362_4',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_5 = array(
+	'name'	=> 'C3P362_5',
+	'id'	=> 'C3P362_5',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_6 = array(
+	'name'	=> 'C3P362_6',
+	'id'	=> 'C3P362_6',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_7 = array(
+	'name'	=> 'C3P362_7',
+	'id'	=> 'C3P362_7',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_8 = array(
+	'name'	=> 'C3P362_8',
+	'id'	=> 'C3P362_8',
+	'maxlength'	=> 3,
+	'class' => 'form-control',
+);
+
+$C3P362_OBS = array(
+	'name'	=> 'C3P362_OBS',
+	'id'	=> 'C3P362_OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
+$C3P362_TOTAL = array(
+	'name'	=> 'C3P362_TOTAL',
+	'id'	=> 'C3P362_TOTAL',
+	'maxlength'	=> 6,
+	'class' => 'form-control',
+);
+
+$C3_OBS = array(
+	'name'	=> 'C3_OBS',
+	'id'	=> 'C3_OBS',
+	'maxlength'	=> 1000,
+	'class' => 'form-control',
+);
+
+
+
+
+
+
+
+
+
+
 
 //FIN CAP 3
 
@@ -1882,6 +2436,287 @@ $C4P415_13OBS = array(
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
+
+$C4P415A_1 = array(
+	'name'	=> 'C4P415A_1',
+	'id'	=> 'C4P415A_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_2 = array(
+	'name'	=> 'C4P415A_2',
+	'id'	=> 'C4P415A_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_3 = array(
+	'name'	=> 'C4P415A_3',
+	'id'	=> 'C4P415A_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_4 = array(
+	'name'	=> 'C4P415A_4',
+	'id'	=> 'C4P415A_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_5 = array(
+	'name'	=> 'C4P415A_5',
+	'id'	=> 'C4P415A_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_6 = array(
+	'name'	=> 'C4P415A_6',
+	'id'	=> 'C4P415A_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_7 = array(
+	'name'	=> 'C4P415A_7',
+	'id'	=> 'C4P415A_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_8 = array(
+	'name'	=> 'C4P415A_8',
+	'id'	=> 'C4P415A_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_9 = array(
+	'name'	=> 'C4P415A_9',
+	'id'	=> 'C4P415A_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_10 = array(
+	'name'	=> 'C4P415A_10',
+	'id'	=> 'C4P415A_10',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_11 = array(
+	'name'	=> 'C4P415A_11',
+	'id'	=> 'C4P415A_11',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_12 = array(
+	'name'	=> 'C4P415A_12',
+	'id'	=> 'C4P415A_12',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415A_13 = array(
+	'name'	=> 'C4P415A_13',
+	'id'	=> 'C4P415A_13',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_1 = array(
+	'name'	=> 'C4P415B_1',
+	'id'	=> 'C4P415B_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_2 = array(
+	'name'	=> 'C4P415B_2',
+	'id'	=> 'C4P415B_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_3 = array(
+	'name'	=> 'C4P415B_3',
+	'id'	=> 'C4P415B_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_4 = array(
+	'name'	=> 'C4P415B_4',
+	'id'	=> 'C4P415B_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_5 = array(
+	'name'	=> 'C4P415B_5',
+	'id'	=> 'C4P415B_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_6 = array(
+	'name'	=> 'C4P415B_6',
+	'id'	=> 'C4P415B_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_7 = array(
+	'name'	=> 'C4P415B_7',
+	'id'	=> 'C4P415B_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_8 = array(
+	'name'	=> 'C4P415B_8',
+	'id'	=> 'C4P415B_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_9 = array(
+	'name'	=> 'C4P415B_9',
+	'id'	=> 'C4P415B_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_10 = array(
+	'name'	=> 'C4P415B_10',
+	'id'	=> 'C4P415B_10',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_11 = array(
+	'name'	=> 'C4P415B_11',
+	'id'	=> 'C4P415B_11',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_12 = array(
+	'name'	=> 'C4P415B_12',
+	'id'	=> 'C4P415B_12',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415B_13 = array(
+	'name'	=> 'C4P415B_13',
+	'id'	=> 'C4P415B_13',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_1 = array(
+	'name'	=> 'C4P415C_1',
+	'id'	=> 'C4P415C_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_2 = array(
+	'name'	=> 'C4P415C_2',
+	'id'	=> 'C4P415C_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_3 = array(
+	'name'	=> 'C4P415C_3',
+	'id'	=> 'C4P415C_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_4 = array(
+	'name'	=> 'C4P415C_4',
+	'id'	=> 'C4P415C_4',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_5 = array(
+	'name'	=> 'C4P415C_5',
+	'id'	=> 'C4P415C_5',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_6 = array(
+	'name'	=> 'C4P415C_6',
+	'id'	=> 'C4P415C_6',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_7 = array(
+	'name'	=> 'C4P415C_7',
+	'id'	=> 'C4P415C_7',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_8 = array(
+	'name'	=> 'C4P415C_8',
+	'id'	=> 'C4P415C_8',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_9 = array(
+	'name'	=> 'C4P415C_9',
+	'id'	=> 'C4P415C_9',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_10 = array(
+	'name'	=> 'C4P415C_10',
+	'id'	=> 'C4P415C_10',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_11 = array(
+	'name'	=> 'C4P415C_11',
+	'id'	=> 'C4P415C_11',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_12 = array(
+	'name'	=> 'C4P415C_12',
+	'id'	=> 'C4P415C_12',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_13 = array(
+	'name'	=> 'C4P415C_13',
+	'id'	=> 'C4P415C_13',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C4P415C_13OBS = array(
+	'name'	=> 'C4P415C_13OBS',
+	'id'	=> 'C4P415C_13OBS',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+
 
 //FIN CAP 4
 
@@ -2413,112 +3248,112 @@ $C6P602H_16 = array(
 $C6P602M_1 = array(
 	'name'	=> 'C6P602M_1',
 	'id'	=> 'C6P602M_1',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_2 = array(
 	'name'	=> 'C6P602M_2',
 	'id'	=> 'C6P602M_2',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_3 = array(
 	'name'	=> 'C6P602M_3',
 	'id'	=> 'C6P602M_3',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_4 = array(
 	'name'	=> 'C6P602M_4',
 	'id'	=> 'C6P602M_4',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_5 = array(
 	'name'	=> 'C6P602M_5',
 	'id'	=> 'C6P602M_5',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_6 = array(
 	'name'	=> 'C6P602M_6',
 	'id'	=> 'C6P602M_6',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_7 = array(
 	'name'	=> 'C6P602M_7',
 	'id'	=> 'C6P602M_7',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_8 = array(
 	'name'	=> 'C6P602M_8',
 	'id'	=> 'C6P602M_8',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_9 = array(
 	'name'	=> 'C6P602M_9',
 	'id'	=> 'C6P602M_9',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_10 = array(
 	'name'	=> 'C6P602M_10',
 	'id'	=> 'C6P602M_10',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_11 = array(
 	'name'	=> 'C6P602M_11',
 	'id'	=> 'C6P602M_11',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_12 = array(
 	'name'	=> 'C6P602M_12',
 	'id'	=> 'C6P602M_12',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_13 = array(
 	'name'	=> 'C6P602M_13',
 	'id'	=> 'C6P602M_13',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_14 = array(
 	'name'	=> 'C6P602M_14',
 	'id'	=> 'C6P602M_14',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_15 = array(
 	'name'	=> 'C6P602M_15',
 	'id'	=> 'C6P602M_15',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P602M_16 = array(
 	'name'	=> 'C6P602M_16',
 	'id'	=> 'C6P602M_16',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
@@ -2749,112 +3584,112 @@ $C6P603H_16 = array(
 $C6P603M_1 = array(
 	'name'	=> 'C6P603M_1',
 	'id'	=> 'C6P603M_1',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_2 = array(
 	'name'	=> 'C6P603M_2',
 	'id'	=> 'C6P603M_2',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_3 = array(
 	'name'	=> 'C6P603M_3',
 	'id'	=> 'C6P603M_3',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_4 = array(
 	'name'	=> 'C6P603M_4',
 	'id'	=> 'C6P603M_4',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_5 = array(
 	'name'	=> 'C6P603M_5',
 	'id'	=> 'C6P603M_5',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_6 = array(
 	'name'	=> 'C6P603M_6',
 	'id'	=> 'C6P603M_6',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_7 = array(
 	'name'	=> 'C6P603M_7',
 	'id'	=> 'C6P603M_7',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_8 = array(
 	'name'	=> 'C6P603M_8',
 	'id'	=> 'C6P603M_8',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_9 = array(
 	'name'	=> 'C6P603M_9',
 	'id'	=> 'C6P603M_9',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_10 = array(
 	'name'	=> 'C6P603M_10',
 	'id'	=> 'C6P603M_10',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_11 = array(
 	'name'	=> 'C6P603M_11',
 	'id'	=> 'C6P603M_11',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_12 = array(
 	'name'	=> 'C6P603M_12',
 	'id'	=> 'C6P603M_12',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_13 = array(
 	'name'	=> 'C6P603M_13',
 	'id'	=> 'C6P603M_13',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_14 = array(
 	'name'	=> 'C6P603M_14',
 	'id'	=> 'C6P603M_14',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_15 = array(
 	'name'	=> 'C6P603M_15',
 	'id'	=> 'C6P603M_15',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
 $C6P603M_16 = array(
 	'name'	=> 'C6P603M_16',
 	'id'	=> 'C6P603M_16',
-	'maxlength'	=> 2,
+	'maxlength'	=> 3,
 	'class' => 'form-control',
 );
 
@@ -3783,39 +4618,39 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Colegio</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                 <td>Medios de Comunicación(periódico, radio, TV)</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C2P205_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Gobierno Regional/Local</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_3) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Familiares/Amigos</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_4) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Postulantes de BECA 18</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_5) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Pagina web PRONABEC</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_6) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Redes Sociales (Facebook, Twitter)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_7) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P205_8) . '<div class="help-block error"></div></td>
 					              </tr>		
 					               <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C2P205_8OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					               </tr>			               				               					                					                						               				               					               					               
 			              </tbody>
@@ -3834,30 +4669,26 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Dedicarme a Trabajar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P206_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                 <td>Prepararme para ingresar a la Universidad/Instituto</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C2P206_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
-					                 <td>Apoyar a un familiar en su negocio chacra</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>Labores del hogar (trabajo no remunerado)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>Apoyar a un familiar en su negocio chacra / Labores del hogar (trabajo no remunerado)</td>
+					                 <td>' . form_input($C2P206_3) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Inscribirme al servicio militar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P206_4) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C2P206_5) . '<div class="help-block error"></div></td>
 					              </tr>		
 					               <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C2P206_5OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					               </tr>			               				               					                					                						               				               					               					               
 			              </tbody>
@@ -3866,9 +4697,9 @@ echo '
 
 				<div class="form-group">
 						<label for="">207. Bajo que modalidad postulaste a la institución educativa a la cual ingresaste para BECA 18?</label>
-						' . form_input($test) . '
+						' . form_input($C2P207) . '
 						<label for="">Especifique</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+						' . form_input($C2P207_OBS) . '<div class="help-block error"></div>						
 				</div>	
 	</div>	
 
@@ -3882,9 +4713,9 @@ echo '
 				<h4>Preparación Academica</h4>
 				<div class="form-group">
 						<label for="">208. Cómo te preparaste para postular a la institución educativa para BECA 18?</label>
-						' . form_input($test) . '
+						' . form_input($C2P208) . '
 						<label for="">Especifique</label>
-						' . form_input($test) . '<div class="help-block error"></div>							
+						' . form_input($C2P208_OBS) . '<div class="help-block error"></div>							
 				</div>	
 
 
@@ -3893,18 +4724,18 @@ echo '
 						<div class="row">
 							<div class="col-md-6">	
 								<p>Años</p>
-								' . form_input($test) . '<div class="help-block error"></div>	
+								' . form_input($C2P209_ANIO) . '<div class="help-block error"></div>	
 							</div>		
 							<div class="col-md-6">	
 								<p>Meses</p>
-								' . form_input($test) . '<div class="help-block error"></div>
+								' . form_input($C2P209_MES) . '<div class="help-block error"></div>
 							</div>			
 						</div>													
 				</div>	
 
 				<div class="form-group">
 						<label for="">210. Consideras que la preparación que tuviste fue suficiente para el examen de admisión?</label>
-						' . form_input($test) . '						
+						' . form_input($C2P210) . '						
 				</div>	
 
 
@@ -3912,26 +4743,26 @@ echo '
 
 				<div class="form-group">
 						<label for="">211. Recibiste algún tipo de orientación o asistencia para elegir la carrera a la que ingresaste para BECA 18?</label>
-						' . form_input($test) . '						
+						' . form_input($C2P211) . '						
 				</div>	
 
 				<div class="form-group">
 						<label for="">212. Quién te brindo orientación o asistencia?</label>
-						' . form_input($test) . '
+						' . form_input($C2P212) . '
 						<label for="">Especifique</label>
-						' . form_input($test) . '<div class="help-block error"></div>							
+						' . form_input($C2P212_OBS) . '<div class="help-block error"></div>							
 				</div>	
 
 				<h4>Hábitos de Estudio</h4>
 
 				<div class="form-group">
 						<label for="">213. Cuando estabas en 5to de Secundaria. Cuántas horas le dedicabas al estudio de lunes a viernes? (No considere las horas de clase)</label>
-						' . form_input($test) . '	Número de horas <div class="help-block error"></div>			
+						' . form_input($C2P213) . '	Número de horas <div class="help-block error"></div>			
 				</div>	
 
 				<div class="form-group">
 						<label for="">214. Cuando estabas en 5to de secundaria. Cuántas horas le dedicabas al estudio los sábados y domingos? (No considere las horas de clase)</label>
-						' . form_input($test) . '	Número de horas	<div class="help-block error"></div>				
+						' . form_input($C2P214) . '	Número de horas	<div class="help-block error"></div>				
 				</div>					
 	</div>							
 </div>
@@ -3983,11 +4814,11 @@ echo '
 			<div class="form-group">
 				<label for="">304. En que departamento, provincia y distrito se encuentra el local donde estudias?</label>
 				<p>Departamento</p>
-				' . form_input($test) . '<div class="help-block error"></div>			
+				' . form_dropdown('C3P304_CCDD', $depArray, FALSE,'class="form-control input200" id="C3P304_CCDD"')  . '<div class="help-block error"></div>			
 				<p>Provincia</p>
-				' . form_input($test) . '<div class="help-block error"></div>	
+				' . form_dropdown('C3P304_CCPP', $depArray, FALSE,'class="form-control input200" id="C3P304_CCPP"') . '<div class="help-block error"></div>	
 				<p>Distrito</p>
-				' . form_input($test) . '<div class="help-block error"></div>												
+				' . form_dropdown('C3P304_CCDI', $depArray, FALSE,'class="form-control input200" id="C3P304_CCDI"') . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
@@ -4147,11 +4978,11 @@ echo '
 			<div class="form-group">
 				<label for="">314. En que departamento, provincia y distrito se encuentra el local donde estudiabas?</label>
 				<p>Departamento</p>
-				' . form_input($test) . '<div class="help-block error"></div>			
+				' . form_dropdown('C3P314_CCDD', $depArray, FALSE,'class="form-control input200" id="C3P314_CCDD"') . '<div class="help-block error"></div>			
 				<p>Provincia</p>
-				' . form_input($test) . '<div class="help-block error"></div>	
+				' . form_dropdown('C3P314_CCPP', $depArray, FALSE,'class="form-control input200" id="C3P314_CCPP"') . '<div class="help-block error"></div>	
 				<p>Distrito</p>
-				' . form_input($test) . '<div class="help-block error"></div>												
+				' . form_dropdown('C3P314_CCDI', $depArray, FALSE,'class="form-control input200" id="C3P314_CCDI"') . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
@@ -4161,7 +4992,12 @@ echo '
 
 			<div class="form-group">
 				<label for="">316. Durante el 2013. En que semestre estuviste matriculado?</label>
-						' . form_input($C3P316_A) . '<div class="help-block error"></div>						
+				<p>2013-I</p>
+
+						' . form_input($C3P316_A) . '<div class="help-block error"></div>	
+				<p>2013-II</p>
+
+						' . form_input($C3P316_B) . '<div class="help-block error"></div>	
 			</div>	
 
 			<div class="form-group">
@@ -4176,26 +5012,14 @@ echo '
 					             </thead>
 					              <tbody>
 							              <tr>
-							                 <td>1</td>
-							                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-							              </tr>  
-							               <tr>
-							                 <td>2</td>
-							                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-							               </tr> 
-							              <tr>
-							                 <td>3</td>
-							                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-							               </tr>
-							              <tr>
-							                 <td>4</td>
-							                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-							               </tr>		               				               					                					                						               				               					               					               
+							                 <td>' . form_input($C3P317_CI) . '</td>
+							                 <td>' . form_input($C3P317_CU) . '<div class="help-block error"></div></td>
+							              </tr>  	               				               					                					                						               				               					               					               
 			              		</tbody>
 			           </table>	
 
 				<p>No completo ningún ciclo?</p>
-						' . form_input($test) . '<div class="help-block error"></div>				           
+						' . form_input($C3P317_NCI) . '<div class="help-block error"></div>				           
 			</div>	
 
 
@@ -4338,13 +5162,17 @@ echo '
 			<div class="form-group">
 				<label for="">322. Durante el último ciclo cursado completo. en cuántos cursos te matriculaste?</label>
 						<p>Número de cursos</p>
-						' . form_input($C3P322) . '<div class="help-block error"></div>						
+						' . form_input($C3P322) . '<div class="help-block error"></div>		
+						<p>La matricula es por ciclos</p>
+						' . form_input($C3P322_NCU) . '<div class="help-block error"></div>													
 			</div>	
 
 			<div class="form-group">
 				<label for="">323. Durante el último ciclo cursado completo. en cuántos créditos te matriculaste?</label>
 						<p>Número de créditos</p>
-						' . form_input($C3P323) . '<div class="help-block error"></div>						
+						' . form_input($C3P323) . '<div class="help-block error"></div>	
+						<p>No sabe / No recuerda</p>
+						' . form_input($C3P323_NSA) . '<div class="help-block error"></div>												
 			</div>	
 
 	</div>
@@ -4362,7 +5190,9 @@ echo '
 			<div class="form-group">
 				<label for="">324. Durante el último ciclo cursado completo. Cual fue el número regular de créditos en los que deberias haberte matriculado?</label>
 						<p>Número de créditos</p>
-						' . form_input($C3P324) . '<div class="help-block error"></div>						
+						' . form_input($C3P324) . '<div class="help-block error"></div>	
+						<p>No sabe / No recuerda</p>
+						' . form_input($C3P324_NSA) . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
@@ -4393,7 +5223,7 @@ echo '
 				<label for="">329. Cuál es la principal razón por la que no aprobaste esos cursos?</label>
 						' . form_input($C3P329) . '<div class="help-block error"></div>
 						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>	
+						' . form_input($C3P329_OBS) . '<div class="help-block error"></div>	
 			</div>
 
 	</div>	
@@ -4406,42 +5236,60 @@ echo '
 			<div class="form-group">
 				<label for="">330. Durante el último ciclo cursado completo. Cuál fue tu promedio ponderado?</label>
 						<p>Promedio Ponderado</p>
-						' . form_input($C3P330) . '<div class="help-block error"></div>						
+						' . form_input($C3P330) . '<div class="help-block error"></div>	
+						<p>No sabe / No recuerda</p>
+						' . form_input($C3P330_NSA) . '<div class="help-block error"></div>												
 			</div>
 
 			<div class="form-group">
 				<label for="">331. Durante el último ciclo cursado completo. Cuál fue tu promedio ponderado acumulado?</label>
 						<p>Promedio Ponderado acumulado</p>
-						' . form_input($C3P331) . '<div class="help-block error"></div>						
+						' . form_input($C3P331) . '<div class="help-block error"></div>	
+						<p>No sabe / No recuerda</p>
+						' . form_input($C3P331_NSA) . '<div class="help-block error"></div>													
 			</div>
 
 			<div class="form-group">
 				<label for="">332. En toda tu carrera. Cuantos cursos desaprobaste más de una vez?</label>
 						<p>Número de cursos desaprobados más de una vez</p>
-						' . form_input($C3P332) . '<div class="help-block error"></div>						
+						' . form_input($C3P332) . '<div class="help-block error"></div>		
+						<p>No sabe / No recuerda</p>
+						' . form_input($C3P332_NSA) . '<div class="help-block error"></div>												
 			</div>
 
 
-			<h4>Expectativas Académicas</h4>
+			<h4>Tutorías</h4>
 
 			<div class="form-group">
-				<label for="">333. En cuánto tiempo esperas acabar tu carrera?</label>
+				<label for="">333. En algún momento desde que ingresaste a la institución educativa superior has recibido servicio de tutorias?</label>
 						<p>Número de años</p>
 						' . form_input($C3P333) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
-				<label for="">334. Crees que terminarás la carrera sin haber desaprobado algún curso?</label>
-						' . form_input($C3P334) . '<div class="help-block error"></div>						
+				<label for="">334. Quién te brindó el servicio de tutorías?</label>
+						' . form_input($C3P334) . '<div class="help-block error"></div>
+						<p>Especifique</p>
+						' . form_input($C3P334_OBS) . '<div class="help-block error"></div>	
 			</div>
 
 			<div class="form-group">
-				<label for="">335. Crees que tendrás que interrumpir tus estudios en algún momento?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
-			</div>
+					<label for="">335. Durante el último ciclo cursado completo. Cuántas sesiones de tutorias individuales o grupales has tenido?</label>
+					<p>Consignar número de tutorías</p>
+					<div class="row">
+							<div class="col-md-6">	
+								<p></p>
+								' . form_input($C3P335) . '<div class="help-block error"></div>	
+							</div>		
+							<div class="col-md-6">	
+								<p>Cuántas?</p>
+								' . form_input($C3P335_1) . '<div class="help-block error"></div>
+							</div>			
+					</div>													
+			</div>	
 
 			<div class="form-group">
-				<label for="">336. Por qué razones crees que dejarías de estudiar?</label>
+				<label for="">336. Cuáles son los medios que tienes disponibles para comunicarte con tu tutor/es?</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
@@ -4451,49 +5299,38 @@ echo '
 					             </thead>
 					              <tbody>
 					              <tr>
-					                 <td>Servicio militar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>Teléfono</td>
+					                 <td>' . form_input($C3P336_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
-					                 <td>Tenia que trabajar por necesidad económica</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>Correo Electrónico</td>
+					                  <td>' . form_input($C3P336_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
-					                 <td>No podia financiar mi carrera</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>Deseaba trabajar</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>No me gustó la carrera</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>Me fue mal académicamente (malas notas)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>Por motivos familiares (paternidad/maternidad/matrimonio)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>Por motivos de salud (accidente/enfermedad)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
 					                 <td>Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P336_3) . '<div class="help-block error"></div></td>
 					              </tr>		
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P336_3OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
-					              </tr>			               				               					                					                						               				               					               					               
+					              </tr>			
+
+					              <tr>
+					                 <td>Ninguno</td>
+					                 <td>' . form_input($C3P336_4) . '<div class="help-block error"></div></td>
+					               </tr>
+
 			              </tbody>
-			           </table>						
+			           </table>	
+
 			</div>
 
+			<div class="form-group">
+				<label for="">337. Con qué frecuencia te reunes con tu tutor?</label>
+						' . form_input($C3P337) . '
+						<p>Especifique</p>
+						' . form_input($C3P337_OBS) . '<div class="help-block error"></div>	
+			</div>
 
 
 	</div>	
@@ -4508,83 +5345,56 @@ echo '
 	
 	<div class="col-md-6">	
 
-			<h4>Tutorias</h4>
 
-			<div class="form-group">
-				<label for="">337. En algún momento desde que ingresaste a la institución educativa superior has recibido servicio de tutorías?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
-			</div>
-
-			<div class="form-group">
-				<label for="">338. Quién te brindó el servicio de tutorías?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
-						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>	
-			</div>
-
-
-			<div class="form-group">
-					<label for="">339. Durante el último ciclo cursado completo. Cuántas sesiones de tutorias individuales o grupales has tenido?</label>
-					<p>Consignar número de tutorías</p>
-					<div class="row">
-							<div class="col-md-6">	
-								<p>Individual</p>
-								' . form_input($test) . '<div class="help-block error"></div>	
-							</div>		
-							<div class="col-md-6">	
-								<p>Grupal</p>
-								' . form_input($test) . '<div class="help-block error"></div>
-							</div>			
-					</div>													
-			</div>		
-
-
-			<div class="form-group">
-				<label for="">340. Cuáles son los medios que tienes disponibles para comunicarte con tu tutor/es?</label>
+				<label for="">338. Las estrategias para el desarrollo de las tutorías fueron</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span1"></th>
+					                 <th class="span3"></th>
+					                 <th class="span3">339. Cómo evaluarias las estrategias utilizadas?</th>
+					                </tr>					              
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Si / No</th>
+					                 <th class="span1">1. Nada efectivo / 2. Algo efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
 					                </tr>
 					             </thead>
 					              <tbody>
 					              <tr>
-					                 <td>Teléfono</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>1. Charlas dictadas por el tutor?</td>
+					                 <td>' . form_input($C3P338_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P339_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
-					                 <td>Correo Electrónico</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>2. Talleres participativos?</td>
+					                  <td>' . form_input($C3P338_2) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P339_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
-					                 <td>Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>		
-					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
-					                  <td></td>
+					                 <td>3. Exposiciones?</td>
+					                 <td>' . form_input($C3P338_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P339_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
-					                 <td>Ninguno</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>4. Material Audiovisual</td>
+					                 <td>' . form_input($C3P338_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P339_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
+					              <tr>
+					                 <td>5. Otro</td>
+					                 <td>' . form_input($C3P338_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P339_5) . '<div class="help-block error"></div></td>
+					              </tr>		
+					              <tr>
+					                  <td>' . form_input($C3P338_OBS) . '<div class="help-block error"></div>Especifique</td>
+					                  <td></td>
+					              </tr>	
+
 			              </tbody>
-			           </table>	
-
-			</div>
-
-			<div class="form-group">
-				<label for="">341. Con qué frecuencia te reunes con tu tutor?</label>
-						' . form_input($test) . '
-						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>	
-			</div>
-
-
-
+			           </table>		
 
 
 
@@ -4592,42 +5402,215 @@ echo '
 
 	<div class="col-md-6">	
 
-			<div class="form-group">
-				<label for="">342. Cuán satisfecho te encuentras con el servicio de tutorías</label>
+				<label for="">340. Los temas que se trataron en las sesiones de tutorias fueron:</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
+					                 <th class="span3" colspan="2"></th>
+					                 <th class="span3">341. Cómo evaluarías el apoyo de tu tutor en la asistencia individual?</th>
+					                </tr>					              
+					               <tr>
 					                 <th class="span3"></th>
-					                 <th class="span1">Individual / Grupal</th>
+					                 <th class="span3">Si / No</th>
+					                 <th class="span3">1. Nada efectivo / 2. Poco efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
 					                </tr>
 					             </thead>
 					              <tbody>
 					              <tr>
-					                 <td>a. Muy satisfecho?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>1. Orientación en metodologías y técnicas de estudio?</td>
+					                 <td>' . form_input($C3P340_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P341_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
-					                 <td>b. Satisfecho?</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>2. Apoyo académico?</td>
+					                  <td>' . form_input($C3P340_2) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P341_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
-					                 <td>c. Algo satisfecho?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>3. Soporte emocional?</td>
+					                 <td>' . form_input($C3P340_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P341_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
-					                 <td>d. Nada satisfecho</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>4. Orientación vocacional</td>
+					                 <td>' . form_input($C3P340_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P341_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
-			              </tbody>
-			           </table>	
+					              <tr>
+					                 <td>5. Orientación en servicios académicos</td>
+					                 <td>' . form_input($C3P340_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P341_5) . '<div class="help-block error"></div></td>
+					              </tr>		
+					              <tr>
+					                 <td>6. Resolver dudas académicas</td>
+					                 <td>' . form_input($C3P340_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P341_6) . '<div class="help-block error"></div></td>
+					              </tr>	
+					              <tr>
+					                 <td>7. Diagnosticar las dificultades y realizar las acciones pertinentes para resolverlas</td>
+					                 <td>' . form_input($C3P340_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P341_7) . '<div class="help-block error"></div></td>
+					              </tr>	
 
+			              </tbody>
+			           </table>		
+
+
+	</div>	
+
+</div>';
+
+echo '
+
+<div class="panel panel-info row">
+	
+	<div class="col-md-6">	
+
+
+				<label for="">342. Las estrategias para el desarrollo de las tutorías grupales fueron</label>
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3"></th>
+					                 <th class="span3">343. Cómo evaluarias las estrategias utilizadas?</th>
+					                </tr>					              
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Si / No</th>
+					                 <th class="span1">1. Nada efectivo / 2. Algo efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>1. Charlas dictadas por el tutor?</td>
+					                 <td>' . form_input($C3P342_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P343_1) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                 <td>2. Talleres participativos?</td>
+					                  <td>' . form_input($C3P342_2) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P343_2) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>3. Exposiciones?</td>
+					                 <td>' . form_input($C3P342_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P343_3) . '<div class="help-block error"></div></td>
+					              </tr>			
+
+					              <tr>
+					                 <td>4. Material Audiovisual</td>
+					                 <td>' . form_input($C3P342_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P343_4) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>5. Otro</td>
+					                 <td>' . form_input($C3P342_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P343_5) . '<div class="help-block error"></div></td>
+					              </tr>		
+					              <tr>
+					                  <td>' . form_input($C3P342_OBS) . '<div class="help-block error"></div>Especifique</td>
+					                  <td></td>
+					              </tr>	
+
+			              </tbody>
+			           </table>		
+
+
+
+	</div>	
+
+	<div class="col-md-6">	
+
+				<label for="">344. Los temas que se trataron en las sesiones de tutorias fueron:</label>
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3" colspan="2"></th>
+					                 <th class="span3">345. Cómo evaluarías el apoyo de tu tutor en la asistencia individual?</th>
+					                </tr>					              
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span3">Si / No</th>
+					                 <th class="span3">1. Nada efectivo / 2. Poco efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>1. Orientación en metodologías y técnicas de estudio?</td>
+					                 <td>' . form_input($C3P344_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P345_1) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                 <td>2. Apoyo académico?</td>
+					                  <td>' . form_input($C3P344_2) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P345_2) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>3. Soporte emocional?</td>
+					                 <td>' . form_input($C3P344_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P345_3) . '<div class="help-block error"></div></td>
+					              </tr>			
+
+					              <tr>
+					                 <td>4. Orientación vocacional</td>
+					                 <td>' . form_input($C3P344_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P345_4) . '<div class="help-block error"></div></td>
+					               </tr>
+
+					              <tr>
+					                 <td>5. Orientación en servicios académicos</td>
+					                 <td>' . form_input($C3P344_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P345_5) . '<div class="help-block error"></div></td>
+					              </tr>		
+					              <tr>
+					                 <td>6. Resolver dudas académicas</td>
+					                 <td>' . form_input($C3P344_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P345_6) . '<div class="help-block error"></div></td>
+					              </tr>	
+					              <tr>
+					                 <td>7. Diagnosticar las dificultades y realizar las acciones pertinentes para resolverlas</td>
+					                 <td>' . form_input($C3P344_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P345_7) . '<div class="help-block error"></div></td>
+					              </tr>	
+
+			              </tbody>
+			           </table>		
+
+
+	</div>	
+
+
+<div class="col-md-12">	
+
+			<div class="form-group">
+				<label for="">346. Cuán satisfecho te encuentras / encontrabas con el servicio de tutorias?</label>
+						<p>Individual</p>
+						' . form_input($C3P346_1) . '<div class="help-block error"></div>	
+						<p>Grupal</p>
+						' . form_input($C3P346_2) . '<div class="help-block error"></div>							
 			</div>
 
 
+
+</div>	
+
+</div>';
+
+//5 cara
+
+
+echo '
+
+<div class="panel panel-info row">
+	
+	<div class="col-md-6">	
+
 			<div class="form-group">
-				<label for="">343. Cuánto crees que te han ayudado las tutorías para</label>
+				<label for="">347. Cuánto crees que te han ayudado las tutorías para</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
@@ -4638,43 +5621,43 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>a. Realizar una selección ordenada de cursos y créditos?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                 <td>b. Mejorar mi rendimiento académico?</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P347_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>c. Orientarme sobre los servicios académicos que brinda mi institución?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>d. Mejorar mis habilidades sociales y a nivel personal?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>e. Orientarme mejor en mi carrera?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_5) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>f. Resolver dudas académicas?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_6) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>g. Integrarme mejor a la Institucion Educativa Superior?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_7) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>h. Otros</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P347_8) . '<div class="help-block error"></div></td>
 					              </tr>		
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P347_OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					              </tr>	
 
@@ -4684,183 +5667,25 @@ echo '
 			</div>
 
 
-	</div>	
-
-</div>';
-
-
-
-//5 cara
-echo '
-
-<div class="panel panel-info row">
-	
-
-	<div class="col-md-12">	
-				<label for="">344. Las estrategias para el desarrollo de las tutorías fueron</label>
-						<table class="table table-condensed" id="emb_table">
-					              <thead>
-					               <tr>
-					                 <th class="span3" colspan="2"></th>
-					                 <th class="span3">345. Se trató en forma</th>
-					                 <th class="span3">346. Cómo evaluarias las estrategias utilizadas?</th>
-					                </tr>					              
-					               <tr>
-					                 <th class="span3"></th>
-					                 <th class="span3">Si / No</th>
-					                 <th class="span3">Individual? / Grupal?</th>
-					                 <th class="span1">1. Nada efectivo / 2. Algo efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
-					                </tr>
-					             </thead>
-					              <tbody>
-					              <tr>
-					                 <td>1. Charlas dictadas por el tutor?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>  
-					               <tr>
-					                 <td>2. Talleres participativos?</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr> 
-					              <tr>
-					                 <td>3. Exposiciones?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>			
-
-					              <tr>
-					                 <td>4. Material Audiovisual</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-
-					              <tr>
-					                 <td>5. Otro</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>		
-					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
-					                  <td></td>
-					              </tr>	
-
-			              </tbody>
-			           </table>		
-	</div>
-
-
-</div>';
-
-echo '
-
-<div class="panel panel-info row">
-	
-
-	<div class="col-md-12">	
-				<label for="">347. Los temas que se trataron en las sesiones de tutorias fueron:</label>
-						<table class="table table-condensed" id="emb_table">
-					              <thead>
-					               <tr>
-					                 <th class="span3" colspan="2"></th>
-					                 <th class="span3">348. Cómo evaluarías el apoyo de tu tutor en la asistencia individual?</th>
-					                 <th class="span3">349. Cómo evaluarias el apoyo de tu tutor en la asistencia grupal?</th>
-					                </tr>					              
-					               <tr>
-					                 <th class="span3"></th>
-					                 <th class="span3">Si / No</th>
-					                 <th class="span3">1. Nada efectivo / 2. Poco efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
-					                 <th class="span1">1. Nada efectivo / 2. Algo efectivo / 3. Efectivo? / 4. Muy efectivo?</th>
-					                </tr>
-					             </thead>
-					              <tbody>
-					              <tr>
-					                 <td>1. Orientación en metodologías y técnicas de estudio?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>  
-					               <tr>
-					                 <td>2. Apoyo académico?</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr> 
-					              <tr>
-					                 <td>3. Soporte emocional?</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>			
-
-					              <tr>
-					                 <td>4. Orientación vocacional</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
-
-					              <tr>
-					                 <td>5. Orientación en servicios académicos</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>		
-					              <tr>
-					                 <td>6. Resolver dudas académicas</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>	
-					              <tr>
-					                 <td>7. Diagnosticar las dificultades y realizar las acciones pertinentes para resolverlas</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>	
-
-			              </tbody>
-			           </table>		
-	</div>
-
-
-</div>';
-
-
-echo '
-
-<div class="panel panel-info row">
-	
-	<div class="col-md-6">	
 			<div class="form-group">
-				<label for="">350. Alguien te ayuda con tus tareas?</label>
-						' . form_input($test) . '<div class="help-block error"></div>						
+				<label for="">348. Alguien te ayuda con tus tareas?</label>
+						' . form_input($C3P348) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
-				<label for="">351. Quién te ayuda con tus tareas?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
+				<label for="">349. Quién te ayuda con tus tareas?</label>
+						' . form_input($C3P349) . '<div class="help-block error"></div>
 						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
-			</div>			
-	</div>
-
-	<div class="col-md-6">	
-
-			<h4>Ciclo de Nivelación</h4>
+						' . form_input($C3P349_OBS) . '<div class="help-block error"></div>												
+			</div>		
 
 			<div class="form-group">
-				<label for="">352. Durante el año 2013. Has llevado curos de Nivelación?</label>
-						' . form_input($test) . '						
+				<label for="">350. Durante el año 2013. Has llevado curos de Nivelación?</label>
+						' . form_input($C3P350) . '						
 			</div>
 
 			<div class="form-group">
-				<label for="">353.en que materias recibió curso de Nivelación?</label>
+				<label for="">351.en que materias recibió curso de Nivelación?</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
@@ -4871,26 +5696,10 @@ echo '
 					             </thead>
 					              <tbody>
 					              <tr>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_3) . '<div class="help-block error"></div></td>
 					              </tr>  
-					               <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr> 
-					              <tr>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>			
-
-					              <tr>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					               </tr>
 
 			              </tbody>
 			           </table>						
@@ -4899,47 +5708,126 @@ echo '
 
 	</div>
 
+	<div class="col-md-6">	
+			<div class="form-group">
+				<label for="">352. Algunos de los cursos de Nivelación los has llevado dentro de la Institución donde estudias?</label>
+						' . form_input($C3P352) . '<div class="help-block error"></div>					
+			</div>
+
+
+			<h4>Participación en actividades Extra Académicas</h4>
+
+			<div class="form-group">
+				<label for="">353. Con qué frecuencia participas de los eventos organizados por tu institución? (Días culturales, Exposiciones, Eventos, etc.)</label>
+						' . form_input($C3P353) . '<div class="help-block error"></div>												
+			</div>	
+
+
+			<div class="form-group">
+				<label for="">354. En cuántas actividades extra académicas te has inscrito desde que ingresaste a la institución educativa superior? (Fútbol, taller de escritura, etc)</label>
+						' . form_input($C3P354) . '<div class="help-block error"></div>					
+			</div>
+
+			<div class="form-group">
+				<label for="">355. Cuál es la razón principal por la que no te has inscrito en ninguna actividad extra académica?</label>
+						' . form_input($C3P355) . '<div class="help-block error"></div>
+						<p>Especifique</p>
+						' . form_input($C3P355_OBS) . '<div class="help-block error"></div>												
+			</div>	
+
+			<div class="form-group">
+				<label for="">356. Alguna vez has sido delegado de algún curso?</label>
+						' . form_input($C3P356) . '<div class="help-block error"></div>					
+			</div>
+
+
+
+
+
+	</div>
+
 </div>';
 
 //6 cara
 
+
+
+
 echo '
 
 <div class="panel panel-info row">
 	
 	<div class="col-md-6">	
-
+				<h4>En cuánto tiempo esperas acabar tu carrera</h4>
 			<div class="form-group">
-				<label for="">354. Algunos de los cursos de Nivelación los has llevado dentro de la Institución donde estudias?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+				<label for="">357. En cuánto tiempo esperas acabar tu carrera?</label>
+						<p>Número de años</p>
+						' . form_input($C3P357) . '<div class="help-block error"></div>						
 			</div>
 
 			<div class="form-group">
-				<label for="">355. Con qué frecuencia participas de los eventos organizados por tu institución? (Días culturales, Exposiciones, Eventos, etc.)</label>
-						' . form_input($test) . '<div class="help-block error"></div>
-						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
-			</div>	
+				<label for="">358. Crees que terminarás la carrera sin haber desaprobado algún curso?</label>
+						' . form_input($C3P358) . '<div class="help-block error"></div>												
+			</div>
+
+			<div class="form-group">
+				<label for="">359. Crees que podrás terminar tus estudios sin interrupciones?</label>
+						' . form_input($C3P359) . '<div class="help-block error"></div>						
+			</div>
+
 
 	</div>
 
+
 	<div class="col-md-6">	
-
 			<div class="form-group">
-				<label for="">356. En cuántas actividades extra académicas te has inscrito desde que ingresaste a la institución educativa superior? (Fútbol, taller de escritura, etc)</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
-			</div>
+				<label for="">360. Por qué razones crees que dejarías de estudiar?</label>
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span3"></th>
+					                 <th class="span1"></th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>Servicio militar</td>
+					                 <td>' . form_input($C3P360_1) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                 <td>Por motivo de trabajo</td>
+					                  <td>' . form_input($C3P360_2) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>Por falta de recursos</td>
+					                 <td>' . form_input($C3P360_3) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>No me gusta la carrera</td>
+					                 <td>' . form_input($C3P360_4) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>Por bajo rendimiento académico</td>
+					                 <td>' . form_input($C3P360_5) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>Por motivos familiares (paternidad / maternidad / matrimonio)</td>
+					                 <td>' . form_input($C3P360_6) . '<div class="help-block error"></div></td>
+					               </tr>
 
-			<div class="form-group">
-				<label for="">357. Cuál es la razón principal por la que no te has inscrito en ninguna actividad extra académica?</label>
-						' . form_input($test) . '<div class="help-block error"></div>
-						<p>Especifique</p>
-						' . form_input($test) . '<div class="help-block error"></div>												
-			</div>	
-
-			<div class="form-group">
-				<label for="">358. Alguna vez has sido delegado de algún curso?</label>
-						' . form_input($test) . '<div class="help-block error"></div>					
+					                 <td>Por motivos de salud (accidente/enfermedad)</td>
+					                 <td>' . form_input($C3P360_7) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>Otro</td>
+					                 <td>' . form_input($C3P360_8) . '<div class="help-block error"></div></td>
+					              </tr>		
+					              <tr>
+					                  <td>' . form_input($C3P360_OBS) . '<div class="help-block error"></div>Especifique</td>
+					                  <td></td>
+					              </tr>			               				               					                					                						               				               					               					               
+			              </tbody>
+			           </table>						
 			</div>
 
 	</div>
@@ -4947,16 +5835,13 @@ echo '
 </div>';
 
 
+
 echo '
 
 <div class="panel panel-info row">
 	
-	<div class="col-md-12">	
-				<h4>Financiamiento y Distribución de los gastos de estudio</h4>
-
-				<p>Solo para postulantes que no accedieron a la Beca</p>
-
-				<label for="">359. Cómo estabas financiando tus estudios?</label>
+	<div class="col-md-6">	
+				<label for="">361. Cómo estabas financiando tus estudios?</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
@@ -4967,37 +5852,38 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Trabajando<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P361_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                  <td>Financiamiento de familiares<div class="help-block error"></div></td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P361_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Financiamiento o préstamo bancario<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P361_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Beca de la Institución<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P361_4) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
 					                 <td>Otros<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P361_5) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P361_5OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					              </tr>	
 
 			              </tbody>
 			           </table>		
+	</div>
 
 
-				<p>Solo para postulantes que accedieron a la Beca (Beneficiarios de Beca 18)</p>
+	<div class="col-md-6">	
 
-				<label for="">360. Cómo distribuyes mensualmente los gastos de la manutención recibida por Beca 18?</label>
+				<label for="">362. Cómo distribuyes mensualmente los gastos de la manutención recibida por Beca 18?</label>
 						<table class="table table-condensed" id="emb_table">
 					              <thead>
 					               <tr>
@@ -5008,56 +5894,56 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Gasto en vivienda</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P362_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                  <td>Gasto en Alimentación</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P362_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Gasto en pasajes</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P362_3) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Gasto en fotocopias y material educativo</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P362_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					               <tr>
 					                  <td>Gasto en actividades recreativas</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P362_5) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Gasto en vestimenta</div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P362_6) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Gasto en comunicación (tarjetas para celular, teléfono, etc)</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P362_7) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Otros</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P362_8) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P362_OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					              </tr>	
 					              <tr>
 					                  <td>Gasto total mensual de la manutención</td>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C3P362_TOTAL) . '<div class="help-block error"></div></td>
 					              </tr>	
 			              </tbody>
-			           </table>		
-
-
+			           </table>	
 	</div>
-
+			<div class="col-md-12">
+				<label for="">Observaciones</label>
+					'.form_textarea($C3_OBS).'										
+			</div>	
 </div>';
-
 
 
 
@@ -5300,108 +6186,101 @@ echo '
 					              <tr>
 					                 <td>Organización de caridad (No como beneficiario)?</td>
 					                 <td>' . form_input($C4P415_1) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_1) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Organización Comunitaria o de barrio (de base)?</td>
 					                 <td>' . form_input($C4P415_2) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_2) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_2) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Organización Religiosa?</td>
 					                 <td>' . form_input($C4P415_3) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_3) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Junta de vecinos?</td>
 					                 <td>' . form_input($C4P415_4) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_4) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Instancia de participación apoyadas por el estado?</td>
 					                 <td>' . form_input($C4P415_5) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_5) . '<div class="help-block error"></div></td>
 					              </tr>  	
 
 					              <tr>
 					                 <td>Organización étnica?</td>
 					                 <td>' . form_input($C4P415_6) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_6) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_6) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Organización cultural o deportiva?</td>
 					                 <td>' . form_input($C4P415_7) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_7) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>De educación (asocianes padres de familia, etc)?</td>
 					                 <td>' . form_input($C4P415_8) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_8) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Organización de conservacion del medio ambiente?</td>
 					                 <td>' . form_input($C4P415_9) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_9) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_9) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Asociación de vigilancia y seguridad??</td>
 					                 <td>' . form_input($C4P415_10) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_10) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_10) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Sindicato, cooperativa de trabajo o agremiación de productores?</td>
 					                 <td>' . form_input($C4P415_11) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_11) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_11) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
 					                 <td>Movimiento político?</td>
 					                 <td>' . form_input($C4P415_12) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_12) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_12) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
 					                 <td>Otro</td>
 					                 <td>' . form_input($C4P415_13) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415A_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415B_13) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C4P415C_13) . '<div class="help-block error"></div></td>
 					              </tr>  
 					              <tr>
-					                  <td>' . form_input($test) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C4P415C_13OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					                  <td></td>
 					                  <td></td>
-					              </tr>						              	
-					              <tr>
-					                 <td>Ninguna</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
-					              </tr>  						              					              				              				              				              					              
+					              </tr>						              							              					              				              				              				              					              
 			              </tbody>
 			           </table>	
 
@@ -5593,7 +6472,7 @@ echo '
 
 					              <tr>
 					                 <td>Total</td>
-					                 <td>' . form_input($test) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_TOTAL) . '<div class="help-block error"></div></td>
 					               </tr>
 			              </tbody>
 			    </table>
@@ -5656,7 +6535,7 @@ echo '
 							</div>	
 
 					</div>			
-					' . form_input($test) . '<div class="help-block error"></div>												
+					' . form_input($C5P512_NSA) . '<div class="help-block error"></div>												
 
 			</div>	
 
