@@ -2920,6 +2920,12 @@ $C5P509_8 = array(
 	'class' => 'form-control',
 );
 
+$C5P509_TOTAL = array(
+	'name'	=> 'C5P509_TOTAL',
+	'id'	=> 'C5P509_TOTAL',
+	'maxlength'	=> 6,
+	'class' => 'form-control',
+);
 
 $C5P510 = array(
 	'name'	=> 'C5P510',
