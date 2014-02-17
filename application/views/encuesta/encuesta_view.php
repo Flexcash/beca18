@@ -1832,26 +1832,96 @@ $C3P350 = array(
 	'class' => 'form-control',
 );
 
-$C3P351_1 = array(
-	'name'	=> 'C3P351_1',
-	'id'	=> 'C3P351_1',
+$C3P351_1A = array(
+	'name'	=> 'C3P351_1A',
+	'id'	=> 'C3P351_1A',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+$C3P351_2A = array(
+	'name'	=> 'C3P351_2A',
+	'id'	=> 'C3P351_2A',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+$C3P351_3A = array(
+	'name'	=> 'C3P351_3A',
+	'id'	=> 'C3P351_3A',
+	'maxlength'	=> 50,
+	'class' => 'form-control',
+);
+$C3P351_4A = array(
+	'name'	=> 'C3P351_4A',
+	'id'	=> 'C3P351_4A',
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
 
-$C3P351_2 = array(
-	'name'	=> 'C3P351_2',
-	'id'	=> 'C3P351_2',
+
+$C3P351_1B = array(
+	'name'	=> 'C3P351_1B',
+	'id'	=> 'C3P351_1B',
 	'maxlength'	=> 2,
 	'class' => 'form-control',
 );
 
-$C3P351_3 = array(
-	'name'	=> 'C3P351_3',
-	'id'	=> 'C3P351_3',
+$C3P351_2B = array(
+	'name'	=> 'C3P351_2B',
+	'id'	=> 'C3P351_2B',
 	'maxlength'	=> 2,
 	'class' => 'form-control',
 );
+
+$C3P351_3B = array(
+	'name'	=> 'C3P351_3B',
+	'id'	=> 'C3P351_3B',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P351_4B = array(
+	'name'	=> 'C3P351_4B',
+	'id'	=> 'C3P351_4B',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C3P351_1C = array(
+	'name'	=> 'C3P351_1C',
+	'id'	=> 'C3P351_1C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P351_2C = array(
+	'name'	=> 'C3P351_2C',
+	'id'	=> 'C3P351_2C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+$C3P351_3C = array(
+	'name'	=> 'C3P351_3C',
+	'id'	=> 'C3P351_3C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+$C3P351_4C = array(
+	'name'	=> 'C3P351_4C',
+	'id'	=> 'C3P351_4C',
+	'maxlength'	=> 2,
+	'class' => 'form-control',
+);
+
+
+
+
+
+
+
 
 $C3P352 = array(
 	'name'	=> 'C3P352',
@@ -5702,10 +5772,26 @@ echo '
 					             </thead>
 					              <tbody>
 					              <tr>
-					                 <td>' . form_input($C3P351_1) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C3P351_2) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C3P351_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_1A) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_1B) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_1C) . '<div class="help-block error"></div></td>
 					              </tr>  
+					              <tr>
+					                 <td>' . form_input($C3P351_2A) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_2B) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_2C) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>' . form_input($C3P351_3A) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_3B) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_3C) . '<div class="help-block error"></div></td>
+					              </tr>  
+					              <tr>
+					                 <td>' . form_input($C3P351_4A) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_4B) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C3P351_4C) . '<div class="help-block error"></div></td>
+					              </tr>  
+
 
 			              </tbody>
 			           </table>						
