@@ -40,8 +40,17 @@
 
 $route['default_controller'] = 'auth';
 $route['create_user'] = 'auth/create_user';
-$route['presupuesto'] = 'presupuesto/presupuesto';
 $route['encuesta'] = 'encuesta/encuesta';
+$route['ajax'] = 'ajax/ajax';
+$route['car'] = 'encuesta/car';
+$route['cap1'] = 'encuesta/cap1';
+$route['cap2'] = 'encuesta/cap2';
+$route['cap3'] = 'encuesta/cap3';
+$route['cap4'] = 'encuesta/cap4';
+$route['cap4B'] = 'encuesta/cap4B';
+$route['cap5'] = 'encuesta/cap5';
+$route['cap6'] = 'encuesta/cap6';
+$route['cap7'] = 'encuesta/cap7';
 $route['404_override'] = '';
 
 

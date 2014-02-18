@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'sa';
-$db['default']['password'] = '123456';
-$db['default']['database'] = 'test';
+$db['default']['hostname'] = 'SRVDB-DESA';
+$db['default']['username'] = 'JScotto';
+$db['default']['password'] = 'inei1802';
+$db['default']['database'] = 'BECA18_BDCAPTURA';
 $db['default']['dbdriver'] = 'mssql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

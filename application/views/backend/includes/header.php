@@ -29,3 +29,14 @@
 		<!-- <a href="#" id="logo"><img alt="CIE2013" src="http://webinei.inei.gob.pe/cie/2013/web/img/brand_gps.png"></a> -->
 		<div id="oted">BECA18</div>
 	</div>
+
+
+<script type="text/javascript">
+        <!--
+            var CI = {
+              'base_url': '<?php echo base_url(); ?>',
+              'site_url': '<?php echo site_url(); ?>',
+              'year' : <?php echo date("Y"); ?>
+            };            
+        -->
+</script>

@@ -52,8 +52,8 @@
           <a id="nav-user" href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>  <?php echo $user->username; ?> <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <!-- <li><a href="#"><i class="fa fa-gear"></i> Configurar</a></li> -->
-            <li><a href="#"><i class="fa fa-key"></i> Cambiar contraseña</a></li>
-            <li class="divider"></li>
+            <!-- <li><a href="#"><i class="fa fa-key"></i> Cambiar contraseña</a></li> -->
+            <!-- <li class="divider"></li> -->
             <li> <?php echo anchor('auth/logout', 'Salir'); ?></li>
           </ul>
         </li>

@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Presupuesto extends CI_Controller {
+class Cap7 extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
@@ -15,7 +15,7 @@ class Presupuesto extends CI_Controller {
 		$roles = $this->ion_auth->get_roles();
 		$flag = FALSE;
 		foreach ($roles as $role) {
-			if ($role->id == 1) {
+			if ($role->id == 1 || $role->id == 2) {
 				$flag = TRUE;
 				break;
 			}
@@ -31,8 +31,8 @@ class Presupuesto extends CI_Controller {
 	{
 		$data['user'] = $this->ion_auth->user()->row();
 		$data['nav'] = TRUE;
-		$data['title'] = 'Presupuesto General';
-		$data['main_content'] = 'presupuesto/presupuesto_view';
+		$data['title'] = 'Encuesta';
+		$data['main_content'] = 'encuesta/forms/cap7_form';
 		$this->load->view('backend/includes/template', $data);
 	}
 }

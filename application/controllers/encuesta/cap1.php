@@ -1,13 +1,12 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Encuesta extends CI_Controller {
+class Cap1 extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
 		$this->load->library('ion_auth');
 		$this->load->library('form_validation');
 		$this->lang->load('auth');
-		$this->load->model('ubigeo_model');	
 
 		if (!$this->ion_auth->logged_in()) {
 			redirect('auth/login');
@@ -31,10 +30,9 @@ class Encuesta extends CI_Controller {
 	public function index()
 	{
 		$data['user'] = $this->ion_auth->user()->row();
-		$data['dptos'] = $this->ubigeo_model->get_dptos();
 		$data['nav'] = TRUE;
 		$data['title'] = 'Encuesta';
-		$data['main_content'] = 'encuesta/encuesta_view';
+		$data['main_content'] = 'encuesta/forms/cap1_form';
 		$this->load->view('backend/includes/template', $data);
 	}
 }
