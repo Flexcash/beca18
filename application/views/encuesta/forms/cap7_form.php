@@ -190,7 +190,7 @@ $OBS = array(
 //700*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_7');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap7_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -337,3 +337,193 @@ echo '
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
+
+
+<script type="text/javascript">
+
+
+$(function(){
+
+
+if(<?php echo $CAP07->num_rows() ?> == 1){
+
+	$.each( <?php echo json_encode($CAP07->row()); ?>, function(fila, valor) {
+	        $('#' + fila).val(valor);       	
+	}); 
+
+}
+
+$("#cap7_f").validate({
+		    rules: {  
+		    	C7P701_1:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_1:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_2:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_3:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_4:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_5:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_6:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_7:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_8:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_9:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_10:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_11:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_12:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_13:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_14:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_15:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_16:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P701_17:{
+				    		required:true,
+				    		valrango:[0,4,9],
+				    		rangelength:[1,1]
+				    	},
+   	/********** C7P702 ************/
+		    	C7P702_1: {
+				    		required:true,
+				    		valrango:[1,7,9],
+				    		rangelength:[1,1]
+				    	},
+		    	C7P702_1: {
+				    		required:true,
+				    		valrango:[1,7,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P702_2: {
+				    		required:true,
+				    		valrango:[1,7,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P702_3: {
+				    		required:true,
+				    		valrango:[1,7,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P702_4: {
+				    		required:true,
+				    		valrango:[1,7,9],
+				    		rangelength:[1,1]
+				    	},
+				C7P702_5: {
+				    		required:true,
+				    		valrango:[1,7,9],
+				    		rangelength:[1,1]
+				    	}
+
+		    },
+
+		    messages: {   
+			//FIN MESSAGES
+		    },
+		    errorPlacement: function(error, element) {
+		        $(element).next().after(error);
+		    },
+		    invalidHandler: function(form, validator) {
+		      var errors = validator.numberOfInvalids();
+		      if (errors) {
+		        var message = errors == 1
+		          ? 'Por favor corrige estos errores:\n'
+		          : 'Por favor corrige los ' + errors + ' errores.\n';
+		        var errors = "";
+		        if (validator.errorList.length > 0) {
+		            for (x=0;x<validator.errorList.length;x++) {
+		                errors += "\n\u25CF " + validator.errorList[x].message;
+		            }
+		        }
+		        alert(message + errors);
+		      }
+		      validator.focusInvalid();
+		    },
+		    submitHandler: function(form) {
+
+				    	var cap7_data = $("#cap7_f").serializeArray();
+					    cap7_data.push(
+					        {name: 'ajax',value:1}
+					    );
+						
+				        var bcar = $( "#cap7_f :submit" );
+				        bcar.attr("disabled", "disabled");
+				        $.ajax({
+				            url: CI.site_url + "/encuesta/cap7",
+				            type:'POST',
+				            data:cap7_data,
+				            dataType:'json',
+				            success:function(json){
+								alert(json.msg);
+								bcar.removeAttr('disabled');
+							
+				            }
+				        });     			          	
+		    }       
+}); 
+
+
+}); 
+</script>

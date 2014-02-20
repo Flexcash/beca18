@@ -235,7 +235,7 @@ $C2P214 = array(
 
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_2');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap2_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -435,23 +435,137 @@ echo '
 
 ';
 
-
-
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
-
 
 
 <script type="text/javascript">
 
 
 $(function(){
-$("#cap_2").validate({
+
+
+if(<?php echo $CAP02->num_rows() ?> == 1){
+
+	$.each( <?php echo json_encode($CAP02->row()); ?>, function(fila, valor) {
+	        $('#' + fila).val(valor);       	
+	}); 
+}
+
+
+$("#cap2_f").validate({
 		    rules: {  
-		    	C3P201:{
+		    	C2P201:{
+		    		range:[1,2],
 		    		required:true,
-		    	},			    		   			    	    
+		    	},	
+		    	C2P202:{
+		    	},		
+		    	C2P202A:{
+		    	},			
+		    	C2P203:{
+		    		range:[0,1],
+		    		required:true,		    		
+		    	},	
+		    	C2P204:{   		
+		    		range:[0,1],
+		    		required:true,		    		
+		    	},	
+		    	C2P205_1:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_2:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_3:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_4:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_5:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_6:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_7:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_8:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},	
+		    	C2P205_8OBS:{   	    			
+		    	},	
+
+		    	C2P206_1:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},
+		    	C2P206_2:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},
+		    	C2P206_3:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},
+		    	C2P206_4:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},
+		    	C2P206_5:{   
+		    		range:[0,1],
+		    		required:true,				    			
+		    	},
+		    	C2P206_5OBS:{   	    			
+		    	},	
+		    	C2P207:{   
+		    		range:[1,6],
+		    		required:true,				    			
+		    	},
+	    		C2P207_OBS:{   	    			
+		    	},	
+		    	C2P208:{   
+		    		range:[1,5],			    			
+		    	},
+		    	C2P208_OBS:{   	    			
+		    	},	
+		    	C2P209_ANIO:{   
+		    		range:[0,50],			    			
+		    	},
+		    	C2P209_MES:{   
+		    		range:[0,11],			    			
+		    	},
+		    	C2P210:{   
+		    		range:[1,2],			    			
+		    	},
+
+		    	C2P211:{   
+		    		range:[1,2],			    			
+		    		required:true,				    			
+		    	},
+		    	C2P212:{   
+		    		range:[1,5],			    			
+		    		required:true,				    			
+		    	},		
+		    	C2P212_OBS:{   	    			
+		    	},	
+		    	C2P213:{   
+		    		range:[1,98],			    						    			
+		    	},	
+		    	C2P214:{   
+		    		range:[1,98],			    						    			
+		    	},	
 		    },
 
 		    messages: {   
@@ -478,17 +592,17 @@ $("#cap_2").validate({
 		    },
 		    submitHandler: function(form) {
 
-				    	var car_data = $("#cap_2").serializeArray();
-					    car_data.push(
+				    	var cap2_data = $("#cap2_f").serializeArray();
+					    cap2_data.push(
 					        {name: 'ajax',value:1}
 					    );
 						
-				        var bcar = $( "#cap_2 :submit" );
+				        var bcar = $( "#cap2_f :submit" );
 				        bcar.attr("disabled", "disabled");
 				        $.ajax({
 				            url: CI.site_url + "/encuesta/cap2",
 				            type:'POST',
-				            data:car_data,
+				            data:cap2_data,
 				            dataType:'json',
 				            success:function(json){
 								alert(json.msg);
@@ -501,7 +615,6 @@ $("#cap_2").validate({
 
 
 
-// $('.fechap').datepicker({ dateFormat: 'yy-mm-dd' });
 
 }); 
 </script>

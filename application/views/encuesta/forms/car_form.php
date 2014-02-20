@@ -5,35 +5,6 @@
 // CARATULA
 ////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////
-$test = array(
-	'name'	=> 'test',
-	'id'	=> 'test',
-	'maxlength'	=> 200,
-	'class' => 'form-control',
-);
-
-
-// $departamento = array(
-// 	'name'	=> 'departamento',
-// 	'id'	=> 'departamento',
-// 	'maxlength'	=> 200,
-// 	'class' => 'input200',
-// );
-
-// $provincia = array(
-// 	'name'	=> 'provincia',
-// 	'id'	=> 'provincia',
-// 	'maxlength'	=> 200,
-// 	'class' => 'input200',
-// );
-
-// $distrito = array(
-// 	'name'	=> 'distrito',
-// 	'id'	=> 'distrito',
-// 	'maxlength'	=> 200,
-// 	'class' => 'input200',
-// );
-
 
 
 $C0SELECC = array(
@@ -366,7 +337,7 @@ $C0P21_3B = array(
 $pcar_num = array(
 	'name'	=> 'pcar_num',
 	'id'	=> 'pcar_num',
-	'class' => 'form-control input3',
+	'class' => 'form-control',
 	'maxlength'	=> 2,
 );
 //FIN CAR
@@ -392,10 +363,12 @@ echo form_open($this->uri->uri_string(),$attr);
 
 
 echo '
-<h2>ENCUESTA DE EVALUACIÓN DEL IMPACTO DEL PROGRAMA BECA18</h2>
+<!-- <h2>ENCUESTA DE EVALUACIÓN DEL IMPACTO DEL PROGRAMA BECA18</h2> -->
 <div class="panel panel-info row">
 		
-
+							<div class="panel-heading">
+								<h5 class="panel-title"></h5>
+							</div>
 
 			<div class="col-md-2">		
 						<div class="form-group">
@@ -664,8 +637,10 @@ echo '
 		<div class="col-md-12">	
 
 							<h4>19. Entrevista y Supervision</h4> 
-
-							<div>Número de visitas: '.form_input($pcar_num).'<div class="help-block error"></div></div>
+							<div class="form-group" style="text-align:center">
+							<label for="">Número de visitas: </label>
+							'.form_input($pcar_num).'<div class="help-block error"></div>
+							</div>
 
 							<h6>1. Evaluación y Supervisión</h6>
 
@@ -812,10 +787,7 @@ echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-pr
 echo form_close(); 
 
 ?>
-<br>
-<br>
-<br>
-<br>
+
 <script type="text/javascript">
 
 $(function(){
@@ -882,7 +854,7 @@ $("#C0CCPP").change(function(event) {
                 // $("#C0CCDI").empty();
                  sel.append('<option value="-1">-</option>');
                 $.each(json_data, function(i, data){
-                    	sel.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                    	sel.append('<option value="' + data.CCDI + '">' + data.Nombre + '</option>');
                     	// selcap1.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
                 });
                  // sel.trigger('change');     	  
@@ -953,7 +925,7 @@ $("#C0VOCCPP").change(function(event) {
                 // $("#C0CCDI").empty();
                  sel.append('<option value="-1">-</option>');
                 $.each(json_data, function(i, data){
-                    	sel.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                    	sel.append('<option value="' + data.CCDI + '">' + data.Nombre + '</option>');
                     	// selcap1.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
                 });
                  // sel.trigger('change');     	  
@@ -967,13 +939,58 @@ $("#C0VOCCPP").change(function(event) {
 
 
 
+if(<?php echo $POSTULANTE->num_rows() ?> == 1){
+	$.each( <?php echo json_encode($POSTULANTE->row()); ?>, function(fila, valor) {
+
+			if(fila == 'C0CCDD' || fila == 'C0VOCCDD'){
+	   			$('#' + fila).val(valor);
+	   			$('#' + fila).trigger('change');	
+
+            }else if(fila == 'C0CCPP'){
+                var interval_PP = setInterval(function(){
+	                if($('#C0CCPP option:nth-child(2)').length){
+	                    clearInterval(interval_PP);                                                    
+	                    $('#C0CCPP').val(valor);
+	                    $('#C0CCPP').trigger('change');
+	           		}
+         		}, 1000); 
+
+            }else if(fila == 'C0CCDI'){
+                var interval_DI = setInterval(function(){
+	                if($('#C0CCDI option:nth-child(2)').length){
+	                    clearInterval(interval_DI);
+				   		$('#C0CCDI').val(valor);                                                            
+	                }
+                }, 1000);        
+
+            }else if(fila == 'C0VOCCPP'){
+                var interval_PP = setInterval(function(){
+	                if($('#C0VOCCPP option:nth-child(2)').length){
+	                    clearInterval(interval_PP);                                                    
+	                    $('#C0VOCCPP').val(valor);
+	                    $('#C0VOCCPP').trigger('change');
+	           		}
+         		}, 1000); 
+
+            }else if(fila == 'C0VOCCDI'){
+                var interval_DI = setInterval(function(){
+	                if($('#C0VOCCDI option:nth-child(2)').length){
+	                    clearInterval(interval_DI);
+				   		$('#C0VOCCDI').val(valor);                                                            
+	                }
+                }, 1000);        
+
+            }else{
+	        	$('#' + fila).val(valor);      
+	        }	  	
+	}); 
+}
 
 
 
 
 
-
-// $('#pcar_num').val((<?php //echo $car_n->num_rows(); ?> > 0) ? <?php //echo $car_n->num_rows(); ?> : '' );
+$('#pcar_num').val((<?php echo $POSTULANTE_B->num_rows(); ?> > 0) ? <?php echo $POSTULANTE_B->num_rows(); ?> : '' );
 
 $('#pcar_num').keyup(function(event) {
 
@@ -982,27 +999,27 @@ $('#pcar_c_n tr').remove('.entrev');
 	if(ahua >= 0 && ahua<=10){
 	  for(var i=1; i<=ahua;i++){
 	    var asd = '<tr class="entrev">';
-	    asd +='<td><input type="text" class="form-control input1 embc' + i + '" maxlength="1" readonly name="C0P19[]" id="C0P19_' + i + '" value="' + i + '" ></td>';
-	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_DIA[]" id="C0P19_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_MES[]" id="C0P19_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_IH[]"  id="C0P19_IH_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_IM[]"  id="C0P19_IM_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_FH[]"  id="C0P19_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_FM[]"  id="C0P19_FM_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_DIAPROX[]" id="C0P19_DIAPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_MESPROX[]" id="C0P19_MESPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_HPROX[]" id="C0P19_HPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_MPROX[]" id="C0P19_MPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input1 embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" readonly maxlength="80" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O' + '_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" readonly name="C0P19[]" id="C0P19_' + i + '" value="' + i + '" ></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_DIA[]" id="C0P19_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_MES[]" id="C0P19_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_IH[]"  id="C0P19_IH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_IM[]"  id="C0P19_IM_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_FH[]"  id="C0P19_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_FM[]"  id="C0P19_FM_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_DIAPROX[]" id="C0P19_DIAPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_MESPROX[]" id="C0P19_MESPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_HPROX[]" id="C0P19_HPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_MPROX[]" id="C0P19_MPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" maxlength="50" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O_' + i + '" value="" ><div class="help-block error"></div></td>';
 
-	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_JEF_DIA[]" id="C0P19_JEF_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input10 embc' + i + '" maxlength="2" name="C0P19_JEF_MES[]" id="C0P19_JEF_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_IH[]"  id="C0P19_JEF_IH_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_IM[]"  id="C0P19_JEF_IM_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_FH[]"  id="C0P19_JEF_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control input5 embc' + i + '" maxlength="2" name="C0P19_JEF_RVISITA[]"  id="C0P19_JEF_RVISITA_' + i + '" value="" ><div class="help-block error"></div></td>';	    
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_DIA[]" id="C0P19_JEF_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_MES[]" id="C0P19_JEF_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_IH[]"  id="C0P19_JEF_IH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_IM[]"  id="C0P19_JEF_IM_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_FH[]"  id="C0P19_JEF_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_FM[]"  id="C0P19_JEF_FM_' + i + '" value="" ><div class="help-block error"></div></td>';	    
 	
-	    asd +='<td><input type="text" class="form-control input1 embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" readonly maxlength="80" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O' + '_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' car_res" maxlength="1" name="C0P19_JEF_RVISITA[]" id="C0P19_JEF_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" maxlength="50" name="C0P19_JEF_RVISITA_O[]" id="C0P19_JEF_RVISITA_O_' + i + '" value="" ><div class="help-block error"></div></td>';
 
 	    asd += '</tr>';
 	    $('#pcar_c_n > tbody').append(asd);
@@ -1013,36 +1030,257 @@ $('#pcar_c_n tr').remove('.entrev');
 		//alert('10 Entrevistas máximo');
 	}
 
+	var as = 1;
+	$.each( <?php echo json_encode($POSTULANTE_B->result()); ?>, function(i, data) {
+		   $('#C0P19_' +  as).val(data.C0P19);
+		   $('#C0P19_DIA_' +  as).val(data.C0P19_DIA);
+		   $('#C0P19_MES_' +  as).val(data.C0P19_MES);
+		   $('#C0P19_IH_' +  as).val(data.C0P19_IH);
+		   $('#C0P19_IM_' +  as).val(data.C0P19_IM);
+		   $('#C0P19_FH_' +  as).val(data.C0P19_FH);
+		   $('#C0P19_FM_' +  as).val(data.C0P19_FM);
+		   $('#C0P19_DIAPROX_' +  as).val(data.C0P19_DIAPROX);
+		   $('#C0P19_MESPROX_' +  as).val(data.C0P19_MESPROX);
+		   $('#C0P19_HPROX_' +  as).val(data.C0P19_HPROX);
+		   $('#C0P19_MPROX_' +  as).val(data.C0P19_MPROX);
+		   $('#C0P19_RVISITA_' +  as).val(data.C0P19_RVISITA);
+		   $('#C0P19_RVISITA_O_' +  as).val(data.C0P19_RVISITA_O);
 
-// var as = 1;
-// $.each( <?php //echo json_encode($car_n->result()); ?>, function(i, data) {
-// 	   $('#PC_C_1_Et_Fecha_' +  as).val(makeday(data.PC_C_1_Et_Fecha));
-// 	   $('#PC_C_1_Et_Hini_' +  as).val(data.PC_C_1_Et_Hini);
-// 	   $('#PC_C_1_Et_Hfin_' +  as).val(data.PC_C_1_Et_Hfin);
-// 	   $('#PC_C_1_Et_Fecha_Prox_' +  as).val(makeday(data.PC_C_1_Et_Fecha_Prox));
-// 	   $('#PC_C_1_Et_Hora_Prox_' +  as).val(data.PC_C_1_Et_Hora_Prox);
-// 	   $('#PC_C_1_Et_Res_' +  as).val(data.PC_C_1_Et_Res);
-// 	   $('#PC_C_1_Et_Res_' +  as).trigger('change');
-// 	   $('#PC_C_1_Et_Res_O_' +  as).val(data.PC_C_1_Et_Res_O);
-// 	   $('#PC_C_1_Jb_Res_' +  as).val(data.PC_C_1_Jb_Res);
-// 	   $('#PC_C_1_Jb_Res_' +  as).trigger('change');
-// 	   $('#PC_C_1_Jb_Res_O_' +  as).val(data.PC_C_1_Jb_Res_O);
-// 	   $('#PC_C_1_Jb_Fecha_' +  as).val(makeday(data.PC_C_1_Jb_Fecha));
-// 	   $('#PC_C_1_Jb_Hini_' +  as).val(data.PC_C_1_Jb_Hini);
-// 	   $('#PC_C_1_Jb_Hfin_' +  as).val(data.PC_C_1_Jb_Hfin);
-// 	   as++;
-// }); 
-// $('.fechap').datepicker({ dateFormat: 'yy-mm-dd' });
+		   $('#C0P19_JEF_DIA_' +  as).val(data.C0P19_JEF_DIA);
+		   $('#C0P19_JEF_MES_' +  as).val(data.C0P19_JEF_MES);
+		   $('#C0P19_JEF_IH_' +  as).val(data.C0P19_JEF_IH);
+		   $('#C0P19_JEF_IM_' +  as).val(data.C0P19_JEF_IM);
+		   $('#C0P19_JEF_FH_' +  as).val(data.C0P19_JEF_FH);
+		   $('#C0P19_JEF_FM_' +  as).val(data.C0P19_JEF_FM);
+		   $('#C0P19_JEF_RVISITA_' +  as).val(data.C0P19_JEF_RVISITA);
+		   $('#C0P19_JEF_RVISITA_O_' +  as).val(data.C0P19_JEF_RVISITA_O);
+		   as++;
+	}); 
 });
 
-// $('#pcar_num').trigger('keyup');
-// $('#pcar_num').trigger('change');
+$('#pcar_num').trigger('keyup');
 
 $("#car_f").validate({
 		    rules: {  
 		    	C0SELECC:{
 		    		required:true,
-		    	},			    		   			    	    
+		    	},	
+		    	C0PREEM:{
+		    		range:[1,2],
+		    	},		
+		    	C0PREEMSEL:{
+		    	},		
+		    	C0ACCBECA:{
+		    		range:[1,2],
+		    		required:true,
+		    	},		
+		    	C0CUEST:{
+		    	},		
+		    	C0CCDD:{
+		    		valueNotEquals:'-1',
+		    		required:true,
+		    	},		
+		    	C0CCPP:{
+		    		valueNotEquals:'-1',
+		    		required:true,
+		    	},		
+		    	C0CCDI:{
+		    		valueNotEquals:'-1',
+		    		required:true,
+		    	},		
+		    	C0NOMBRECP:{
+		    	},	
+		    	C0ZONNUM:{
+		    	},		
+		    	C0MANZANA:{
+		    	},		
+		    	C0AER:{
+		    	},	
+		    	C0TIPVIA:{
+		    		range:[1,7],
+		    		required:true,
+		    	},		
+		    	C0NOMVIA:{
+		    		required:true,
+		    	},	
+		    	C0PTANUM:{
+		    		required:true,
+		    	},	
+		    	C0BLOCK:{
+		    	},		
+		    	C0INT:{
+		    	},	
+		    	C0PISO:{
+		    		range:[1,20],
+		    		required:true,			    		
+		    	},	
+		    	C0MZ:{
+		    	},		
+		    	C0LOTE:{
+		    	},	
+		    	C0KM:{
+		    		range:[1,1000],
+		    	},	
+		    	C0TELEF:{
+		    	},
+		    	C0POSTNOMB:{
+		    		required:true,
+		    	},	
+		    	C0POSTDNI:{
+			    	digits: true,
+			    	exactlength: 8,
+		    		required:true,		
+		    	},
+		    	C0POSTEMAIL:{
+		    		email:true,
+		    	},
+		    	C0TPOSTTELF:{
+		    	},
+		    	C0VIVORIG:{
+		    	},	
+		    	C0VOTIPVIA:{
+		    		range:[1,7],
+		    		required:true,		    		
+		    	},
+		    	C0VONOMVIA:{
+		    		required:true,		    		
+		    	},	
+		    	C0VOPTANUM:{
+		    		required:true,
+		    	},
+		    	C0VOPISO:{
+		    		range:[1,20],
+		    		required:true,			    		
+		    	},	
+		    	C0VOMZ:{
+		    	},
+		    	C0VOLOTE:{
+		    	},
+		    	C0VOKM:{
+		    	},
+		    	C0VOTELEF:{
+		    	},	
+		    	C0VOCCDD:{
+		    		valueNotEquals:'-1',
+		    		required:true,		    		
+		    	},
+		    	C0VOCCPP:{
+		    		valueNotEquals:'-1',
+		    		required:true,			    		
+		    	},		
+		    	C0VOCCDI:{
+		    		valueNotEquals:'-1',
+		    		required:true,			    		
+		    	},			
+		    	C0P18LUGENCUEST:{
+		    		range:[1,5],
+		    		required:true,			    		
+		    	},	
+		    	pcar_num:{
+		    		range:[1,10],
+		    		required:true,			    		
+		    	},	
+		    	'C0P19[]':{
+		    		range:[1,10],
+		    		required:true,				    		
+		    	},	
+		    	'C0P19_DIA[]':{
+		    		valdia:true,
+		    		required:true,				    		
+		    	},			    	
+		    	'C0P19_MES[]':{
+		    		valmes:true,
+		    		required:true,				    		
+		    	},	
+		    	'C0P19_IH[]':{
+		    		valhora:true,
+		    		required:true,			    		
+		    	},	
+		    	'C0P19_IM[]':{
+		    		valminuto:true,
+		    		required:true,			    		
+		    	},	
+		    	'C0P19_FH[]':{
+		    		valhora:true,
+		    		required:true,			    		
+		    	},	
+		    	'C0P19_FM[]':{
+		    		valminuto:true,
+		    		required:true,				    		
+		    	},	
+		    	'C0P19_DIAPROX[]':{
+		    		valdia:true,	    		
+		    	},	
+		    	'C0P19_MESPROX[]':{
+		    		valmes:true,		    		
+		    	},	
+		    	'C0P19_HPROX[]':{
+		    		valhora:true,	    		
+		    	},	
+		    	'C0P19_MPROX[]':{
+		    		valminuto:true,			    		
+		    	},	
+		    	'C0P19_RVISITA[]':{
+		    		range:[1,7],
+		    		required:true,			    		
+		    	},	
+		    	'C0P19_JEF_DIA[]':{
+		    		valdia:true,		    		
+		    	},	
+		    	'C0P19_JEF_MES[]':{
+		    		valmes:true,		    		
+		    	},	
+		    	'C0P19_JEF_IH[]':{
+		    		valhora:true,	    		
+		    	},			
+		    	'C0P19_JEF_IM[]':{
+		    		valminuto:true,			    		
+		    	},		
+		    	'C0P19_JEF_FH[]':{
+		    		valhora:true,	    		
+		    	},			
+		    	'C0P19_JEF_FM[]':{
+		    		valminuto:true,			    		
+		    	},	
+		    	'C0P19_JEF_RVISITA[]':{
+		    		range:[1,7],
+		    	},	
+		    	C0P20_DIA:{
+		    		valdia:true,
+		    		required:true,	
+		    	},			
+		    	C0P20_MES:{
+		    		valmes:true,
+		    		required:true,	
+		    	},	
+		    	C0P20_RFINAL:{
+		    		range:[1,7],
+		    		required:true,	
+		    	},	
+		    	C0P20_RFINAL_O:{
+		    	},			
+		    	C0P21_1A:{
+			    	digits: true,
+			    	exactlength: 8,	
+		    		required:true,		
+		    	},	
+		    	C0P21_1B:{    		
+		    		required:true,		
+		    	},	
+		    	C0P21_2A:{    		
+			    	digits: true,
+			    	exactlength: 8,	
+		    	},	
+		    	C0P21_2B:{    			
+		    	},			    	
+		    	C0P21_3A:{    		
+			    	digits: true,
+			    	exactlength: 8,	
+		    	},	
+		    	C0P21_3B:{    		
+		    	},	
+
+
 		    },
 
 		    messages: {   
@@ -1072,12 +1310,12 @@ $("#car_f").validate({
 				    	var car_data = $("#car_f").serializeArray();
 					    car_data.push(
 					        {name: 'ajax',value:1},
-					        {name: 'C0NOMBREDD',value:$("#C0CCDD").text()},
-					        {name: 'C0NOMBREPP',value:$("#C0CCPP").text()},
-					        {name: 'C0NOMBREDI',value:$("#C0CCDI").text()},
-					        {name: 'C0VONOMBREDD',value:$("#C0VOCCDD").text()},
-					        {name: 'C0VONOMBREPP',value:$("#C0VOCCPP").text()},
-					        {name: 'C0VONOMBREDI',value:$("#C0VOCCDI").text()}
+					        {name: 'C0NOMBREDD',value:$("#C0CCDD :selected").text()},
+					        {name: 'C0NOMBREPP',value:$("#C0CCPP :selected").text()},
+					        {name: 'C0NOMBREDI',value:$("#C0CCDI :selected").text()},
+					        {name: 'C0VONOMBREDD',value:$("#C0VOCCDD :selected").text()},
+					        {name: 'C0VONOMBREPP',value:$("#C0VOCCPP :selected").text()},
+					        {name: 'C0VONOMBREDI',value:$("#C0VOCCDI :selected").text()}
 					    );
 						
 				        var bcar = $( "#car_f :submit" );
@@ -1096,9 +1334,6 @@ $("#car_f").validate({
 		    }       
 }); 
 
-
-
-// $('.fechap').datepicker({ dateFormat: 'yy-mm-dd' });
 
 }); 
 </script>

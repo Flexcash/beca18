@@ -1,5 +1,5 @@
 
-<div class="row-fluid" id="bec_tabs" style="margin-top:10px">
+<div class="row-fluid" id="bec_tabs">
 	<div class="span12" id="insidetabs" style="text-align:center">
 		<div class="tabbable"> <!-- Only required for left/right tabs -->
 		  <ul id='nav_capit2' class="nav nav-tabs fix_navcap">
@@ -377,6 +377,65 @@ $.validator.addMethod("valtexto", function(value, element,arg){
 }, "Seleccione un valor entre {0}, {1} o {2}, {3}, {4}");
 
 
+ $.validator.addMethod("valhora", function(value, element){
+    var dias = new Array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','99')
+    var length = dias.length;
+    var flag = false;
+    for(var i = 0; i < length; i++) {
+        if(dias[i] == value)
+          flag = true;
+    }
+   return flag;
+}, "Ingrese una hora válida");
+
+ $.validator.addMethod("valminuto", function(value, element){
+    var dias = new Array('01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','99')
+    var length = dias.length;
+    var flag = false;
+    for(var i = 0; i < length; i++) {
+        if(dias[i] == value)
+          flag = true;
+    }
+   return flag;
+}, "Ingrese minutos válidos");
+
+
+
+/*********** Sumatoria de Preguntas *************/
+$.validator.addMethod("sumaC5P509_8", function(value, element){ 
+    var error = true;
+    var t = Number( value );
+    var a = Number( $("#C5P509_1").val())==999?0:Number( $("#C5P509_1").val());
+    var b = Number( $("#C5P509_2").val())==999?0:Number( $("#C5P509_2").val());
+    var c = Number( $("#C5P509_3").val())==999?0:Number( $("#C5P509_3").val());
+    var d = Number( $("#C5P509_4").val())==999?0:Number( $("#C5P509_4").val());
+    var e = Number( $("#C5P509_5").val())==999?0:Number( $("#C5P509_5").val());
+    var f = Number( $("#C5P509_6").val())==999?0:Number( $("#C5P509_6").val());
+    var g = Number( $("#C5P509_7").val())==999?0:Number( $("#C5P509_7").val());
+
+    
+
+    var st=(a+b+c+d+e+f+g);
+    if( t!=st){
+      error=false;
+    }
+    return this.optional(element) || error ;
+  },"El Total NO es correcta en la columna HORAS");
+
+
 });
 
+/*********************************
+  Funciones de Bloqueo de texto
+**********************************/
+function fu_enableCTRL(ctrl){
+  $(ctrl).removeAttr("disabled");
+}
+
+function fu_disableCTRL(ctrl){
+  $(ctrl).val("").attr("disabled","disabled");
+}
+
 </script>
+
+

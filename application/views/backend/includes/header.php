@@ -26,8 +26,7 @@
 	<script src="<?php echo base_url('js/main.js'); ?>"></script>	
 
 	<div style="display: block;" id="header">
-		<!-- <a href="#" id="logo"><img alt="CIE2013" src="http://webinei.inei.gob.pe/cie/2013/web/img/brand_gps.png"></a> -->
-		<div id="oted">BECA18</div>
+		<a href="#" id="logo"><img alt="BECA18" src="<?php echo base_url('img/brand.png'); ?>"></a>
 	</div>
 
 

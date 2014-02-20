@@ -8,6 +8,7 @@ class Encuesta extends CI_Controller {
 		$this->load->library('form_validation');
 		$this->lang->load('auth');
 		$this->load->model('ubigeo_model');	
+		$this->load->model('encuesta_model');	
 
 		if (!$this->ion_auth->logged_in()) {
 			redirect('auth/login');
@@ -32,6 +33,21 @@ class Encuesta extends CI_Controller {
 	{
 		$data['user'] = $this->ion_auth->user()->row();
 		$data['dptos'] = $this->ubigeo_model->get_dptos();
+
+		$data['POSTULANTE'] = $this->encuesta_model->get_cap($data['user']->username, 'POSTULANTE');
+		$data['POSTULANTE_B'] = $this->encuesta_model->get_cap($data['user']->username, 'POSTULANTE_B');
+
+		$data['CAP01'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP01');
+		$data['CAP02'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP02');
+		$data['CAP03'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP03');
+		$data['CAP04'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP04');
+		$data['CAP04B'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP04B');
+		$data['CAP05'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP05');
+		$data['CAP06'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP06');
+		$data['CAP07'] = $this->encuesta_model->get_cap($data['user']->username, 'CAP07');
+
+
+
 		$data['nav'] = TRUE;
 		$data['title'] = 'Encuesta';
 		$data['main_content'] = 'encuesta/encuesta_view';

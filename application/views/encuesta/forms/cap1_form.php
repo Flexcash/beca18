@@ -16,8 +16,15 @@ $test = array(
 	'class' => 'form-control',
 );
 
+// EXTRAS
+$pcap1_num = array(
+	'name'	=> 'pcap1_num',
+	'id'	=> 'pcap1_num',
+	'class' => 'form-control',
+	'maxlength'	=> 2,
+);
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_1');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap1_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -27,14 +34,17 @@ echo '
 							<div class="panel-heading">
 								<h5 class="panel-title">100. Características de los miembros del hogar de origen y de los hermanos que no son miembros del hogar</h5>
 							</div>
-	<div class="col-md-12">			
+	<div class="col-md-12">	
+							<div class="form-group" style="text-align:center">
+							<label for="">Número de miembros del hogar: </label>
+							'.form_input($pcap1_num).'<div class="help-block error"></div>
+							</div>
 
-
-							<table class="table table-bordered">
+							<table class="table table-bordered" id="pcap1_an">
 								<thead>
 									<tr>
 										<th style="text-align:center;">101</th>
-										<th style="text-align:center;">102</th>
+										<th colspan="3" style="text-align:center;">102</th>
 										<th style="text-align:center;">103</th>
 										<th style="text-align:center;">104</th>
 										<th style="text-align:center;">105</th>
@@ -44,26 +54,29 @@ echo '
 								<tbody>
 									<tr>
 										<td>Nro de Orden</td>
-										<td>Cuales son los nombres y apellidos de cada una de las personas que viven permanentemente en tu hogar de origen y de los hermanos que no viven en este hogar?</td>
+										<td colspan="3">Cuales son los nombres y apellidos de cada una de las personas que viven permanentemente en tu hogar de origen y de los hermanos que no viven en este hogar?</td>
 										<td>Cual es la relacion de parentesco con el postulante?</td>
 										<td>Vive permanentemente en tu hogar de origen?</td>
 										<td>Sexo</td>
 										<td>Qué edad tiene en años cumplidos?</td>
 									</tr>
 									<tr>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-									</tr>
+										<td></td>
+										<td>Nombre</td>
+										<td>Ap. Paterno</td>
+										<td>Ap. Materno</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>									
+
 								</tbody>
 							</table>
 							<br>
 							<br>
 							<br>
-							<table class="table table-bordered">
+							<table class="table table-bordered"  id="pcap1_bn">
 								<thead>
 									<tr>
 										<th style="text-align:center;"></th>
@@ -96,17 +109,7 @@ echo '
 										<td>Te apoya económicamente?</td>
 										<td>Con que frecuencia te comunicas con:</td>
 									</tr>
-									<tr>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-										<td>'.form_input($test).'</td>
-									</tr>
+
 								</tbody>
 							</table>							
 
@@ -120,17 +123,140 @@ echo form_close();
 ?>
 
 
-
 <script type="text/javascript">
 
 $(function(){
-$("#cap_1").validate({
+
+
+
+$('#pcap1_num').val((<?php echo $CAP01->num_rows(); ?> > 0) ? <?php echo $CAP01->num_rows(); ?> : '' );
+
+$('#pcap1_num').keyup(function(event) {
+
+$('#pcap1_an tr').remove('.entrev');
+$('#pcap1_bn tr').remove('.entrev');
+
+	var ahua = $(this).val();
+	if(ahua >= 0 && ahua<=10){
+	  for(var i=1; i<=ahua;i++){
+	    var asd = '<tr class="entrev">';
+	    asd +='<td><input type="text" class="form-control input3 embc' + i + '" maxlength="2" readonly name="C1P101[]" id="C1P101_' + i + '" value="' + i + '" ></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C1P102A[]" id="C1P102A_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C1P102B[]" id="C1P102B_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C1P102C[]"  id="C1P102C_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P103[]"  id="C1P103_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P104[]"  id="C1P104_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P105[]"  id="C1P105_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C1P106[]"  id="C1P106_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd += '</tr>';
+	    $('#pcap1_an > tbody').append(asd);
+	  }
+
+	  for(var i=1; i<=ahua;i++){
+	    var asd = '<tr class="entrev">';
+	    asd +='<td><input type="text" class="form-control input3 embc' + i + '" maxlength="2" readonly name="C1P101x[]" id="C1P101x_' + i + '" value="' + i + '" ></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P107[]" id="C1P107_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P108[]" id="C1P108_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P109[]"  id="C1P109_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P110[]"  id="C1P110_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P111[]"  id="C1P111_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P112[]"  id="C1P112_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P113[]"  id="C1P113_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P114[]"  id="C1P114_' + i + '" value="" ><div class="help-block error"></div> - Otro Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" maxlength="50" name="C1P114_OBS[]" id="C1P114_OBS_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd += '</tr>';
+	    $('#pcap1_bn > tbody').append(asd);
+	  }
+
+	}else if(ahua==''){
+		//
+	}else{
+		//alert('10 Entrevistas máximo');
+	}
+
+	var as = 1;
+	$.each( <?php echo json_encode($CAP01->result()); ?>, function(i, data) {
+		   $('#C1P101_' +  as).val(data.C1P101);
+		   $('#C1P101x_' +  as).val(data.C1P101);
+		   $('#C1P102A_' +  as).val(data.C1P102A);
+		   $('#C1P102B_' +  as).val(data.C1P102B);
+		   $('#C1P102C_' +  as).val(data.C1P102C);
+		   $('#C1P103_' +  as).val(data.C1P103);
+		   $('#C1P104_' +  as).val(data.C1P104);
+		   $('#C1P105_' +  as).val(data.C1P105);
+		   $('#C1P106_' +  as).val(data.C1P106);
+		   $('#C1P107_' +  as).val(data.C1P107);
+		   $('#C1P108_' +  as).val(data.C1P108);
+		   $('#C1P109_' +  as).val(data.C1P109);
+		   $('#C1P110_' +  as).val(data.C1P110);
+		   $('#C1P111_' +  as).val(data.C1P111);
+		   $('#C1P112_' +  as).val(data.C1P112);
+		   $('#C1P113_' +  as).val(data.C1P113);
+		   $('#C1P114_' +  as).val(data.C1P114);
+		   $('#C1P114_OBS_' +  as).val(data.C1P114_OBS);
+		   as++;
+	}); 
+
+});
+
+$('#pcap1_num').trigger('keyup');
+
+
+$("#cap1_f").validate({
 		    rules: {  
-		    	C0SELECC:{
+		    	pcap1_num:{
+		    		range:[1,20],
 		    		required:true,
 		    	},			    		   			    	    
-		    },
+				'C1P102A[]':{
+				    required:true,
+				},	       
+				'C1P102B[]':{
+				    required:true,
+				},  		              
+				'C1P102C[]':{
+				    required: true,			    	
+				}, 
+				'C1P103[]':{
+				    required:true,
+				},	       
+				'C1P104[]':{
+				    required:true,
+				},  		              
+				'C1P105[]':{
+				    required: true,			    	
+				}, 		
+				'C1P106[]':{
+				    required:true,
+				},	       
+				'C1P107[]':{
+				    required:true,
+				},  		              
+				'C1P108[]':{
+				    required: true,			    	
+				}, 		
+				'C1P109[]':{
+				    required: true,			    	
+				}, 		
+				'C1P110[]':{
+				    required:true,
+				},  		              
+				'C1P111[]':{
+				    required: true,			    	
+				}, 		
+				'C1P112[]':{
+				    required: true,			    	
+				}, 				
+				'C1P113[]':{
+				    required:true,
+				},  		              
+				'C1P114[]':{
+				    required: true,			    	
+				}, 		
+				'C1P114_OBS[]':{		    	
+				}, 	
 
+
+			},
 		    messages: {   
 			//FIN MESSAGES
 		    },
@@ -155,37 +281,26 @@ $("#cap_1").validate({
 		    },
 		    submitHandler: function(form) {
 
-				    	var car_data = $("#car_f").serializeArray();
-					    car_data.push(
+				    	var cap1_data = $("#cap1_f").serializeArray();
+					    cap1_data.push(
 					        {name: 'ajax',value:1}
 					    );
 						
-				        var bcar = $( "#car_f :submit" );
+				        var bcar = $( "#cap1_f :submit" );
 				        bcar.attr("disabled", "disabled");
 				        $.ajax({
-				            url: CI.site_url + "/consistencia/car",
+				            url: CI.site_url + "/encuesta/cap1",
 				            type:'POST',
-				            data:car_data,
+				            data:cap1_data,
 				            dataType:'json',
 				            success:function(json){
 								alert(json.msg);
 								bcar.removeAttr('disabled');
-								$('#PC_A_1_Dep').attr('disabled','disabled');	
-								$('#PC_A_2_Prov').attr('disabled','disabled');		
-								$('#PC_A_3_Dist').attr('disabled','disabled');									
-								if(parseInt($('#PC_C_2_Rfinal_resul').val()) != 3){
-									$('#ctab').removeClass('active');
-									$('#ctab1 a').trigger('click');
-									window.scrollTo(0, 0);
-								}
 				            }
 				        });     			          	
 		    }       
 }); 
 
-
-
-// $('.fechap').datepicker({ dateFormat: 'yy-mm-dd' });
 
 }); 
 </script>

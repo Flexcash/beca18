@@ -25,7 +25,7 @@ $lang['error_csrf'] = 'Esta forma no paso nuestras pruebas de seguridad.';
 
 // Login
 $lang['login_heading']         = 'Ingresar';
-$lang['login_subheading']      = 'Por favor ingresa con tu email/usuario y contraseña aqui abajo.';
+$lang['login_subheading']      = 'Por favor ingresa con tu usuario y contraseña aqui abajo.';
 $lang['login_identity_label']  = 'Email/usuario:';
 $lang['login_password_label']  = 'Contraseña:';
 $lang['login_remember_label']  = 'Recuerdame:';

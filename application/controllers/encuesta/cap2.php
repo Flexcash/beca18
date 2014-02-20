@@ -39,23 +39,21 @@ class Cap2 extends CI_Controller {
 
 			$id = $user->username;			
 			foreach ($fields as $a=>$b) {
-				if(!in_array($b, array('Postulante_Id','usr_creacion','usr_edicion','fec_creacion','fec_edicion'))){
+				if(!in_array($b, array('Postulante_Id','usr_creacion','usr_edicion','fec_creacion','fec_edicion','last_ip','user_agent'))){
 					$c_data[$b] = ($this->input->post($b) == '') ? NULL : $this->input->post($b);
 				}
 			}	
 
-			// $c_data['last_ip'] =  $this->input->ip_address();
-			// $c_data['user_agent'] = $this->agent->agent_string();
-
-			//print_r($c_data);
+			$c_data['last_ip'] =  $this->input->ip_address();
+			$c_data['user_agent'] = $this->agent->agent_string();
 
 			$flag = 0;
 			$msg = 'Error inesperado, por favor intentalo nuevamente';
 
 			if ($this->encuesta_model->consulta_in_cap($id,'CAP02')->num_rows() == 0) {
 				// inserta nuevo registro
-				$c_data['Postulante_Id'] = $user->username;
-				$c_data['usr_creacion'] = $user->username;
+				$c_data['Postulante_Id'] = $id;
+				$c_data['usr_creacion'] = $id;
 				$c_data['fec_creacion'] = date('Y-m-d H:i:s');			
 					if($this->encuesta_model->insert_cap('CAP02',$c_data) > 0){
 						$flag = 1;
@@ -63,7 +61,7 @@ class Cap2 extends CI_Controller {
 					}
 			} else {
 				// actualiza
-				$c_data['usr_edicion'] = $user->username;
+				$c_data['usr_edicion'] = $id;
 				$c_data['fec_edicion'] = date('Y-m-d H:i:s');
 					if($this->encuesta_model->update_cap('CAP02',$c_data,$id) > 0){
 						$flag = 1;

@@ -197,14 +197,7 @@ $C5P509_7 = array(
 $C5P509_8 = array(
 	'name'	=> 'C5P509_8',
 	'id'	=> 'C5P509_8',
-	'maxlength'	=> 2,
-	'class' => 'form-control',
-);
-
-$C5P509_TOTAL = array(
-	'name'	=> 'C5P509_TOTAL',
-	'id'	=> 'C5P509_TOTAL',
-	'maxlength'	=> 6,
+	'maxlength'	=> 5,
 	'class' => 'form-control',
 );
 
@@ -301,7 +294,7 @@ $C5_OBS = array(
 //500*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_5');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap5_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -437,40 +430,40 @@ echo '
 					              <tbody>
 					              <tr>
 					                 <td>Domingo</td>
-					                 <td>' . form_input($C5P509_1) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_7) . '<div class="help-block error"></div></td>
 					              </tr>  
 					               <tr>
 					                  <td>Lunes</td>
-					                  <td>' . form_input($C5P509_2) . '<div class="help-block error"></div></td>
+					                  <td>' . form_input($C5P509_1) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
 					                 <td>Martes</td>
-					                 <td>' . form_input($C5P509_3) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_2) . '<div class="help-block error"></div></td>
 					              </tr>			
 
 					              <tr>
 					                 <td>Miércoles</td>
-					                 <td>' . form_input($C5P509_4) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_3) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Jueves</td>
-					                 <td>' . form_input($C5P509_5) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_4) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Viernes</td>
-					                 <td>' . form_input($C5P509_7) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_5) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Sabado</td>
-					                 <td>' . form_input($C5P509_8) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_6) . '<div class="help-block error"></div></td>
 					               </tr>
 
 					              <tr>
 					                 <td>Total</td>
-					                 <td>' . form_input($C5P509_TOTAL) . '<div class="help-block error"></div></td>
+					                 <td>' . form_input($C5P509_8) . '<div class="help-block error"></div></td>
 					               </tr>
 			              </tbody>
 			    </table>
@@ -568,3 +561,164 @@ echo '
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
+
+
+
+<script type="text/javascript">
+
+
+$(function(){
+
+
+
+if(<?php echo $CAP05->num_rows() ?> == 1){
+
+	$.each( <?php echo json_encode($CAP05->row()); ?>, function(fila, valor) {
+	        $('#' + fila).val(valor);       	
+	}); 
+
+}
+
+
+
+$("#cap5_f").validate({
+		    rules: {  
+		    	C5P501:{
+		    		required:function(e){
+		    			var r = $(e).val();
+		    			if(r==1){
+		    				fu_disableCTRL("#C5P502,#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		    			}else{
+		    				fu_enableCTRL("#C5P502,#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		    			}
+		    			return true;
+		    		},range:[1,2], rangelength:[1,1],digits:true
+		    	},			    		   			    	    
+		    	C5P502:{
+		    		required:function(e){
+		    			var r = $(e).val();
+		    			if(r==1){
+		    				fu_disableCTRL("#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		    			}else{
+		    				fu_enableCTRL("#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		    			}
+		    			return true;
+		    		},range:[1,2], rangelength:[1,1],digits:true
+		    	},
+		    	C5P503:{
+		    		required:function(e){
+		    			var r = $(e).val();
+		    			if(r==1){
+		    				fu_disableCTRL("#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		    			}else{
+		    				fu_enableCTRL("#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		    			}
+		    			return true;
+		    		},range:[1,2], rangelength:[1,1],digits:true
+		    	},
+		    	C5P504_1 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_2 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_3 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_4 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_5 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_6 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_7 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_8 : { required:true, rangelength:[1,1], range:[1,2]},
+				C5P504_9 : { required:function(e){ 
+								var r = $(e).val(); 
+								if(r==1){ 
+									fu_disableCTRL("#C5P504_9OBS"); 
+								}else{ 
+									fu_enableCTRL("#C5P504_9OBS"); 
+								} 
+
+								if ( $("#C5P504_1").val()==2 && $("#C5P504_2").val()==2 && $("#C5P504_3").val()==2 && $("#C5P504_4").val()==2 && $("#C5P504_5").val()==2 && $("#C5P504_6").val()==2 && $("#C5P504_7").val()==2 && $("#C5P504_8").val()==2 && $("#C5P504_9").val()==2 ){
+									fu_disableCTRL("input[name*=C5P505], #C5P506, input[name*=C5P507], input[name*=C5P508], input[name*=C5P509],#C5P510, input[name*=C5P511], input[name*=C5P512], input[name*=C5P513], input[name*=C5P514] ");
+								}else{
+									fu_enableCTRL("input[name*=C5P505], #C5P506, input[name*=C5P507], input[name*=C5P508], input[name*=C5P509],#C5P510, input[name*=C5P511], input[name*=C5P512], input[name*=C5P513], input[name*=C5P514] ");
+								}
+
+								return true; 
+							}, rangelength:[1,1], range:[1,2]},
+				C5P504_9OBS : { required:function(e){ return $("#C5P504_9").val()!=''}, rangelength:[1,50] },
+				C5P505A : { required:true, rangelength:[1,50]},
+				C5P505B : { required:true, rangelength:[1,50]},
+				C5P506 : { rangelength:[1,50]},
+				C5P507 : { required: function(e){ var r = $(e).val(); if(r==1){ fu_disableCTRL("#C5P507_OBS");}else{fu_enableCTRL("#C5P507_OBS");} return $("#C5P507_OBS").val()!=''; }, rangelength:[1,1], range:[1,7]},
+				C5P507_OBS :{ required:function(e){ return $("#C5P507").val()==7 }, rangelength:[1,50]},
+				C5P508 : { required: function(e){ var r = $(e).val(); if(r==1){ fu_disableCTRL("#C5P508_OBS");}else{fu_enableCTRL("#C5P508_OBS");} return $("#C5P508_OBS").val()!=''; }, rangelength:[1,1], range:[1,8]},
+				C5P508_OBS:{ required:function(e){ return $("#C5P508").val()==7 }, rangelength:[1,50]},
+				
+				C5P509_1 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_2 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_3 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_4 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_5 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_6 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_7 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				C5P509_8 : { required:true, rangelength:[1,3], range:[0,999], digits:true, sumaC5P509_8:true },
+				C5P510 : { rangelength:[1,1], range:[1,4], digits:true }, 
+				C5P511_MON : { rangelength:[1,3], range:[0,998], digits:true }, 
+				C5P511_ESP : { rangelength:[1,3], range:[0,998], digits:true }, 
+
+				C5P512_MON : { rangelength:[1,3], range:[0,998], digits:true }, 
+				C5P512_ESP : { rangelength:[1,3], range:[0,998], digits:true }, 
+				C5P512_NSA : { required:function(e){ return $("#C5P512_MON").val()!='' && $("#C5P512_ESP").val()!='' }, rangelength:[1,1], range:[1,2], digits:true }, 
+
+				C5P513 		: { required:function(e){ var r = $(e).val(); if(r==4){ fu_enableCTRL("#C5P513_OBS");}else{fu_disableCTRL("#C5P513_OBS");} return true; },
+								rangelength:[1,1], range:[1,5], digits:true }, 
+				C5P513_OBS 	: { required: function(e){ return $("#C5P513").val()==4;}, rangelength:[1,50] },
+				C5P514 		: { required:function(e){ var r = $(e).val(); if(r==7){ fu_enableCTRL("#C5P514_OBS");}else{fu_disableCTRL("#C5P514_OBS");} return true; },
+								rangelength:[1,1], range:[1,7], digits:true }, 
+				C5P514_OBS 	: { required: function(e){ return $("#C5P514").val()==7;}, rangelength:[1,50] },
+				C5_OBS 		: { rangelength:[1,1000] },		    		   			    	    
+		    },
+
+		    messages: {   
+			//FIN MESSAGES
+		    },
+		    errorPlacement: function(error, element) {
+		        $(element).next().after(error);
+		    },
+		    invalidHandler: function(form, validator) {
+		      var errors = validator.numberOfInvalids();
+		      if (errors) {
+		        var message = errors == 1
+		          ? 'Por favor corrige estos errores:\n'
+		          : 'Por favor corrige los ' + errors + ' errores.\n';
+		        var errors = "";
+		        if (validator.errorList.length > 0) {
+		            for (x=0;x<validator.errorList.length;x++) {
+		                errors += "\n\u25CF " + validator.errorList[x].message;
+		            }
+		        }
+		        alert(message + errors);
+		      }
+		      validator.focusInvalid();
+		    },
+		    submitHandler: function(form) {
+
+				    	var cap4_data = $("#cap5_f").serializeArray();
+					    cap4_data.push(
+					        {name: 'ajax',value:1}
+					    );
+						
+				        var bcar = $( "#cap5_f :submit" );
+				        bcar.attr("disabled", "disabled");
+				        $.ajax({
+				            url: CI.site_url + "/encuesta/cap5",
+				            type:'POST',
+				            data:cap4_data,
+				            dataType:'json',
+				            success:function(json){
+								alert(json.msg);
+								bcar.removeAttr('disabled');
+							
+				            }
+				        });     			          	
+		    }       
+}); 
+
+
+}); 
+</script>

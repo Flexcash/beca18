@@ -523,7 +523,7 @@ $C4P415C_13OBS = array(
 //400*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_4');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap4b_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -793,3 +793,286 @@ echo '
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
+
+
+<script type="text/javascript">
+
+
+$(function(){
+
+
+if(<?php echo $CAP04B->num_rows() ?> == 1){
+
+	$.each( <?php echo json_encode($CAP04B->row()); ?>, function(fila, valor) {
+	        $('#' + fila).val(valor);       	   	
+	}); 
+	
+// setTimeout(function(){
+// 			$("#cap4b_f").valid();
+//          }, 1000); 	
+
+}
+
+$("#cap4b_f").validate({
+		    rules: {  
+
+
+
+		    	C4P411_1 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_2 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_3 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_4 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_5 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_6 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_7 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_8 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+				// C4P411_9 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+
+				// C4P412_1 : { required:true, rangelength:[1,1], range:[0,1], digits: true },
+				// C4P412_2 : { required:true, rangelength:[1,1], range:[0,1], digits: true },
+				// C4P412_3 : { required:true, rangelength:[1,1], range:[0,1], digits: true },
+				// C4P412_4 : { required:function(e){
+				// 				var r = $(e).val();
+				// 				if(r==1){
+				// 					fu_disableCTRL("#C4P413, input[name*=C4P414]");
+				// 				}else{
+				// 					fu_enableCTRL("#C4P413, input[name*=C4P414]");
+				// 				}
+				// 				return true;
+				// 			} , rangelength:[1,1], range:[0,1], digits: true },
+				// C4P413 : { required:function(e){
+				// 				var r = $(e).val();
+				// 				if(r==2){
+				// 					fu_disableCTRL("input[name*=C4P414]");
+				// 				}else{
+				// 					fu_enableCTRL("input[name*=C4P414]");
+				// 				}
+				// 				return true;
+				// 			}, rangelength:[1,1], range:[1,2], digits:true },
+				// C4P414_1 : { required:true, rangelength:[1,1], range:[1,5], digits: true },
+				// C4P414_2 : { required:true, rangelength:[1,1], range:[1,5], digits: true },
+				// C4P414_3 : { required:true, rangelength:[1,1], range:[1,5], digits: true },
+				// C4P414_4 : { required:true, rangelength:[1,1], range:[1,5], digits: true },
+				// C4P414_5 : { required:true, rangelength:[1,1], range:[1,5], digits: true },
+
+
+				// C4P415_1 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_1, #C4P415B_1, #C4P415C_1");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_1, #C4P415B_1, #C4P415C_1");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_1 	: { required: function(e){ return $("#C4P415_1").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_1 	: { required: function(e){ return $("#C4P415_1").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_1 	: { required: function(e){ return $("#C4P415_1").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_2 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_2, #C4P415B_2, #C4P415C_2");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_2, #C4P415B_2, #C4P415C_2");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_2 	: { required: function(e){ return $("#C4P415_2").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_2 	: { required: function(e){ return $("#C4P415_2").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_2 	: { required: function(e){ return $("#C4P415_2").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_3 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_3, #C4P415B_3, #C4P415C_3");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_3, #C4P415B_3, #C4P415C_3");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_3 	: { required: function(e){ return $("#C4P415_3").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_3 	: { required: function(e){ return $("#C4P415_3").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_3 	: { required: function(e){ return $("#C4P415_3").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_4 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_4, #C4P415B_4, #C4P415C_4");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_4, #C4P415B_4, #C4P415C_4");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_4 	: { required: function(e){ return $("#C4P415_4").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_4 	: { required: function(e){ return $("#C4P415_4").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_4 	: { required: function(e){ return $("#C4P415_4").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_5 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_5, #C4P415B_5, #C4P415C_5");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_5, #C4P415B_5, #C4P415C_5");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_5 	: { required: function(e){ return $("#C4P415_5").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_5 	: { required: function(e){ return $("#C4P415_5").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_5 	: { required: function(e){ return $("#C4P415_5").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_6 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_6, #C4P415B_6, #C4P415C_6");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_6, #C4P415B_6, #C4P415C_6");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_6 	: { required: function(e){ return $("#C4P415_6").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_6 	: { required: function(e){ return $("#C4P415_6").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_6 	: { required: function(e){ return $("#C4P415_6").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_7 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_7, #C4P415B_7, #C4P415C_7");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_7, #C4P415B_7, #C4P415C_7");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_7 	: { required: function(e){ return $("#C4P415_7").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_7 	: { required: function(e){ return $("#C4P415_7").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_7 	: { required: function(e){ return $("#C4P415_7").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_8 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_8, #C4P415B_8, #C4P415C_8");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_8, #C4P415B_8, #C4P415C_8");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_8 	: { required: function(e){ return $("#C4P415_8").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_8 	: { required: function(e){ return $("#C4P415_8").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_8 	: { required: function(e){ return $("#C4P415_8").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_9 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_9, #C4P415B_9, #C4P415C_9");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_9, #C4P415B_9, #C4P415C_9");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_9 	: { required: function(e){ return $("#C4P415_9").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_9 	: { required: function(e){ return $("#C4P415_9").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_9 	: { required: function(e){ return $("#C4P415_9").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_10 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_10, #C4P415B_10, #C4P415C_10");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_10, #C4P415B_10, #C4P415C_10");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_10 	: { required: function(e){ return $("#C4P415_10").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_10 	: { required: function(e){ return $("#C4P415_10").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_10 	: { required: function(e){ return $("#C4P415_10").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_11 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_11, #C4P415B_11, #C4P415C_11");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_11, #C4P415B_11, #C4P415C_11");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_11 	: { required: function(e){ return $("#C4P415_11").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_11 	: { required: function(e){ return $("#C4P415_11").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_11 	: { required: function(e){ return $("#C4P415_11").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_12 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_12, #C4P415B_12, #C4P415C_12");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_12, #C4P415B_12, #C4P415C_12");
+				// 					}
+				// 					return true;
+				// 			}, rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_12 	: { required: function(e){ return $("#C4P415_12").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_12 	: { required: function(e){ return $("#C4P415_12").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_12 	: { required: function(e){ return $("#C4P415_12").val()==1 }, rangelength:[1,1], range:[1,2] },
+
+				// C4P415_13 	: { required:function(e){
+				// 					var r = $(e).val();
+				// 					if( r==2 ){
+				// 						fu_disableCTRL("#C4P415A_13, #C4P415B_13, #C4P415C_13, #C4P415C_13OBS");
+				// 					}else{
+				// 						fu_enableCTRL("#C4P415A_13, #C4P415B_13, #C4P415C_13, #C4P415C_13OBS");
+				// 					}
+				// 					return true;
+				// 			} , rangelength:[1,1], valrango:[1,2,9], digits:true},
+				// C4P415A_13 	: { required: function(e){ return $("#C4P415_13").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415B_13 	: { required: function(e){ return $("#C4P415_13").val()==1 }, rangelength:[1,1], range:[1,2] },
+				// C4P415C_13 	: { required: function(e){ return $("#C4P415_13").val()==1 }, rangelength:[1,1], range:[1,2] },
+		  //   	C4P415C_13OBS : { required: function(e){ return $("#C4P415_13").val()==1 }, rangelength:[1,50] },	    		   			    	    
+		    },
+
+		    messages: {   
+			//FIN MESSAGES
+		    },
+		    errorPlacement: function(error, element) {
+		        $(element).next().after(error);
+		    },
+		    invalidHandler: function(form, validator) {
+		      var errors = validator.numberOfInvalids();
+		      if (errors) {
+		        var message = errors == 1
+		          ? 'Por favor corrige estos errores:\n'
+		          : 'Por favor corrige los ' + errors + ' errores.\n';
+		        var errors = "";
+		        if (validator.errorList.length > 0) {
+		            for (x=0;x<validator.errorList.length;x++) {
+		                errors += "\n\u25CF " + validator.errorList[x].message;
+		            }
+		        }
+		        alert(message + errors);
+		      }
+		      validator.focusInvalid();
+		    },
+		    submitHandler: function(form) {
+
+				    	var cap4_data = $("#cap4b_f").serializeArray();
+					    cap4_data.push(
+					        {name: 'ajax',value:1}
+					    );
+						
+				        var bcar = $( "#cap4b_f :submit" );
+				        bcar.attr("disabled", "disabled");
+				        $.ajax({
+				            url: CI.site_url + "/encuesta/cap4b",
+				            type:'POST',
+				            data:cap4_data,
+				            dataType:'json',
+				            success:function(json){
+								alert(json.msg);
+								bcar.removeAttr('disabled');
+							
+				            }
+				        });     			          	
+		    }       
+}); 
+
+
+
+}); 
+</script>

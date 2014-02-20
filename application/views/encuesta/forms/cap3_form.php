@@ -1,6 +1,5 @@
 <?php 
 
-//CAP 3
 
 $C3P301 = array(
 	'name'	=> 'C3P301',
@@ -74,8 +73,8 @@ $C3P304_DI = array(
 
 
 $C3P305 = array(
-	'name'	=> 'C3P303A',
-	'id'	=> 'C3P303A',
+	'name'	=> 'C3P305',
+	'id'	=> 'C3P305',
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
@@ -409,14 +408,8 @@ $C3P318_8 = array(
 	'class' => 'form-control',
 );
 
-$C3P318_9 = array(
-	'name'	=> 'C3P318_8',
-	'id'	=> 'C3P318_8',
-	'maxlength'	=> 1,
-	'class' => 'form-control',
-);
 
-$C3P318_9OBS = array(
+$C3P318_8OBS = array(
 	'name'	=> 'C3P318_8OBS',
 	'id'	=> 'C3P318_8OBS',
 	'maxlength'	=> 50,
@@ -632,8 +625,8 @@ $C3P329 = array(
 
 
 $C3P329_OBS = array(
-	'name'	=> 'C3P328_OBS',
-	'id'	=> 'C3P328_OBS',
+	'name'	=> 'C3P329_OBS',
+	'id'	=> 'C3P329_OBS',
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
@@ -739,8 +732,8 @@ $C3P336_3 = array(
 );
 
 $C3P336_3OBS = array(
-	'name'	=> 'C3P336_5',
-	'id'	=> 'C3P336_5',
+	'name'	=> 'C3P336_3OBS',
+	'id'	=> 'C3P336_3OBS',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
@@ -1451,8 +1444,8 @@ $C3P360_OBS = array(
 );
 
 $C3P361_1 = array(
-	'name'	=> 'C3P361',
-	'id'	=> 'C3P361',
+	'name'	=> 'C3P361_1',
+	'id'	=> 'C3P361_1',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
@@ -1486,8 +1479,8 @@ $C3P361_5 = array(
 );
 
 $C3P361_5OBS = array(
-	'name'	=> 'C3P361_OBS',
-	'id'	=> 'C3P361_OBS',
+	'name'	=> 'C3P361_5OBS',
+	'id'	=> 'C3P361_5OBS',
 	'maxlength'	=> 50,
 	'class' => 'form-control',
 );
@@ -1570,14 +1563,14 @@ $C3_OBS = array(
 );
 
 // $depArray = NULL;
-$depArray = array(-1 => ' -'); 
-// foreach($dptos->result() as $d)
-// {
-// 	$depArray[$d->CCDD]=strtoupper($d->Nombre);
-// }
+$dep3Array = array(-1 => ' -'); 
+foreach($dptos->result() as $d)
+{
+	$dep3Array[$d->CCDD]=strtoupper($d->Nombre);
+}
 
-$provArray = array(-1 => ' -'); 
-$distArray = array(-1 => ' -'); 
+$prov3Array = array(-1 => ' -'); 
+$dist3Array = array(-1 => ' -'); 
 
 $test = array(
 	'name'	=> 'test',
@@ -1589,7 +1582,7 @@ $test = array(
 
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_3');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap3_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -1616,17 +1609,19 @@ echo '
 
 			<div class="form-group">
 				<label for="">303. Cual es el nombre de la (del)...</label>
-						' . form_input($C3P303) . '<div class="help-block error"></div>						
+						' . form_input($C3P303) . '<div class="help-block error"></div>			
+				<p>Es la ...... con la que postulaste para BECA 18?</p>
+						' . form_input($C3P303A) . '<div class="help-block error"></div>									
 			</div>	
 
 			<div class="form-group">
 				<label for="">304. En que departamento, provincia y distrito se encuentra el local donde estudias?</label>
 				<p>Departamento</p>
-				' . form_dropdown('C3P304_CCDD', $depArray, FALSE,'class="form-control input200" id="C3P304_CCDD"')  . '<div class="help-block error"></div>			
+				' . form_dropdown('C3P304_CCDD', $dep3Array, FALSE,'class="form-control input200" id="C3P304_CCDD"')  . '<div class="help-block error"></div>			
 				<p>Provincia</p>
-				' . form_dropdown('C3P304_CCPP', $depArray, FALSE,'class="form-control input200" id="C3P304_CCPP"') . '<div class="help-block error"></div>	
+				' . form_dropdown('C3P304_CCPP', $prov3Array, FALSE,'class="form-control input200" id="C3P304_CCPP"') . '<div class="help-block error"></div>	
 				<p>Distrito</p>
-				' . form_dropdown('C3P304_CCDI', $depArray, FALSE,'class="form-control input200" id="C3P304_CCDI"') . '<div class="help-block error"></div>												
+				' . form_dropdown('C3P304_CCDI', $dist3Array, FALSE,'class="form-control input200" id="C3P304_CCDI"') . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
@@ -1762,7 +1757,9 @@ echo '
 
 			<div class="form-group">
 				<label for="">313. Cuál es el nombre de la (del)...</label>
-						' . form_input($C3P313) . '<div class="help-block error"></div>						
+						' . form_input($C3P313) . '<div class="help-block error"></div>		
+				<p>Era la ...... con la que postulaste a BECA 18</p>
+						' . form_input($C3P313A) . '<div class="help-block error"></div>										
 			</div>		
 
 
@@ -1786,11 +1783,11 @@ echo '
 			<div class="form-group">
 				<label for="">314. En que departamento, provincia y distrito se encuentra el local donde estudiabas?</label>
 				<p>Departamento</p>
-				' . form_dropdown('C3P314_CCDD', $depArray, FALSE,'class="form-control input200" id="C3P314_CCDD"') . '<div class="help-block error"></div>			
+				' . form_dropdown('C3P314_CCDD', $dep3Array, FALSE,'class="form-control input200" id="C3P314_CCDD"') . '<div class="help-block error"></div>			
 				<p>Provincia</p>
-				' . form_dropdown('C3P314_CCPP', $depArray, FALSE,'class="form-control input200" id="C3P314_CCPP"') . '<div class="help-block error"></div>	
+				' . form_dropdown('C3P314_CCPP', $prov3Array, FALSE,'class="form-control input200" id="C3P314_CCPP"') . '<div class="help-block error"></div>	
 				<p>Distrito</p>
-				' . form_dropdown('C3P314_CCDI', $depArray, FALSE,'class="form-control input200" id="C3P314_CCDI"') . '<div class="help-block error"></div>												
+				' . form_dropdown('C3P314_CCDI', $dist3Array, FALSE,'class="form-control input200" id="C3P314_CCDI"') . '<div class="help-block error"></div>												
 			</div>	
 
 			<div class="form-group">
@@ -1851,7 +1848,7 @@ echo '
 					                  <td>' . form_input($C3P318_2) . '<div class="help-block error"></div></td>
 					               </tr> 
 					              <tr>
-					                 <td>No podia financiar mi carrera</td>
+					                 <td>No podia pagar los estudios</td>
 					                 <td>' . form_input($C3P318_3) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
@@ -1859,27 +1856,23 @@ echo '
 					                 <td>' . form_input($C3P318_4) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-					                 <td>No me gustó</td>
+					              <tr>
+					                 <td>No me gusta estudiar</td>
 					                 <td>' . form_input($C3P318_5) . '<div class="help-block error"></div></td>
 					               </tr>
-					              <tr>
-					                 <td>Me fue mal académicamente (malas notas)</td>
+					                 <td>Por motivos familiares (paternidad/maternidad/matrimonio)</td>
 					                 <td>' . form_input($C3P318_6) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-					                 <td>Por motivos familiares (paternidad/maternidad/matrimonio)</td>
+					                 <td>Por motivos de salud (accidente/enfermedad)</td>
 					                 <td>' . form_input($C3P318_7) . '<div class="help-block error"></div></td>
 					               </tr>
 					              <tr>
-					                 <td>Por motivos de salud (accidente/enfermedad)</td>
+					                 <td>Otra</td>
 					                 <td>' . form_input($C3P318_8) . '<div class="help-block error"></div></td>
-					               </tr>
-					              <tr>
-					                 <td>Otro</td>
-					                 <td>' . form_input($C3P318_9) . '<div class="help-block error"></div></td>
 					              </tr>		
 					              <tr>
-					                  <td>' . form_input($C3P318_9OBS) . '<div class="help-block error"></div>Especifique</td>
+					                  <td>' . form_input($C3P318_8OBS) . '<div class="help-block error"></div>Especifique</td>
 					                  <td></td>
 					              </tr>			               				               					                					                						               				               					               					               
 			              </tbody>
@@ -2776,3 +2769,1148 @@ echo '
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
+
+<script type="text/javascript">
+
+$(function(){
+
+$("#C3P304_CCDD").change(function(event) {
+        var sel = null;
+        var urlx = null;
+
+        sel = $("#C3P304_CCPP");
+        // selcap1 = $("#P1_C_2_ProvCod");
+        urlx = CI.site_url + "/ajax/ubigeo_ajax/get_ajax_prov/" + $(this).val();
+
+        var form_data = {
+            dep: $(this).val(),
+            ajax:1
+        };
+
+        $.ajax({
+            url: urlx,
+            type:'POST',
+            data:form_data,
+            dataType:'json',
+            success:function(json_data){
+                sel.empty();
+                // selcap1.empty();
+                $("#C3P304_CCDI").empty();
+                 sel.append('<option value="-1">-</option>');
+                $.each(json_data, function(i, data){
+                    	sel.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                    	// selcap1.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                });
+                 // sel.trigger('change');     	  
+                 // selcap1.trigger('change');     	  
+            }
+        });           
+});
+
+
+$("#C3P304_CCPP").change(function(event) {
+        var sel = null;
+        var urlx = null;
+
+        sel = $("#C3P304_CCDI");
+        dep = $("#C3P304_CCDD");
+        // selcap1 = $("#P1_C_2_ProvCod");
+        urlx = CI.site_url + "/ajax/ubigeo_ajax/get_ajax_dist/" + dep.val() + '/' + $(this).val();
+
+        var form_data = {
+            dep: dep.val(),
+            prov: $(this).val(),
+            ajax:1
+        };
+
+        $.ajax({
+            url: urlx,
+            type:'POST',
+            data:form_data,
+            dataType:'json',
+            success:function(json_data){
+                sel.empty();
+                // selcap1.empty();
+                // $("#C0CCDI").empty();
+                 sel.append('<option value="-1">-</option>');
+                $.each(json_data, function(i, data){
+                    	sel.append('<option value="' + data.CCDI + '">' + data.Nombre + '</option>');
+                    	// selcap1.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                });
+                 // sel.trigger('change');     	  
+                 // selcap1.trigger('change');     	  
+            }
+        });           
+});
+
+$("#C3P314_CCDD").change(function(event) {
+        var sel = null;
+        var urlx = null;
+
+        sel = $("#C3P314_CCPP");
+        // selcap1 = $("#P1_C_2_ProvCod");
+        urlx = CI.site_url + "/ajax/ubigeo_ajax/get_ajax_prov/" + $(this).val();
+
+        var form_data = {
+            dep: $(this).val(),
+            ajax:1
+        };
+
+        $.ajax({
+            url: urlx,
+            type:'POST',
+            data:form_data,
+            dataType:'json',
+            success:function(json_data){
+                sel.empty();
+                // selcap1.empty();
+                $("#C3P314_CCDI").empty();
+                 sel.append('<option value="-1">-</option>');
+                $.each(json_data, function(i, data){
+                    	sel.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                    	// selcap1.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                });
+                 // sel.trigger('change');     	  
+                 // selcap1.trigger('change');     	  
+            }
+        });           
+});
+
+
+$("#C3P314_CCPP").change(function(event) {
+        var sel = null;
+        var urlx = null;
+
+        sel = $("#C3P314_CCDI");
+        dep = $("#C3P314_CCDD");
+        // selcap1 = $("#P1_C_2_ProvCod");
+        urlx = CI.site_url + "/ajax/ubigeo_ajax/get_ajax_dist/" + dep.val() + '/' + $(this).val();
+
+        var form_data = {
+            dep: dep.val(),
+            prov: $(this).val(),
+            ajax:1
+        };
+
+        $.ajax({
+            url: urlx,
+            type:'POST',
+            data:form_data,
+            dataType:'json',
+            success:function(json_data){
+                sel.empty();
+                // selcap1.empty();
+                // $("#C0CCDI").empty();
+                 sel.append('<option value="-1">-</option>');
+                $.each(json_data, function(i, data){
+                    	sel.append('<option value="' + data.CCDI + '">' + data.Nombre + '</option>');
+                    	// selcap1.append('<option value="' + data.CCPP + '">' + data.Nombre + '</option>');
+                });
+                 // sel.trigger('change');     	  
+                 // selcap1.trigger('change');     	  
+            }
+        });           
+});
+
+
+
+
+
+
+if(<?php echo $CAP03->num_rows() ?> == 1){
+	$.each( <?php echo json_encode($CAP03->row()); ?>, function(fila, valor) {
+
+			if(fila == 'C3P304_CCDD' || fila == 'C3P314_CCDD'){
+	   			$('#' + fila).val(valor);
+	   			$('#' + fila).trigger('change');	
+
+            }else if(fila == 'C3P304_CCPP'){
+                var interval_PP = setInterval(function(){
+	                if($('#C3P304_CCPP option:nth-child(2)').length){
+	                    clearInterval(interval_PP);                                                    
+	                    $('#C3P304_CCPP').val(valor);
+	                    $('#C3P304_CCPP').trigger('change');
+	           		}
+         		}, 1000); 
+
+            }else if(fila == 'C3P304_CCDI'){
+                var interval_DI = setInterval(function(){
+	                if($('#C3P304_CCDI option:nth-child(2)').length){
+	                    clearInterval(interval_DI);
+				   		$('#C3P304_CCDI').val(valor);                                                            
+	                }
+                }, 1000);        
+
+            }else if(fila == 'C3P314_CCPP'){
+                var interval_PP = setInterval(function(){
+	                if($('#C3P314_CCPP option:nth-child(2)').length){
+	                    clearInterval(interval_PP);                                                    
+	                    $('#C3P314_CCPP').val(valor);
+	                    $('#C3P314_CCPP').trigger('change');
+	           		}
+         		}, 1000); 
+
+            }else if(fila == 'C3P314_CCDI'){
+                var interval_DI = setInterval(function(){
+	                if($('#C3P314_CCDI option:nth-child(2)').length){
+	                    clearInterval(interval_DI);
+				   		$('#C3P314_CCDI').val(valor);                                                            
+	                }
+                }, 1000);        
+
+            }else{
+	        	$('#' + fila).val(valor);      
+	        }	  	
+	}); 
+}
+
+
+
+
+
+$("#cap3_f").validate({
+		    rules: {  
+		    	C3P301:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},			
+		    	C3P302:{
+		    		range:[1,4],			    			
+		    		required:true,
+		    	},	
+		    	C3P303:{
+		    		required:true,
+		    	},		
+		    	C3P303A:{
+		    		range:[1,2],			    			
+		    		required:true,		    		
+		    	},		
+		    	C3P304_CCDD:{
+		    		valueNotEquals:'-1',
+		    		required:true,	    		
+		    	},	
+		    	C3P304_CCPP:{
+		    		valueNotEquals:'-1',
+		    		required:true,	    		
+		    	},	
+		    	C3P304_CCDI:{
+		    		valueNotEquals:'-1',
+		    		required:true,	    		
+		    	},	
+		    	C3P305:{
+		    		required:true,
+		    	},		
+		    	C3P306:{
+		    		range:[1,4],			    			
+		    		required:true,
+		    	},	
+		    	C3P307_C1:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P307_C1C:{
+		    		range:[0,50],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P307_C2:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P307_C2C:{
+		    		range:[0,50],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P307_C3:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P307_C3C:{
+		    		range:[0,50],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P307_C4:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P307_C4C:{
+		    		range:[0,50],			    			
+		    		required:true,
+		    	},	
+		    	C3P308:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+		    	C3P309_1:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+		    	C3P309_2:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_3:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_4:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_5:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_6:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_7:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_8:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_9:{
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P309_9OBS:{		    			
+		    		required:true,
+		    	},
+		    	C3P310:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+		    	C3P311_ANIO:{		    			
+		    		range:[0,50],			    			
+		    	},
+		    	C3P311_MES:{		    			
+		    		valrango:[0,11,99],			    			
+		    	},
+		    	C3P312:{		    			
+		    		range:[1,4],			    			
+		    		required:true,
+		    	},
+		    	C3P313:{		    				    			
+		    		required:true,
+		    	},
+		    	C3P313A:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},
+
+		    	C3P314_CCDD:{
+		    		valueNotEquals:'-1',
+		    		required:true,	    		
+		    	},	
+		    	C3P314_CCPP:{
+		    		valueNotEquals:'-1',
+		    		required:true,	    		
+		    	},	
+		    	C3P314_CCDI:{
+		    		valueNotEquals:'-1',
+		    		required:true,	    		
+		    	},	
+
+		    	C3P315:{		    				    			
+		    		required:true,
+		    	},
+		    	C3P316_A:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},
+
+		    	C3P316_B:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},
+
+		    	C3P317_CI:{		    			
+		    		valrango:[0,4,9],			    			
+		    		required:true,
+		    	},
+
+		    	C3P317_CU:{		    			
+		    		valrango:[0,98,99],			    			
+		    		required:true,
+		    	},
+
+		    	C3P317_NCI:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},
+
+		    	C3P318_1:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},
+		    	C3P318_2:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},		    	
+		    	C3P318_3:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},		
+		    	C3P318_4:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},		
+		    	C3P318_5:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P318_6:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P318_7:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P318_8:{		    			
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P318_8OBS:{		    					    			
+		    		required:true,
+		    	},	
+
+		    	C3P319:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P320_ANIO:{		    			
+		    		range:[0,50],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P320_MES:{		    			
+		    		range:[0,11],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_1:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_2:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_3:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_4:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_5:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_6:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_7:{		    			
+		    		range:[1,2],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P321_7OBS:{		    			
+		    	},	
+
+		    	C3P321A_1:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P321A_2:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P321A_3:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P321A_4:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P321A_5:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P321A_6:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P321A_7:{		    			
+		    		range:[1,2],			    			
+		    	},	
+
+		    	C3P322:{		    			
+		    		range:[0,50],			    			
+		    		required:true,
+		    	},	
+		    	C3P322_NCU:{		    			
+		    		range:[0,1],			    			
+		    	},	
+
+		    	C3P323:{		    			
+		    		range:[0,50],			    			
+		    	},	
+
+		    	C3P323_NSA:{		    			
+		    		range:[0,1],			    			
+		    	},	
+
+		    	C3P324:{		    			
+		    		range:[0,50],			    			
+		    	},	
+
+		    	C3P324_NSA:{		    			
+		    		range:[0,1],			    			
+		    	},	
+
+		    	C3P325:{		    			
+		    		range:[0,20],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P326:{		    			
+		    		range:[0,30],			    			
+		    	},	
+
+		    	C3P327:{		    			
+		    		range:[0,30],			    			
+		    	},	
+
+		    	C3P328:{		    			
+		    		range:[0,30],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P329:{		    			
+		    		range:[1,10],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P329_OBS:{		    			
+		    	},	
+
+		    	C3P330:{		    			
+		    		range:[0,20],			    			
+		    		required:true,
+		    	},	
+
+		    	C3P330_NSA:{		    			
+		    		range:[0,1],			    			
+		    	},	
+
+		    	C3P331:{		    			
+		    		range:[0,98],			    			
+		    	},	
+
+		    	C3P331_NSA:{		    			
+		    		range:[0,1],			    				    			
+		    	},	
+
+		    	C3P332:{		    			
+		    		range:[0,98],			    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P332_NSA:{		    			
+		    		range:[0,1],			    				    			
+		    	},	
+
+		    	C3P333:{		    			
+		    		range:[1,2],			    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P334:{		    			
+		    		range:[1,6],			    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P334_OBS:{		    					    				    			
+		    	},	
+
+		    	C3P335:{		    			
+		    		range:[1,3],			    				    			
+		    	},	
+
+		    	C3P335_1:{		    			
+		    		range:[0,98],			    				    			
+		    	},	
+
+		    	C3P336_1:{		    			
+		    		range:[0,1],			    				    			
+		    	},	
+		    	C3P336_2:{		    			
+		    		range:[0,1],			    				    			
+		    	},	
+		    	C3P336_3:{		    			
+		    		range:[0,1],			    				    			
+		    	},	
+		    	C3P336_3OBS:{		    					    				    			
+		    	},	
+
+		    	C3P336_4:{		    			
+		    		range:[0,1],			    				    			
+		    	},	
+
+		    	C3P337:{		    			
+		    		range:[1,6],			    				    			
+		    	},	
+
+		    	C3P337_OBS:{		    					    				    			
+		    	},	
+
+		    	C3P338_1:{		    			
+		    		range:[1,2],			    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P338_2:{		    			
+		    		range:[1,2],			    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P338_3:{		    			
+		    		range:[1,2],			    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P338_4:{		    			
+		    		range:[1,2],			    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P338_5:{		    			
+		    		range:[1,2],			    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P338_OBS:{		    					    				    			
+		    	},	
+
+		    	C3P339_1:{		    			
+		    		range:[1,4],			    				    				    			
+		    	},	
+
+		    	C3P339_2:{		    			
+		    		range:[1,4],			    				    				    			
+		    	},	
+		    	C3P339_3:{		    			
+		    		range:[1,4],			    				    				    			
+		    	},	
+
+		    	C3P339_4:{		    			
+		    		range:[1,4],			    				    				    			
+		    	},	
+
+		    	C3P339_5:{		    			
+		    		range:[1,4],			    				    				    			
+		    	},	
+
+		    	C3P340_1:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P340_2:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P340_3:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P340_4:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P340_5:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P340_6:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P340_7:{		    			
+		    		range:[1,2],			    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P341_1:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P341_2:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P341_3:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P341_4:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P341_5:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P341_6:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P341_7:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P342_1:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P342_2:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P342_3:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P342_4:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P342_5:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P342_OBS:{		    					    				    				    				    			
+		    	},	
+
+		    	C3P343_1:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P343_2:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P343_3:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P343_4:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P343_5:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P344_1:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P344_2:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P344_3:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},
+
+		    	C3P344_4:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},
+
+		    	C3P344_5:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},
+
+		    	C3P344_6:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},
+
+		    	C3P344_7:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},
+
+		    	C3P345_1:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P345_2:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P345_3:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P345_4:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P345_5:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P345_6:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P345_7:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P346_1:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P346_2:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    	},	
+
+		    	C3P347_1:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P347_2:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P347_3:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+		    	C3P347_4:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P347_5:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P347_6:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P347_7:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P347_8:{		    			
+		    		range:[1,3],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P347_OBS:{		    				    			
+		    	},	
+
+		    	C3P348:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P349:{		    			
+		    		range:[1,4],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P349_OBS:{		    			    			
+		    	},	
+
+		    	C3P350:{		    			
+		    		range:[1,2],			    				    				    				    			
+		    		required:true,		    			
+		    	},	
+
+		    	C3P351_1A:{		    						    				    		    			
+		    	},	
+
+		    	C3P351_1B:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P351_1C:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P351_2A:{		    						    				    		    			
+		    	},	
+
+		    	C3P351_2B:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	
+		    	C3P351_2C:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P351_3A:{		    						    				    		    			
+		    	},	
+
+		    	C3P351_3B:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	
+		    	C3P351_3C:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P351_4A:{		    						    				    		    			
+		    	},	
+
+		    	C3P351_4B:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	
+		    	C3P351_4C:{		
+		    		range:[1,98],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P352:{		
+		    		range:[1,2],			    				    				    				    						    	    						    				    		    			
+		    	},	
+
+		    	C3P352:{		
+		    		valrango:[1,2,9],			    				    				    				    						    	    						    				    		    			
+		    	},	
+
+		    	C3P353:{		
+		    		range:[1,4],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P354:{		
+		    		range:[1,5],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P355:{		
+		    		range:[1,5],			    				    				    				    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P355_OBS:{			    				    				    				    						    	    						    				    		    			
+		    	},	
+
+		    	C3P356:{		
+		    		range:[1,2],			    				    				    				    						    	    						    				    		    			
+		    	},	
+
+		    	C3P357:{		
+		    		range:[1,50],			    				    				    				    								    				    		    			
+		    	},	
+
+		    	C3P358:{		
+		    		range:[1,3],			    				    				    				    					    	    						    				    		    			
+		    	},	
+
+		    	C3P359:{		
+		    		range:[1,3],			    				    				    				    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P360_1:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+		    	C3P360_2:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+		    	C3P360_3:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+		    	C3P360_4:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+		    	C3P360_5:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+		    	C3P360_6:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+		    	C3P360_7:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+		    	C3P360_8:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+		    	C3P360_OBS:{				    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+
+		    	C3P361_1:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P361_2:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P361_3:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P361_4:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P361_5:{		
+		    		range:[0,1],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P361_5OBS:{				    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+
+		    	C3P362_1:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_2:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_3:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_4:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_5:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_6:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_7:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	C3P362_8:{		
+		    		range:[0,800],			    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+
+		    	C3P362_OBS:{				    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+
+		    	C3P362_TOTAL:{				    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    		required:true,				    	    						    				    		    			
+		    	},	
+		    	
+		    	C3_OBS:{				    				    				    				    					    	    						    				    		    					    	    						    				    		    			
+		    	},	
+		    },
+
+		    messages: {   
+			//FIN MESSAGES
+		    },
+		    errorPlacement: function(error, element) {
+		        $(element).next().after(error);
+		    },
+		    invalidHandler: function(form, validator) {
+		      var errors = validator.numberOfInvalids();
+		      if (errors) {
+		        var message = errors == 1
+		          ? 'Por favor corrige estos errores:\n'
+		          : 'Por favor corrige los ' + errors + ' errores.\n';
+		        var errors = "";
+		        if (validator.errorList.length > 0) {
+		            for (x=0;x<validator.errorList.length;x++) {
+		                errors += "\n\u25CF " + validator.errorList[x].message;
+		            }
+		        }
+		        alert(message + errors);
+		      }
+		      validator.focusInvalid();
+		    },
+		    submitHandler: function(form) {
+
+				    	var cap3_data = $("#cap3_f").serializeArray();
+					    cap3_data.push(
+					        {name: 'ajax',value:1},
+					        {name: 'C3P304_DD',value:$("#C3P304_CCDD :selected").text()},
+					        {name: 'C3P304_PP',value:$("#C3P304_CCPP :selected").text()},
+					        {name: 'C3P304_DI',value:$("#C3P304_CCDI :selected").text()},
+					        {name: 'C3P314_DD',value:$("#C3P314_CCDD :selected").text()},
+					        {name: 'C3P314_PP',value:$("#C3P314_CCPP :selected").text()},
+					        {name: 'C3P314_DI',value:$("#C3P314_CCDI :selected").text()}
+					    );
+						
+				        var bcar = $( "#cap3_f :submit" );
+				        bcar.attr("disabled", "disabled");
+				        $.ajax({
+				            url: CI.site_url + "/encuesta/cap3",
+				            type:'POST',
+				            data:cap3_data,
+				            dataType:'json',
+				            success:function(json){
+								alert(json.msg);
+								bcar.removeAttr('disabled');
+				            }
+				        });     			          	
+		    }       
+}); 
+
+
+
+
+}); 
+</script>

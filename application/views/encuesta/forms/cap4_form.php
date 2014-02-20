@@ -85,12 +85,17 @@ $C4_OBS = array(
 	'class' => 'form-control',
 );
 
-
+$pcap4_num = array(
+	'name'	=> 'pcap4_num',
+	'id'	=> 'pcap4_num',
+	'class' => 'form-control',
+	'maxlength'	=> 2,
+);
 
 //400*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_4');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap4_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -102,7 +107,12 @@ echo '
 		<h5 class="panel-title">400. En los ultimos tres meses, sin considerar a padres y hermanos, mencione a 10 personas con las que ha mantenido mayor comunicación o contacto</h5>
 	</div>
 	<div class="col-md-12">	
-						<table class="table table-condensed" id="emb_table">
+							<div class="form-group" style="text-align:center">
+							<label for="">Número de personas: </label>
+							'.form_input($pcap4_num).'<div class="help-block error"></div>
+							</div>
+
+						<table class="table table-condensed" id="pcap4_n">
 					              <thead>
 					               <tr>
 					                 <th class="span3">401</th>
@@ -130,30 +140,156 @@ echo '
 					                </tr>
 					             </thead>
 					              <tbody>
-					              <tr>
-					                 <td>' . form_input($C4P401) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P402) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P403) . '<div class="help-block error">' . form_input($C4P403_OBS) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P404) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P405) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P406) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P407) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P408) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P409) . '<div class="help-block error"></div></td>
-					                 <td>' . form_input($C4P410) . '<div class="help-block error"></div></td>
-					              </tr>  
+ 
 			              </tbody>
 			           </table>	
 
 
 	</div>	           
-			<div class="col-md-12">
-				<label for="">Observaciones</label>
-					'.form_textarea($C4_OBS).'										
-			</div>	
+
 </div>';
 
-
+			// <div class="col-md-12">
+			// 	<label for="">Observaciones</label>
+			// 		'.form_textarea($C4_OBS).'										
+			// </div>	
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
+
+
+<script type="text/javascript">
+
+$(function(){
+
+$('#pcap4_num').val((<?php echo $CAP04->num_rows(); ?> > 0) ? <?php echo $CAP04->num_rows(); ?> : '' );
+
+$('#pcap4_num').keyup(function(event) {
+
+$('#pcap4_n tr').remove('.entrev');
+	var ahua = $(this).val();
+	if(ahua >= 0 && ahua<=10){
+	  for(var i=1; i<=ahua;i++){
+	    var asd = '<tr class="entrev">';
+	    asd +='<td><input type="text" class="form-control input3 embc' + i + '" maxlength="2" readonly name="C4P401[]" id="C4P401_' + i + '" value="' + i + '" ></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P402[]" id="C4P402_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P403[]" id="C4P403_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P403_OBS[]" id="C4P403_OBS_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P404[]"  id="C4P404_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P405[]"  id="C4P405_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P406[]"  id="C4P406_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P407[]"  id="C4P407_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P408[]"  id="C4P408_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P409[]"  id="C4P409_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P410[]"  id="C4P410_' + i + '" value="" ><div class="help-block error"></div></td>';
+
+	    asd += '</tr>';
+	    $('#pcap4_n > tbody').append(asd);
+	  }
+	}else if(ahua==''){
+		//
+	}else{
+		//alert('10 Entrevistas máximo');
+	}
+
+	var as = 1;
+	$.each( <?php echo json_encode($CAP04->result()); ?>, function(i, data) {
+		   $('#C4P401_' +  as).val(data.C4P401);
+		   $('#C4P402_' +  as).val(data.C4P402);
+		   $('#C4P403_' +  as).val(data.C4P403);
+		   $('#C4P403_OBS_' +  as).val(data.C4P403_OBS);
+		   $('#C4P404_' +  as).val(data.C4P404);
+		   $('#C4P405_' +  as).val(data.C4P405);
+		   $('#C4P406_' +  as).val(data.C4P406);
+		   $('#C4P407_' +  as).val(data.C4P407);
+		   $('#C4P408_' +  as).val(data.C4P408);
+		   $('#C4P409_' +  as).val(data.C4P409);
+		   $('#C4P410_' +  as).val(data.C4P410);
+		   as++;
+	}); 
+
+});
+
+
+$('#pcap4_num').trigger('keyup');
+
+
+$("#cap4_f").validate({
+		    rules: {  
+		    	pcap4_num:{
+		    		range:[1,10],
+		    		required:true,
+		    	},				    		   			    	    
+				'C4P402[]':{
+				    required:true,
+				},	       
+				'C4P403[]':{
+					range:[1,7],
+				    required:true,
+				},  		              
+				'C4P403_OBS[]':{	    	
+				}, 
+				'C4P404[]':{
+					range:[1,2],
+				    required:true,
+				},	       
+				'C4P405[]':{
+					range:[1,2],
+				    required:true,
+				},  		              
+				'C4P406[]':{
+					range:[1,2],
+				    required: true,			    	
+				}, 		
+				'C4P407[]':{
+					range:[1,2],
+				    required:true,
+				},	       	              		    		    		   			    	    
+		    },
+
+		    messages: {   
+			//FIN MESSAGES
+		    },
+		    errorPlacement: function(error, element) {
+		        $(element).next().after(error);
+		    },
+		    invalidHandler: function(form, validator) {
+		      var errors = validator.numberOfInvalids();
+		      if (errors) {
+		        var message = errors == 1
+		          ? 'Por favor corrige estos errores:\n'
+		          : 'Por favor corrige los ' + errors + ' errores.\n';
+		        var errors = "";
+		        if (validator.errorList.length > 0) {
+		            for (x=0;x<validator.errorList.length;x++) {
+		                errors += "\n\u25CF " + validator.errorList[x].message;
+		            }
+		        }
+		        alert(message + errors);
+		      }
+		      validator.focusInvalid();
+		    },
+		    submitHandler: function(form) {
+
+				    	var cap4_data = $("#cap4_f").serializeArray();
+					    cap4_data.push(
+					        {name: 'ajax',value:1}
+					    );
+						
+				        var bcar = $( "#cap4_f :submit" );
+				        bcar.attr("disabled", "disabled");
+				        $.ajax({
+				            url: CI.site_url + "/encuesta/cap4",
+				            type:'POST',
+				            data:cap4_data,
+				            dataType:'json',
+				            success:function(json){
+								alert(json.msg);
+								bcar.removeAttr('disabled');
+				            }
+				        });     			          	
+		    }       
+}); 
+
+
+}); 
+</script>

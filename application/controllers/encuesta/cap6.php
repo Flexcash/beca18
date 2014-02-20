@@ -7,6 +7,7 @@ class Cap6 extends CI_Controller {
 		$this->load->library('ion_auth');
 		$this->load->library('form_validation');
 		$this->lang->load('auth');
+		$this->load->model('encuesta_model');	
 
 		if (!$this->ion_auth->logged_in()) {
 			redirect('auth/login');
@@ -29,11 +30,53 @@ class Cap6 extends CI_Controller {
 
 	public function index()
 	{
-		$data['user'] = $this->ion_auth->user()->row();
-		$data['nav'] = TRUE;
-		$data['title'] = 'Encuesta';
-		$data['main_content'] = 'encuesta/forms/cap6_form';
-		$this->load->view('backend/includes/template', $data);
+		$is_ajax = $this->input->post('ajax');
+		if($is_ajax){
+
+			$fields = $this->encuesta_model->get_fields('CAP06');
+			//id
+			$user = $this->ion_auth->user()->row();
+
+			$id = $user->username;			
+			foreach ($fields as $a=>$b) {
+				if(!in_array($b, array('Postulante_Id','usr_creacion','usr_edicion','fec_creacion','fec_edicion','last_ip','user_agent'))){
+					$c_data[$b] = ($this->input->post($b) == '') ? NULL : $this->input->post($b);
+				}
+			}	
+
+			$c_data['last_ip'] =  $this->input->ip_address();
+			$c_data['user_agent'] = $this->agent->agent_string();
+
+			$flag = 0;
+			$msg = 'Error inesperado, por favor intentalo nuevamente';
+
+			if ($this->encuesta_model->consulta_in_cap($id,'CAP06')->num_rows() == 0) {
+				// inserta nuevo registro
+				$c_data['Postulante_Id'] = $id;
+				$c_data['usr_creacion'] = $id;
+				$c_data['fec_creacion'] = date('Y-m-d H:i:s');			
+					if($this->encuesta_model->insert_cap('CAP06',$c_data) > 0){
+						$flag = 1;
+						$msg = 'Se ha registrado satisfactoriamente el Cap. VI';
+					}
+			} else {
+				// actualiza
+				$c_data['usr_edicion'] = $id;
+				$c_data['fec_edicion'] = date('Y-m-d H:i:s');
+					if($this->encuesta_model->update_cap('CAP06',$c_data,$id) > 0){
+						$flag = 1;
+						$msg = 'Se ha modificado satisfactoriamente el Cap. VI';
+					}
+
+			}			
+			$datos['flag'] = $flag;	
+			$datos['msg'] = $msg;	
+			$data['datos'] = $datos;
+			$this->load->view('backend/json/json_view', $data);		
+
+		}else{
+			show_404();;
+		}
 	}
 }
 

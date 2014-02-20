@@ -6,8 +6,8 @@
 //CAP 6
 
 $C6P601_1 = array(
-	'name'	=> 'C6P601A_1',
-	'id'	=> 'C6P601A_1',
+	'name'	=> 'C6P601_1',
+	'id'	=> 'C6P601_1',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
@@ -802,7 +802,7 @@ $C6P603A_16 = array(
 //600*******************************************************************************************************
 
 
-$attr = array('class' => 'form-vertical form-auth','id' => 'cap_6');
+$attr = array('class' => 'form-vertical form-auth','id' => 'cap6_f');
 
 echo form_open($this->uri->uri_string(),$attr); 
 
@@ -1061,3 +1061,602 @@ echo '
 echo form_submit('send', 'Guardar','style="margin-bottom:30px" class="btn btn-primary pull-right"');
 echo form_close(); 
 ?>
+
+
+
+<script type="text/javascript">
+
+
+$(function(){
+
+if(<?php echo $CAP06->num_rows() ?> == 1){
+
+	$.each( <?php echo json_encode($CAP06->row()); ?>, function(fila, valor) {
+	        $('#' + fila).val(valor);       	
+	}); 
+
+}
+
+
+
+$("#cap6_f").validate({
+		    rules: {  
+		    	C6P601_1:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_1:{
+				    		required:function(e){ return $("#C6P601_1").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_1:{		    		
+				    		required:function(e){ return $("#C6P601_1").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_1:{		    		
+				    		required:function(e){ return $("#C6P601_1").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_1:{
+				    		required:function(e){ return $("#C6P601_1").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_1:{		    		
+				    		required:function(e){ return $("#C6P601_1").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_1:{		    		
+				    		required:function(e){ return $("#C6P601_1").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_2:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_2:{
+				    		required:function(e){ return $("#C6P601_2").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_2:{		    		
+				    		required:function(e){ return $("#C6P601_2").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_2:{		    		
+				    		required:function(e){ return $("#C6P601_2").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_2:{
+				    		required:function(e){ return $("#C6P601_2").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_2:{		    		
+				    		required:function(e){ return $("#C6P601_2").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_2:{		    		
+				    		required:function(e){ return $("#C6P601_2").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_3:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_3:{
+				    		required:function(e){ return $("#C6P601_3").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_3:{		    		
+				    		required:function(e){ return $("#C6P601_3").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_3:{		    		
+				    		required:function(e){ return $("#C6P601_3").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_3:{
+				    		required:function(e){ return $("#C6P601_3").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_3:{		    		
+				    		required:function(e){ return $("#C6P601_3").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_3:{		    		
+				    		required:function(e){ return $("#C6P601_3").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_4:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_4:{
+				    		required:function(e){ return $("#C6P601_4").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_4:{		    		
+				    		required:function(e){ return $("#C6P601_4").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_4:{		    		
+				    		required:function(e){ return $("#C6P601_4").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_4:{
+				    		required:function(e){ return $("#C6P601_4").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_4:{		    		
+				    		required:function(e){ return $("#C6P601_4").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_4:{		    		
+				    		required:function(e){ return $("#C6P601_4").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_5:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_5:{
+				    		required:function(e){ return $("#C6P601_5").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_5:{		    		
+				    		required:function(e){ return $("#C6P601_5").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_5:{		    		
+				    		required:function(e){ return $("#C6P601_5").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_5:{
+				    		required:function(e){ return $("#C6P601_5").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_5:{		    		
+				    		required:function(e){ return $("#C6P601_5").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_5:{		    		
+				    		required:function(e){ return $("#C6P601_5").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_6:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_6:{
+				    		required:function(e){ return $("#C6P601_6").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_6:{		    		
+				    		required:function(e){ return $("#C6P601_6").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_6:{		    		
+				    		required:function(e){ return $("#C6P601_6").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_6:{
+				    		required:function(e){ return $("#C6P601_6").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_6:{		    		
+				    		required:function(e){ return $("#C6P601_6").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_6:{		    		
+				    		required:function(e){ return $("#C6P601_6").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_7:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_7:{
+				    		required:function(e){ return $("#C6P601_7").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_7:{		    		
+				    		required:function(e){ return $("#C6P601_7").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_7:{		    		
+				    		required:function(e){ return $("#C6P601_7").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_7:{
+				    		required:function(e){ return $("#C6P601_7").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_7:{		    		
+				    		required:function(e){ return $("#C6P601_7").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_7:{		    		
+				    		required:function(e){ return $("#C6P601_7").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_8:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_8:{
+				    		required:function(e){ return $("#C6P601_8").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_8:{		    		
+				    		required:function(e){ return $("#C6P601_8").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_8:{		    		
+				    		required:function(e){ return $("#C6P601_8").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_8:{
+				    		required:function(e){ return $("#C6P601_8").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_8:{		    		
+				    		required:function(e){ return $("#C6P601_8").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_8:{		    		
+				    		required:function(e){ return $("#C6P601_8").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_9:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_9:{
+				    		required:function(e){ return $("#C6P601_9").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_9:{		    		
+				    		required:function(e){ return $("#C6P601_9").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_9:{		    		
+				    		required:function(e){ return $("#C6P601_9").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_9:{
+				    		required:function(e){ return $("#C6P601_9").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_9:{		    		
+				    		required:function(e){ return $("#C6P601_9").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_9:{		    		
+				    		required:function(e){ return $("#C6P601_9").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_10:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_10:{
+				    		required:function(e){ return $("#C6P601_10").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_10:{		    		
+				    		required:function(e){ return $("#C6P601_10").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_10:{		    		
+				    		required:function(e){ return $("#C6P601_10").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_10:{
+				    		required:function(e){ return $("#C6P601_10").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_10:{		    		
+				    		required:function(e){ return $("#C6P601_10").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_10:{		    		
+				    		required:function(e){ return $("#C6P601_10").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_11:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_11:{
+				    		required:function(e){ return $("#C6P601_11").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_11:{		    		
+				    		required:function(e){ return $("#C6P601_11").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_11:{		    		
+				    		required:function(e){ return $("#C6P601_11").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_11:{
+				    		required:function(e){ return $("#C6P601_11").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_11:{		    		
+				    		required:function(e){ return $("#C6P601_11").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_11:{		    		
+				    		required:function(e){ return $("#C6P601_11").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_12:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_12:{
+				    		required:function(e){ return $("#C6P601_12").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_12:{		    		
+				    		required:function(e){ return $("#C6P601_12").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_12:{		    		
+				    		required:function(e){ return $("#C6P601_12").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_12:{
+				    		required:function(e){ return $("#C6P601_12").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_12:{		    		
+				    		required:function(e){ return $("#C6P601_12").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_12:{		    		
+				    		required:function(e){ return $("#C6P601_12").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_13:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_13:{
+				    		required:function(e){ return $("#C6P601_13").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_13:{		    		
+				    		required:function(e){ return $("#C6P601_13").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_13:{		    		
+				    		required:function(e){ return $("#C6P601_13").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_13:{
+				    		required:function(e){ return $("#C6P601_13").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_13:{		    		
+				    		required:function(e){ return $("#C6P601_13").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_13:{		    		
+				    		required:function(e){ return $("#C6P601_13").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+
+		    	C6P601_14:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_14:{
+				    		required:function(e){ return $("#C6P601_14").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_14:{		    		
+				    		required:function(e){ return $("#C6P601_14").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_14:{		    		
+				    		required:function(e){ return $("#C6P601_14").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_14:{
+				    		required:function(e){ return $("#C6P601_14").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_14:{		    		
+				    		required:function(e){ return $("#C6P601_14").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_14:{		    		
+				    		required:function(e){ return $("#C6P601_14").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_15:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_15:{
+				    		required:function(e){ return $("#C6P601_15").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_15:{		    		
+				    		required:function(e){ return $("#C6P601_15").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_15:{		    		
+				    		required:function(e){ return $("#C6P601_15").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_15:{
+				    		required:function(e){ return $("#C6P601_15").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_15:{		    		
+				    		required:function(e){ return $("#C6P601_15").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_15:{		    		
+				    		required:function(e){ return $("#C6P601_15").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P601_16:{
+				    		required:true,
+				    		range:[1,2],
+				    		rangelength:[1,1]
+		    			},	   			    	    
+		    	C6P602H_16:{
+				    		required:function(e){ return $("#C6P601_16").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602M_16:{		    		
+				    		required:function(e){ return $("#C6P601_16").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P602A_16:{		    		
+				    		required:function(e){ return $("#C6P601_16").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},
+		    	C6P603H_16:{
+				    		required:function(e){ return $("#C6P601_16").val()==1 },
+				    		range:[0,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603M_16:{		    		
+				    		required:function(e){ return $("#C6P601_16").val()==1 },
+				    		valrango:[0,59,99],
+				    		rangelength:[1,2]
+		    			},
+		    	C6P603A_16:{		    		
+				    		required:function(e){ return $("#C6P601_16").val()==1 },				    		
+				    		rangelength:[1,100]
+		    			},		    		   			    	    
+		    },
+
+		    messages: {   
+			//FIN MESSAGES
+		    },
+		    errorPlacement: function(error, element) {
+		        $(element).next().after(error);
+		    },
+		    invalidHandler: function(form, validator) {
+		      var errors = validator.numberOfInvalids();
+		      if (errors) {
+		        var message = errors == 1
+		          ? 'Por favor corrige estos errores:\n'
+		          : 'Por favor corrige los ' + errors + ' errores.\n';
+		        var errors = "";
+		        if (validator.errorList.length > 0) {
+		            for (x=0;x<validator.errorList.length;x++) {
+		                errors += "\n\u25CF " + validator.errorList[x].message;
+		            }
+		        }
+		        alert(message + errors);
+		      }
+		      validator.focusInvalid();
+		    },
+		    submitHandler: function(form) {
+
+				    	var cap6_data = $("#cap6_f").serializeArray();
+					    cap6_data.push(
+					        {name: 'ajax',value:1}
+					    );
+						
+				        var bcar = $( "#cap6_f :submit" );
+				        bcar.attr("disabled", "disabled");
+				        $.ajax({
+				            url: CI.site_url + "/encuesta/cap6",
+				            type:'POST',
+				            data:cap6_data,
+				            dataType:'json',
+				            success:function(json){
+								alert(json.msg);
+								bcar.removeAttr('disabled');
+							
+				            }
+				        });     			          	
+		    }       
+}); 
+
+
+}); 
+</script>

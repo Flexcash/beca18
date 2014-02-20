@@ -21,12 +21,16 @@
 $lang['error_csrf'] = 'This form post did not pass our security checks.';
 
 // Login
-$lang['login_heading']         = 'Login';
-$lang['login_subheading']      = 'Please login with your email/username and password below.';
-$lang['login_identity_label']  = 'Email/Username:';
-$lang['login_password_label']  = 'Password:';
+$lang['login_heading']         = 'Ingreso';
+// $lang['login_subheading']      = 'Please login with your email/username and password below.';
+$lang['login_subheading']      = 'Por favor Ingrese con su DNI';
+// $lang['login_identity_label']  = 'Email/Username:';
+$lang['login_identity_label']  = 'DNI';
+// $lang['login_password_label']  = 'Password:';
+$lang['login_password_label']  = 'Contraseña:';
 $lang['login_remember_label']  = 'Remember Me:';
-$lang['login_submit_btn']      = 'Login';
+// $lang['login_submit_btn']      = 'Login';
+$lang['login_submit_btn']      = 'Ingresar';
 $lang['login_forgot_password'] = 'Forgot your password?';
 
 // Index
