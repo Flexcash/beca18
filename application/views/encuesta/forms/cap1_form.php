@@ -39,6 +39,7 @@ echo '
 							<label for="">Número de miembros del hogar: </label>
 							'.form_input($pcap1_num).'<div class="help-block error"></div>
 							</div>
+				<div class="table-responsive">
 
 							<table class="table table-bordered" id="pcap1_an">
 								<thead>
@@ -73,9 +74,12 @@ echo '
 
 								</tbody>
 							</table>
+					</div>
 							<br>
-							<br>
-							<br>
+
+
+				<div class="table-responsive">
+
 							<table class="table table-bordered"  id="pcap1_bn">
 								<thead>
 									<tr>
@@ -112,6 +116,7 @@ echo '
 
 								</tbody>
 							</table>							
+					</div>
 
 				</div>
 </div>

@@ -643,6 +643,7 @@ echo '
 							</div>
 
 							<h6>1. Evaluación y Supervisión</h6>
+				<div class="table-responsive">
 
 							<table class="table table-bordered"  id="pcar_c_n">
 								<thead>
@@ -698,6 +699,7 @@ echo '
 								<tbody>													
 								</tbody>
 							</table>
+				</div>
 
 							<table class="table table-bordered">
 								<thead>

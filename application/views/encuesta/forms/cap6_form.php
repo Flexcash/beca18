@@ -817,7 +817,10 @@ echo '
 
 	<div class="col-md-12">	
 		<h4>La semana pasada. Realizaste alguna actividad como:</h4>	
-						<table class="table table-condensed" id="emb_table">
+
+				<div class="table-responsive">
+
+						<table class="table table-bordered" id="emb_table6">
 					          <thead>
 					               <tr>
 					                 <th class="span3" colspan="2">Actividades</th>
@@ -858,7 +861,7 @@ echo '
 					                 <td>' . form_input($C6P603A_1) . '<div class="help-block error"></div></td>
 					              </tr>  	
 					              <tr>
-					                 <td>2. Acudir a una consulta médica, realizarse análisis clínicos, terapia, rehabilitación, estudios médicos? (Ecografías, radiografías, etc)</td>
+					                 <td><p>2. Acudir a una consulta médica, realizarse análisis clínicos, terapia, rehabilitación, estudios médicos? (Ecografías, radiografías, etc)</p></td>
 					                 <td>' . form_input($C6P601_2) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($C6P602H_2) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($C6P602M_2) . '<div class="help-block error"></div></td>
@@ -1054,6 +1057,7 @@ echo '
 					              </tr> 					              
 			              </tbody>
 			           </table>	
+			</div>
 	</div>
 
 </div>';

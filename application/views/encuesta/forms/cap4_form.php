@@ -111,6 +111,7 @@ echo '
 							<label for="">Número de personas: </label>
 							'.form_input($pcap4_num).'<div class="help-block error"></div>
 							</div>
+				<div class="table-responsive">
 
 						<table class="table table-condensed" id="pcap4_n">
 					              <thead>
@@ -143,6 +144,7 @@ echo '
  
 			              </tbody>
 			           </table>	
+				</div>
 
 
 	</div>	           

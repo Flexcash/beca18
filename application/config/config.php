@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8080/beca18/';
+$config['base_url']	= 'http://192.168.201.114:8080/beca18/';
 
 /*
 |--------------------------------------------------------------------------
