@@ -1328,11 +1328,16 @@ $("#car_f").validate({
 				            success:function(json){
 								alert(json.msg);
 								bcar.removeAttr('disabled');
-
+								$('#ctab').removeClass('active');
+								window.scrollTo(0, 0);
+								$('#ctab1 a').trigger('click');
 				            }
 				        });     			          	
 		    }       
 }); 
+
+
+$('#C0SELECC').focus();
 
 
 }); 

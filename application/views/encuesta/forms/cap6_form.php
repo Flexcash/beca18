@@ -1651,7 +1651,9 @@ $("#cap6_f").validate({
 				            success:function(json){
 								alert(json.msg);
 								bcar.removeAttr('disabled');
-							
+								$('#ctab7').removeClass('active');
+								window.scrollTo(0, 0);
+								$('#ctab8 a').trigger('click');									
 				            }
 				        });     			          	
 		    }       

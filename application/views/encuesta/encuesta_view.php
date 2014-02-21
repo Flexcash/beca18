@@ -389,7 +389,7 @@ $.validator.addMethod("valtexto", function(value, element,arg){
 }, "Ingrese una hora válida");
 
  $.validator.addMethod("valminuto", function(value, element){
-    var dias = new Array('01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','99')
+    var dias = new Array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','99')
     var length = dias.length;
     var flag = false;
     for(var i = 0; i < length; i++) {
@@ -398,6 +398,84 @@ $.validator.addMethod("valtexto", function(value, element,arg){
     }
    return flag;
 }, "Ingrese minutos válidos");
+
+
+
+
+$.ctrl = function(key, callback, args) {
+    $(document).keydown(function(e) {
+        if(!args) args=[]; // IE barks when args is null 
+        if(e.keyCode == key.charCodeAt(0) && e.ctrlKey) {
+            callback.apply(this, args);
+            return false;
+        }
+    });        
+};
+
+
+
+$.ctrl('0', function() {
+  $('#ctab a').trigger('click');
+});
+$.ctrl('1', function() {
+  $('#ctab1 a').trigger('click');
+});
+$.ctrl('2', function() {
+  $('#ctab2 a').trigger('click');
+});
+$.ctrl('3', function() {
+  $('#ctab3 a').trigger('click');
+});
+$.ctrl('4', function() {
+  $('#ctab4 a').trigger('click');
+});
+$.ctrl('5', function() {
+  $('#ctab5 a').trigger('click');
+});
+$.ctrl('6', function() {
+  $('#ctab6 a').trigger('click');
+});
+$.ctrl('7', function() {
+  $('#ctab7 a').trigger('click');
+});
+$.ctrl('8', function() {
+  $('#ctab8 a').trigger('click');
+});
+
+
+
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+  e.target // activated tab
+  e.relatedTarget // previous tab
+  window.scrollTo(0, 0);
+
+  if(e.delegateTarget.hash == "#tabc"){
+    $("#C0SELECC").focus();  
+  }else if(e.delegateTarget.hash == "#tab1"){
+    $("#pcap1_num").focus();
+  }else if(e.delegateTarget.hash == "#tab2"){
+    $("#C2P201").focus();
+  }else if(e.delegateTarget.hash == "#tab3"){
+    $("#C3P301").focus();
+  }else if(e.delegateTarget.hash == "#tab4"){
+    $("#pcap4_num").focus();
+  }else if(e.delegateTarget.hash == "#tab5"){
+    $("#C4P411_1").focus();
+  }else if(e.delegateTarget.hash == "#tab6"){
+    $("#C5P501").focus();
+  }else if(e.delegateTarget.hash == "#tab7"){
+    $("#C6P601_1").focus();
+  }else if(e.delegateTarget.hash == "#tab8"){
+    $("#C7P701_1").focus();
+  }
+
+});
+
+
+
+
+
 
 
 

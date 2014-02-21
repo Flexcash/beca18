@@ -108,9 +108,6 @@ class Car extends CI_Controller {
 
 						foreach ($fields_n as $a=>$b) {
 							if(!in_array($b, array('id','Postulante_Id','usr_creacion','usr_edicion','fec_creacion','fec_edicion','last_ip','user_agent'))){
-								// if($b == 'PC_C_1_Et_Fecha' || $b == 'PC_C_1_Et_Fecha_Prox' || $b == 'PC_C_1_Jb_Fecha')							
-								// 	$c_data_n[$b] = (!isset($pre_n[$b][$cc]) || $pre_n[$b][$cc] == '') ? NULL : makedaysql($pre_n[$b][$cc]);
-								// else
 									$c_data_n[$b] = (!isset($pre_n[$b][$cc]) || $pre_n[$b][$cc] == '') ? NULL : $pre_n[$b][$cc];
 							}	
 						}

@@ -296,6 +296,9 @@ $("#cap1_f").validate({
 				            success:function(json){
 								alert(json.msg);
 								bcar.removeAttr('disabled');
+								$('#ctab1').removeClass('active');
+								window.scrollTo(0, 0);
+								$('#ctab2 a').trigger('click');								
 				            }
 				        });     			          	
 		    }       

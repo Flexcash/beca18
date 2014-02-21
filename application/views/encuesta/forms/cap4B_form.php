@@ -816,9 +816,268 @@ if(<?php echo $CAP04B->num_rows() ?> == 1){
 $("#cap4b_f").validate({
 		    rules: {  
 
+		    	C4P411_1:{
+		    		range:[1,5],
+		    	},		
+		    		    	
+		    	C4P411_2:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_3:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_4:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_5:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_6:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_7:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_8:{
+		    		range:[1,5],
+		    	},	
+		    	C4P411_9:{
+		    		range:[1,5],
+		    	},	
+
+		    	C4P412_1:{
+		    		range:[0,1],
+		    		required:true,
+		    	},	
+
+		    	C4P412_2:{
+		    		range:[0,1],
+		    		required:true,
+		    	},	
+
+		    	C4P412_3:{
+		    		range:[0,1],
+		    		required:true,
+		    	},	
+
+		    	C4P412_4:{
+		    		range:[0,1],
+		    		required:true,
+		    	},	
+
+		    	C4P413:{
+		    		range:[1,2],
+		    		required:true,
+		    	},	
+
+		    	C4P414_1:{
+		    		range:[1,5],
+		    		required:true,
+		    	},	
+
+		    	C4P414_2:{
+		    		range:[1,5],
+		    		required:true,
+		    	},	
+		    	C4P414_3:{
+		    		range:[1,5],
+		    		required:true,
+		    	},	
+		    	C4P414_4:{
+		    		range:[1,5],
+		    		required:true,
+		    	},	
+		    	C4P414_5:{
+		    		range:[1,5],
+		    		required:true,
+		    	},	
+
+		    	C4P415_1:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+
+		    	C4P415_2:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+
+		    	C4P415_3:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_4:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_5:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_6:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_7:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_8:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_9:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_10:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+
+		    	C4P415_11:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_12:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_13:{
+		    		valrango:[1,2,9],
+		    		required:true,
+		    	},	
+		    	C4P415_13OBS:{
+		    	},	
+
+		    	C4P415A_1:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_2:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_3:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_4:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_5:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_6:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_7:{
+		    		range:[1,2],
+		    		required:true,
+		    	},	
+		    	C4P415A_8:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_9:{
+		    		range:[1,2],
+		    	},	
+
+		    	C4P415A_10:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_11:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_12:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415A_13:{
+		    		range:[1,2],
+		    	},	
+
+		    	C4P415B_1:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_2:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_3:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_4:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_5:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_6:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_7:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_8:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_9:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_10:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_11:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_12:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415B_13:{
+		    		range:[1,2],
+		    	},	
+
+		    	C4P415C_1:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_2:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_3:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_4:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_5:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_6:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_7:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_8:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_9:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_10:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_11:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_12:{
+		    		range:[1,2],
+		    	},	
+		    	C4P415C_13:{
+		    		range:[1,2],
+		    	},	
+
+		    	C4P415C_13OBS:{
+		    	},	
 
 
-		    	C4P411_1 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
+
+		    	// C4P411_1 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
 				// C4P411_2 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
 				// C4P411_3 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
 				// C4P411_4 : { required:true, rangelength:[1,1], range:[1,5], digits:true},
@@ -1066,7 +1325,9 @@ $("#cap4b_f").validate({
 				            success:function(json){
 								alert(json.msg);
 								bcar.removeAttr('disabled');
-							
+								$('#ctab5').removeClass('active');
+								window.scrollTo(0, 0);
+								$('#ctab6 a').trigger('click');									
 				            }
 				        });     			          	
 		    }       

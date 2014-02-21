@@ -583,95 +583,246 @@ if(<?php echo $CAP05->num_rows() ?> == 1){
 
 $("#cap5_f").validate({
 		    rules: {  
+
 		    	C5P501:{
-		    		required:function(e){
-		    			var r = $(e).val();
-		    			if(r==1){
-		    				fu_disableCTRL("#C5P502,#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
-		    			}else{
-		    				fu_enableCTRL("#C5P502,#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
-		    			}
-		    			return true;
-		    		},range:[1,2], rangelength:[1,1],digits:true
-		    	},			    		   			    	    
+		    		range:[1,2],
+		    		required:true,
+		    	},	
+
 		    	C5P502:{
-		    		required:function(e){
-		    			var r = $(e).val();
-		    			if(r==1){
-		    				fu_disableCTRL("#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
-		    			}else{
-		    				fu_enableCTRL("#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
-		    			}
-		    			return true;
-		    		},range:[1,2], rangelength:[1,1],digits:true
-		    	},
+		    		range:[1,2],
+		    		required:true,
+		    	},	
+
 		    	C5P503:{
-		    		required:function(e){
-		    			var r = $(e).val();
-		    			if(r==1){
-		    				fu_disableCTRL("#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
-		    			}else{
-		    				fu_enableCTRL("#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
-		    			}
-		    			return true;
-		    		},range:[1,2], rangelength:[1,1],digits:true
+		    		range:[1,2],
+		    		required:true,
+		    	},	
+
+		    	C5P504_1:{
+		    		range:[0,1],
+		    	},	
+
+		    	C5P504_2:{
+		    		range:[0,1],
+		    	},	
+		    	C5P504_3:{
+		    		range:[0,1],
+		    	},	
+
+		    	C5P504_4:{
+		    		range:[0,1],
+		    	},	
+
+		    	C5P504_5:{
+		    		range:[0,1],
+		    	},	
+
+		    	C5P504_6:{
+		    		range:[0,1],
+		    	},	
+		    	C5P504_7:{
+		    		range:[0,1],
+		    	},	
+		    	C5P504_8:{
+		    		range:[0,1],
+		    	},	
+		    	C5P504_9:{
+		    		range:[0,1],
+		    	},	
+		    	C5P504_9OBS:{
+		    	},	
+
+		    	C5P505A:{
+		    		required:true,
+		    	},	
+		    	C5P505B:{
+		    		required:true,
+		    	},	
+
+		    	C5P506:{
+		    	},	
+
+		    	C5P507:{
+		    		range:[1,7],
+		    	},	
+		    	C5P507_OBS:{
+		    	},	
+
+		    	C5P508:{
+		    		range:[1,8],
+		    	},	
+		    	C5P508_OBS:{
+		    	},	
+
+		    	C5P509_1:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_2:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_3:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_4:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_5:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_6:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_7:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+
+		    	C5P509_8:{
+		    		range:[0,24],
+		    		required:true,
+		    	},	
+		    	C5P509_TOTAL:{
+		    		required:true,
+		    	},	
+
+		    	C5P510:{
+		    		range:[0,4],
+		    	},	
+
+		    	C5P511_MON:{
+		    		range:[0,998],
+		    	},	
+
+		    	C5P511_ESP:{
+		    		range:[0,998],
+		    	},	
+
+		    	C5P512_MON:{
+		    		range:[0,998],
+		    	},	
+		    	C5P512_ESP:{
+		    		range:[0,998],
 		    	},
-		    	C5P504_1 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_2 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_3 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_4 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_5 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_6 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_7 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_8 : { required:true, rangelength:[1,1], range:[1,2]},
-				C5P504_9 : { required:function(e){ 
-								var r = $(e).val(); 
-								if(r==1){ 
-									fu_disableCTRL("#C5P504_9OBS"); 
-								}else{ 
-									fu_enableCTRL("#C5P504_9OBS"); 
-								} 
+		    	C5P512_NSA:{
+		    		range:[0,1],
+		    	},
 
-								if ( $("#C5P504_1").val()==2 && $("#C5P504_2").val()==2 && $("#C5P504_3").val()==2 && $("#C5P504_4").val()==2 && $("#C5P504_5").val()==2 && $("#C5P504_6").val()==2 && $("#C5P504_7").val()==2 && $("#C5P504_8").val()==2 && $("#C5P504_9").val()==2 ){
-									fu_disableCTRL("input[name*=C5P505], #C5P506, input[name*=C5P507], input[name*=C5P508], input[name*=C5P509],#C5P510, input[name*=C5P511], input[name*=C5P512], input[name*=C5P513], input[name*=C5P514] ");
-								}else{
-									fu_enableCTRL("input[name*=C5P505], #C5P506, input[name*=C5P507], input[name*=C5P508], input[name*=C5P509],#C5P510, input[name*=C5P511], input[name*=C5P512], input[name*=C5P513], input[name*=C5P514] ");
-								}
+		    	C5P513:{
+		    		range:[1,5],
+		    		required:true,
+		    	},
 
-								return true; 
-							}, rangelength:[1,1], range:[1,2]},
-				C5P504_9OBS : { required:function(e){ return $("#C5P504_9").val()!=''}, rangelength:[1,50] },
-				C5P505A : { required:true, rangelength:[1,50]},
-				C5P505B : { required:true, rangelength:[1,50]},
-				C5P506 : { rangelength:[1,50]},
-				C5P507 : { required: function(e){ var r = $(e).val(); if(r==1){ fu_disableCTRL("#C5P507_OBS");}else{fu_enableCTRL("#C5P507_OBS");} return $("#C5P507_OBS").val()!=''; }, rangelength:[1,1], range:[1,7]},
-				C5P507_OBS :{ required:function(e){ return $("#C5P507").val()==7 }, rangelength:[1,50]},
-				C5P508 : { required: function(e){ var r = $(e).val(); if(r==1){ fu_disableCTRL("#C5P508_OBS");}else{fu_enableCTRL("#C5P508_OBS");} return $("#C5P508_OBS").val()!=''; }, rangelength:[1,1], range:[1,8]},
-				C5P508_OBS:{ required:function(e){ return $("#C5P508").val()==7 }, rangelength:[1,50]},
+		    	C5P513_OBS:{
+		    	},
+
+		    	C5P514:{
+		    		range:[1,7],
+		    		required:true,
+		    	},
+
+		    	C5P514_OBS:{
+		    	},
+
+		    	C5_OBS:{
+		    	},
+
+
+		  //   	C5P501:{
+		  //   		required:function(e){
+		  //   			var r = $(e).val();
+		  //   			if(r==1){
+		  //   				fu_disableCTRL("#C5P502,#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		  //   			}else{
+		  //   				fu_enableCTRL("#C5P502,#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		  //   			}
+		  //   			return true;
+		  //   		},range:[1,2], rangelength:[1,1],digits:true
+		  //   	},			    		   			    	    
+		  //   	C5P502:{
+		  //   		required:function(e){
+		  //   			var r = $(e).val();
+		  //   			if(r==1){
+		  //   				fu_disableCTRL("#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		  //   			}else{
+		  //   				fu_enableCTRL("#C5P503,#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		  //   			}
+		  //   			return true;
+		  //   		},range:[1,2], rangelength:[1,1],digits:true
+		  //   	},
+		  //   	C5P503:{
+		  //   		required:function(e){
+		  //   			var r = $(e).val();
+		  //   			if(r==1){
+		  //   				fu_disableCTRL("#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		  //   			}else{
+		  //   				fu_enableCTRL("#C5P504_1,#C5P504_2,#C5P504_3,#C5P504_4,#C5P504_5,#C5P504_6,#C5P504_7,#C5P504_8,#C5P504_9,#C5P504_9OBS");
+		  //   			}
+		  //   			return true;
+		  //   		},range:[1,2], rangelength:[1,1],digits:true
+		  //   	},
+		  //   	C5P504_1 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_2 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_3 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_4 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_5 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_6 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_7 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_8 : { required:true, rangelength:[1,1], range:[1,2]},
+				// C5P504_9 : { required:function(e){ 
+				// 				var r = $(e).val(); 
+				// 				if(r==1){ 
+				// 					fu_disableCTRL("#C5P504_9OBS"); 
+				// 				}else{ 
+				// 					fu_enableCTRL("#C5P504_9OBS"); 
+				// 				} 
+
+				// 				if ( $("#C5P504_1").val()==2 && $("#C5P504_2").val()==2 && $("#C5P504_3").val()==2 && $("#C5P504_4").val()==2 && $("#C5P504_5").val()==2 && $("#C5P504_6").val()==2 && $("#C5P504_7").val()==2 && $("#C5P504_8").val()==2 && $("#C5P504_9").val()==2 ){
+				// 					fu_disableCTRL("input[name*=C5P505], #C5P506, input[name*=C5P507], input[name*=C5P508], input[name*=C5P509],#C5P510, input[name*=C5P511], input[name*=C5P512], input[name*=C5P513], input[name*=C5P514] ");
+				// 				}else{
+				// 					fu_enableCTRL("input[name*=C5P505], #C5P506, input[name*=C5P507], input[name*=C5P508], input[name*=C5P509],#C5P510, input[name*=C5P511], input[name*=C5P512], input[name*=C5P513], input[name*=C5P514] ");
+				// 				}
+
+				// 				return true; 
+				// 			}, rangelength:[1,1], range:[1,2]},
+				// C5P504_9OBS : { required:function(e){ return $("#C5P504_9").val()!=''}, rangelength:[1,50] },
+				// C5P505A : { required:true, rangelength:[1,50]},
+				// C5P505B : { required:true, rangelength:[1,50]},
+				// C5P506 : { rangelength:[1,50]},
+				// C5P507 : { required: function(e){ var r = $(e).val(); if(r==1){ fu_disableCTRL("#C5P507_OBS");}else{fu_enableCTRL("#C5P507_OBS");} return $("#C5P507_OBS").val()!=''; }, rangelength:[1,1], range:[1,7]},
+				// C5P507_OBS :{ required:function(e){ return $("#C5P507").val()==7 }, rangelength:[1,50]},
+				// C5P508 : { required: function(e){ var r = $(e).val(); if(r==1){ fu_disableCTRL("#C5P508_OBS");}else{fu_enableCTRL("#C5P508_OBS");} return $("#C5P508_OBS").val()!=''; }, rangelength:[1,1], range:[1,8]},
+				// C5P508_OBS:{ required:function(e){ return $("#C5P508").val()==7 }, rangelength:[1,50]},
 				
-				C5P509_1 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_2 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_3 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_4 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_5 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_6 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_7 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
-				C5P509_8 : { required:true, rangelength:[1,3], range:[0,999], digits:true, sumaC5P509_8:true },
-				C5P510 : { rangelength:[1,1], range:[1,4], digits:true }, 
-				C5P511_MON : { rangelength:[1,3], range:[0,998], digits:true }, 
-				C5P511_ESP : { rangelength:[1,3], range:[0,998], digits:true }, 
+				// C5P509_1 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_2 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_3 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_4 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_5 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_6 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_7 : { required:true, rangelength:[1,2], range:[0,24], digits:true }, 
+				// C5P509_8 : { required:true, rangelength:[1,3], range:[0,999], digits:true, sumaC5P509_8:true },
+				// C5P510 : { rangelength:[1,1], range:[1,4], digits:true }, 
+				// C5P511_MON : { rangelength:[1,3], range:[0,998], digits:true }, 
+				// C5P511_ESP : { rangelength:[1,3], range:[0,998], digits:true }, 
 
-				C5P512_MON : { rangelength:[1,3], range:[0,998], digits:true }, 
-				C5P512_ESP : { rangelength:[1,3], range:[0,998], digits:true }, 
-				C5P512_NSA : { required:function(e){ return $("#C5P512_MON").val()!='' && $("#C5P512_ESP").val()!='' }, rangelength:[1,1], range:[1,2], digits:true }, 
+				// C5P512_MON : { rangelength:[1,3], range:[0,998], digits:true }, 
+				// C5P512_ESP : { rangelength:[1,3], range:[0,998], digits:true }, 
+				// C5P512_NSA : { required:function(e){ return $("#C5P512_MON").val()!='' && $("#C5P512_ESP").val()!='' }, rangelength:[1,1], range:[1,2], digits:true }, 
 
-				C5P513 		: { required:function(e){ var r = $(e).val(); if(r==4){ fu_enableCTRL("#C5P513_OBS");}else{fu_disableCTRL("#C5P513_OBS");} return true; },
-								rangelength:[1,1], range:[1,5], digits:true }, 
-				C5P513_OBS 	: { required: function(e){ return $("#C5P513").val()==4;}, rangelength:[1,50] },
-				C5P514 		: { required:function(e){ var r = $(e).val(); if(r==7){ fu_enableCTRL("#C5P514_OBS");}else{fu_disableCTRL("#C5P514_OBS");} return true; },
-								rangelength:[1,1], range:[1,7], digits:true }, 
-				C5P514_OBS 	: { required: function(e){ return $("#C5P514").val()==7;}, rangelength:[1,50] },
-				C5_OBS 		: { rangelength:[1,1000] },		    		   			    	    
+				// C5P513 		: { required:function(e){ var r = $(e).val(); if(r==4){ fu_enableCTRL("#C5P513_OBS");}else{fu_disableCTRL("#C5P513_OBS");} return true; },
+				// 				rangelength:[1,1], range:[1,5], digits:true }, 
+				// C5P513_OBS 	: { required: function(e){ return $("#C5P513").val()==4;}, rangelength:[1,50] },
+				// C5P514 		: { required:function(e){ var r = $(e).val(); if(r==7){ fu_enableCTRL("#C5P514_OBS");}else{fu_disableCTRL("#C5P514_OBS");} return true; },
+				// 				rangelength:[1,1], range:[1,7], digits:true }, 
+				// C5P514_OBS 	: { required: function(e){ return $("#C5P514").val()==7;}, rangelength:[1,50] },
+				// C5_OBS 		: { rangelength:[1,1000] },		    		   			    	    
 		    },
 
 		    messages: {   
@@ -713,7 +864,9 @@ $("#cap5_f").validate({
 				            success:function(json){
 								alert(json.msg);
 								bcar.removeAttr('disabled');
-							
+								$('#ctab6').removeClass('active');
+								window.scrollTo(0, 0);
+								$('#ctab7 a').trigger('click');									
 				            }
 				        });     			          	
 		    }       
