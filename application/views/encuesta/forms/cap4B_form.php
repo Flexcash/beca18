@@ -677,9 +677,9 @@ echo '
 					               <tr>
 					                 <th class="span3"></th>
 					                 <th class="span3"></th>
-					                 <th class="span3">Va a las reuniones?</th>
-					                 <th class="span3">Participa en los procesos de decisión?</th>
-					                 <th class="span3">Eres uno de los líderes en el grupo u organización?</th>
+					                 <th class="span3">415A. Va a las reuniones?</th>
+					                 <th class="span3">415B. Participa en los procesos de decisión?</th>
+					                 <th class="span3">415C. Eres uno de los líderes en el grupo u organización?</th>
 					                </tr>					              
 					         </thead>
 					         <tbody>

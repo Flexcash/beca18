@@ -823,9 +823,9 @@ echo '
 						<table class="table table-bordered" id="emb_table6">
 					          <thead>
 					               <tr>
-					                 <th class="span3" colspan="2">Actividades</th>
-					                 <th class="span3" colspan="3">Cuánto tiempo le dedicó a ... De Lunes a viernes?</th>
-					                 <th class="span3" colspan="3">Cuánto tiempo le dedicó a ... De Sábado a domingo?</th>
+					                 <th class="span3" colspan="2">601. Actividades</th>
+					                 <th class="span3" colspan="3">602. Cuánto tiempo le dedicó a ... De Lunes a viernes?</th>
+					                 <th class="span3" colspan="3">603. Cuánto tiempo le dedicó a ... De Sábado a domingo?</th>
 					                </tr>	
 					               <tr>
 					                 <th class="span3"></th>

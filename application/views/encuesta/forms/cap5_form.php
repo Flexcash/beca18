@@ -526,7 +526,7 @@ echo '
 							</div>	
 
 					</div>			
-					' . form_input($C5P512_NSA) . '<div class="help-block error"></div>												
+					' . form_input($C5P512_NSA) . '<div class="help-block error"></div>		(1) No sabe , (2) No tiene ganancia									
 
 			</div>	
 

@@ -1955,14 +1955,14 @@ echo '
 					               <tr>
 					                 <th class="span3"></th>
 					                 <th class="span3"></th>
-					                 <th class="span1">322. Cuantos días dejaste de asistir</th>
+					                 <th class="span1">321A. Cuantos días dejaste de asistir</th>
 					                </tr>
 					             </thead>
 					              <tbody>
 					               <tr>
 					                 <th class="span1"></th>
 					                 <th class="span1">Si/No</th>
-					                 <th class="span1">De 1 a 5 días / Más de 5 días</th>
+					                 <th class="span1">(1) De 1 a 5 días/ (2) Más de 5 días</th>
 					                </tr>
 					              <tr>
 					                 <td>Estaba enfermo?</td>
@@ -3090,39 +3090,39 @@ $("#cap3_f").validate({
 		    		required:true,
 		    	},	
 		    	C3P309_1:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},	
 		    	C3P309_2:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_3:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_4:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_5:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_6:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_7:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_8:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_9:{
-		    		range:[1,2],			    			
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},
 		    	C3P309_9OBS:{		    			
