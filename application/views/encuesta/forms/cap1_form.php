@@ -222,39 +222,51 @@ $("#cap1_f").validate({
 				    required: true,			    	
 				}, 
 				'C1P103[]':{
+					digits:true,
 				    required:true,
 				},	       
 				'C1P104[]':{
+					digits:true,
 				    required:true,
 				},  		              
 				'C1P105[]':{
+					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P106[]':{
+					digits:true,
 				    required:true,
 				},	       
 				'C1P107[]':{
+					digits:true,
 				    required:true,
 				},  		              
 				'C1P108[]':{
+					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P109[]':{
+					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P110[]':{
+					digits:true,
 				    required:true,
 				},  		              
 				'C1P111[]':{
+					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P112[]':{
+					digits:true,
 				    required: true,			    	
 				}, 				
 				'C1P113[]':{
+					digits:true,
 				    required:true,
 				},  		              
 				'C1P114[]':{
+					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P114_OBS[]':{		    	

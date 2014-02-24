@@ -82,7 +82,7 @@ $C0TIPVIA = array(
 	'name'	=> 'C0TIPVIA',
 	'id'	=> 'C0TIPVIA',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control input3 col-centered',
 );
 
 $C0NOMVIA = array(
@@ -180,14 +180,14 @@ $C0VIVORIG = array(
 	'name'	=> 'C0VIVORIG',
 	'id'	=> 'C0VIVORIG',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control col-centered input3',
 );
 
 $C0VOTIPVIA = array(
 	'name'	=> 'C0VOTIPVIA',
 	'id'	=> 'C0VOTIPVIA',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control col-centered input3',
 );
 
 $C0VONOMVIA = array(
@@ -380,7 +380,7 @@ echo '
 
 			<div class="col-md-4">
 						<div class="form-group">
-							 <label for="">Es un postulante de reemplazo?</label>
+							 <label for="">Es un postulante de reemplazo? (Si...1 / No...2)</label>
 							 ' . form_input($C0PREEM) . '<div class="help-block error"></div>
 
 							 <label for="">Anote el Nro de seleccion del postulante de reemplazo</label>
@@ -391,7 +391,7 @@ echo '
 
 			<div class="col-md-3">
 						<div class="form-group">
-							 <label for="">Accedio a la beca?</label>
+							 <label for="">Accedio a la beca? (Si...1 / No...2)</label>
 							 ' . form_input($C0ACCBECA) . '<div class="help-block error"></div>
 						</div>			
 
@@ -451,18 +451,23 @@ echo '
 
 echo '
 <div class="row">
-	<div class="col-md-12">	
+	<div class="col-lg-6 col-lg-offset-3">	
 				<h4 class="panel-title">8. Dirección actual donde vive actualmente el postulante</h4>
 				<div class="form-group">
 					<label class="">Tipo de Vía</label>
 						'.form_input($C0TIPVIA).' <div class="help-block error"></div> 1. Avenida , 2. Jiron , 3. Calle , 4. Pasaje , 5. Carretera, 6. Autopista , 7. Otro
 					
 				</div>
+	</div>
+
+	<div class="col-md-12">	
+
+
 				<div class="table-responsive">
 					<table class="table table-bordered">
 												<thead>
 													<tr>
-														<th>Nombre de la via</th>
+														<th width="20%">Nombre de la via</th>
 														<th>N° de Puerta</th>
 														<th>Block</th>
 														<th>Int.</th>
@@ -568,7 +573,7 @@ echo '
 					<table class="table table-bordered">
 												<thead>
 													<tr>
-														<th>Nombre de la via</th>
+														<th width="20%">Nombre de la via</th>
 														<th>N° de Puerta</th>
 														<th>Block</th>
 														<th>Int.</th>
@@ -623,7 +628,9 @@ echo '
 				<div class="form-group">
 						<label for="">18. La Encuesta se realizó en</label>
 						' . form_input($C0P18LUGENCUEST) . '<div class="help-block error"></div>
+						Vivienda de origen del postulante 1, Vivienda temporal del estudiante 2, Institución Educativa 3					 				
 				</div>	
+
 
 	</div>						
 </div>
@@ -1066,17 +1073,22 @@ $("#car_f").validate({
 		    rules: {  
 		    	C0SELECC:{
 		    		required:true,
+		    		digits:true,
+		    		exactlength:5,
 		    	},	
 		    	C0PREEM:{
 		    		range:[1,2],
 		    	},		
 		    	C0PREEMSEL:{
+		    		digits:true,
+		    		exactlength:5,		    		
 		    	},		
 		    	C0ACCBECA:{
 		    		range:[1,2],
 		    		required:true,
 		    	},		
 		    	C0CUEST:{
+		    		exactlength:[5],
 		    	},		
 		    	C0CCDD:{
 		    		valueNotEquals:'-1',
@@ -1139,6 +1151,8 @@ $("#car_f").validate({
 		    	C0TPOSTTELF:{
 		    	},
 		    	C0VIVORIG:{
+		    		range:[1,2],
+			    	digits: true,
 		    	},	
 		    	C0VOTIPVIA:{
 		    		range:[1,7],
@@ -1211,16 +1225,16 @@ $("#car_f").validate({
 		    		required:true,				    		
 		    	},	
 		    	'C0P19_DIAPROX[]':{
-		    		valdia:true,	    		
+		    		valdia:true,	    			    		
 		    	},	
 		    	'C0P19_MESPROX[]':{
-		    		valmes:true,		    		
+		    		valmes:true,		    			    		
 		    	},	
 		    	'C0P19_HPROX[]':{
-		    		valhora:true,	    		
+		    		valhora:true,	    			    		
 		    	},	
 		    	'C0P19_MPROX[]':{
-		    		valminuto:true,			    		
+		    		valminuto:true,			    				    		
 		    	},	
 		    	'C0P19_RVISITA[]':{
 		    		range:[1,7],

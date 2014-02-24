@@ -79,10 +79,31 @@ $C3P305 = array(
 	'class' => 'form-control',
 );
 
-$C3P306 = array(
-	'name'	=> 'C3P306',
-	'id'	=> 'C3P306',
-	'maxlength'	=> 4,
+$C3P306_1 = array(
+	'name'	=> 'C3P306_1',
+	'id'	=> 'C3P306_1',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P306_2 = array(
+	'name'	=> 'C3P306_2',
+	'id'	=> 'C3P306_2',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P306_3 = array(
+	'name'	=> 'C3P306_3',
+	'id'	=> 'C3P306_3',
+	'maxlength'	=> 1,
+	'class' => 'form-control',
+);
+
+$C3P306_4 = array(
+	'name'	=> 'C3P306_4',
+	'id'	=> 'C3P306_4',
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
@@ -1631,7 +1652,32 @@ echo '
 
 			<div class="form-group">
 				<label for="">306. Desde el año 2013. En qué semestres estuviste matriculado?</label>
-						' . form_input($C3P306) . '<div class="help-block error"></div>						
+						<table class="table table-condensed" id="emb_table">
+					              <thead>
+					               <tr>
+					                 <th class="span1"></th>
+					                 <th class="span3"></th>
+					                </tr>
+					             </thead>
+					              <tbody>
+					              <tr>
+					                 <td>2013 I</td>
+					                 <td>' . form_input($C3P306_1) . '<div class="help-block error"></div></td>
+					              </tr>  
+					               <tr>
+					                 <td>2013 II</td>
+					                 <td>' . form_input($C3P306_2) . '<div class="help-block error"></div></td>
+					               </tr> 
+					              <tr>
+					                 <td>2014 0</td>
+					                 <td>' . form_input($C3P306_3) . '<div class="help-block error"></div></td>
+					               </tr>
+					              <tr>
+					                 <td>2014 I</td>
+					                 <td>' . form_input($C3P306_4) . '<div class="help-block error"></div></td>
+					               </tr>		               				               					                					                						               				               					               					               
+			              </tbody>
+			           </table>							
 			</div>	
 
 			<div class="form-group">

@@ -401,7 +401,7 @@ echo '
 
 				<div class="form-group">
 						<label for="">210. Consideras que la preparación que tuviste fue suficiente para el examen de admisión?</label>
-						' . form_input($C2P210) . '						
+						' . form_input($C2P210) . '	<div class="help-block error"></div>	
 				</div>	
 
 
@@ -409,7 +409,7 @@ echo '
 
 				<div class="form-group">
 						<label for="">211. Recibiste algún tipo de orientación o asistencia para elegir la carrera a la que ingresaste para BECA 18?</label>
-						' . form_input($C2P211) . '						
+						' . form_input($C2P211) . '	<div class="help-block error"></div>						
 				</div>	
 
 				<div class="form-group">
@@ -466,11 +466,10 @@ $("#cap2_f").validate({
 		    	},			
 		    	C2P203:{
 		    		range:[0,1],
+		    		digits:true,
 		    		required:true,		    		
 		    	},	
-		    	C2P204:{   		
-		    		range:[0,1],
-		    		required:true,		    		
+		    	C2P204:{   			    		
 		    	},	
 		    	C2P205_1:{   
 		    		range:[0,1],
@@ -542,9 +541,11 @@ $("#cap2_f").validate({
 		    	},	
 		    	C2P209_ANIO:{   
 		    		range:[0,50],			    			
+		    		required:true,				    			
 		    	},
 		    	C2P209_MES:{   
 		    		range:[0,11],			    			
+		    		required:true,				    			
 		    	},
 		    	C2P210:{   
 		    		range:[1,2],			    			
