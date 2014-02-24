@@ -4,14 +4,14 @@
 		<div class="tabbable"> <!-- Only required for left/right tabs -->
 		  <ul id='nav_capit2' class="nav nav-tabs fix_navcap">
 		    <li id="ctab" class="active"><a href="#tabc" data-toggle="tab">Carátula</a></li>
-		    <li id="ctab1"><a href="#tab1" data-toggle="tab">Capítulo I</a></li>
-		    <li id="ctab2"><a href="#tab2" data-toggle="tab">Capítulo II</a></li>
-		    <li id="ctab3"><a href="#tab3" data-toggle="tab">Capítulo III</a></li>
-		    <li id="ctab4"><a href="#tab4" data-toggle="tab">Capítulo IV</a></li>
-		    <li id="ctab5"><a href="#tab5" data-toggle="tab">Capítulo IV B</a></li>
-		    <li id="ctab6"><a href="#tab6" data-toggle="tab">Capítulo V</a></li>
-		    <li id="ctab7"><a href="#tab7" data-toggle="tab">Capítulo VI</a></li>
-		    <li id="ctab8"><a href="#tab8" data-toggle="tab">Capítulo VII</a></li>
+		    <li id="ctab1"><a href="#tab1" data-toggle="tab">Capítulo 100</a></li>
+		    <li id="ctab2"><a href="#tab2" data-toggle="tab">Capítulo 200</a></li>
+		    <li id="ctab3"><a href="#tab3" data-toggle="tab">Capítulo 300</a></li>
+		    <li id="ctab4"><a href="#tab4" data-toggle="tab">Capítulo 400</a></li>
+		    <li id="ctab5"><a href="#tab5" data-toggle="tab">Capítulo 400 B</a></li>
+		    <li id="ctab6"><a href="#tab6" data-toggle="tab">Capítulo 500</a></li>
+		    <li id="ctab7"><a href="#tab7" data-toggle="tab">Capítulo 600</a></li>
+		    <li id="ctab8"><a href="#tab8" data-toggle="tab">Capítulo 700</a></li>
 		  </ul>
 		  <div class="tab-content fix_tabcontent">
 		    <div class="tab-pane active" id="tabc">
