@@ -380,7 +380,7 @@ echo '
 
 			<div class="col-md-4">
 						<div class="form-group">
-							 <label for="">Es un postulante de reemplazo? (Si...1 / No...2)</label>
+							 <label for="">Es un postulante de reemplazo? (1)Si / (2)No</label>
 							 ' . form_input($C0PREEM) . '<div class="help-block error"></div>
 
 							 <label for="">Anote el Nro de seleccion del postulante de reemplazo</label>
@@ -391,7 +391,7 @@ echo '
 
 			<div class="col-md-3">
 						<div class="form-group">
-							 <label for="">Accedio a la beca? (Si...1 / No...2)</label>
+							 <label for="">Accedio a la beca? (1)Si / (2)No</label>
 							 ' . form_input($C0ACCBECA) . '<div class="help-block error"></div>
 						</div>			
 

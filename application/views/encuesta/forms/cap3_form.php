@@ -173,63 +173,63 @@ $C3P308 = array(
 $C3P309_1 = array(
 	'name'	=> 'C3P309_1',
 	'id'	=> 'C3P309_1',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_2 = array(
 	'name'	=> 'C3P309_2',
 	'id'	=> 'C3P309_2',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_3 = array(
 	'name'	=> 'C3P309_3',
 	'id'	=> 'C3P309_3',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_4 = array(
 	'name'	=> 'C3P309_4',
 	'id'	=> 'C3P309_4',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_5 = array(
 	'name'	=> 'C3P309_5',
 	'id'	=> 'C3P309_5',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_6 = array(
 	'name'	=> 'C3P309_6',
 	'id'	=> 'C3P309_6',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_7 = array(
 	'name'	=> 'C3P309_7',
 	'id'	=> 'C3P309_7',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_8 = array(
 	'name'	=> 'C3P309_8',
 	'id'	=> 'C3P309_8',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 
 $C3P309_9 = array(
 	'name'	=> 'C3P309_9',
 	'id'	=> 'C3P309_9',
-	'maxlength'	=> 2,
+	'maxlength'	=> 1,
 	'class' => 'form-control',
 );
 

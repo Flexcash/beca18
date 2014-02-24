@@ -465,7 +465,7 @@ $("#cap2_f").validate({
 		    	C2P202A:{
 		    	},			
 		    	C2P203:{
-		    		range:[0,1],
+		    		range:[1,2],
 		    		digits:true,
 		    		required:true,		    		
 		    	},	

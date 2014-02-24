@@ -672,7 +672,7 @@ echo '
 					          <thead>
 					               <tr>
 					                 <th class="span3" colspan="2"></th>
-					                 <th class="span3" colspan="3">415.1 Que tan involucrado está?</th>
+					                 <th class="span3" colspan="3"></th>
 					                </tr>						          
 					               <tr>
 					                 <th class="span3"></th>

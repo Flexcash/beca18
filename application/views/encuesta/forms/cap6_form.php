@@ -816,14 +816,14 @@ echo '
 
 
 	<div class="col-md-12">	
-		<h4>La semana pasada. Realizaste alguna actividad como:</h4>	
+		<h4>601. La semana pasada. Realizaste alguna actividad como:</h4>	
 
 				<div class="table-responsive">
 
 						<table class="table table-bordered" id="emb_table6">
 					          <thead>
 					               <tr>
-					                 <th class="span3" colspan="2">601. Actividades</th>
+					                 <th class="span3" colspan="2">Actividades</th>
 					                 <th class="span3" colspan="3">602. Cuánto tiempo le dedicó a ... De Lunes a viernes?</th>
 					                 <th class="span3" colspan="3">603. Cuánto tiempo le dedicó a ... De Sábado a domingo?</th>
 					                </tr>	
