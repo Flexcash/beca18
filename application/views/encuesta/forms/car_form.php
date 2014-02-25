@@ -801,6 +801,53 @@ echo form_close();
 
 $(function(){
 
+//val car_n
+$(document).on("change",'.car_res',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,14);
+		var nro;
+
+			if(pre.length == 15){
+				 nro = pre.substring(14,15);
+			}
+			else if(pre.length == 16){
+				nro = pre.substring(14,16);
+			}				
+
+	if($(this).val() == 7){
+		 	$('#C0P19_RVISITA_O_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C0P19_RVISITA_O_' + nro).val('');
+		 	$('#C0P19_RVISITA_O_' + nro).attr('readonly','readonly');
+	}
+
+});
+
+
+
+$(document).on("change",'.car_resj',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,17);
+		var nro;
+
+			if(pre.length == 19){
+				 nro = pre.substring(18,19);
+			}
+			else if(pre.length == 20){
+				nro = pre.substring(18,20);
+			}		
+
+	if($(this).val() == 7){
+		 	$('#C0P19_JEF_RVISITA_O_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C0P19_JEF_RVISITA_O_' + nro).val('');
+		 	$('#C0P19_JEF_RVISITA_O_' + nro).attr('readonly','readonly');	
+	}
+
+});
+
+
+
 
 //car
 $("#C0CCDD").change(function(event) {
@@ -1019,7 +1066,7 @@ $('#pcar_c_n tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_MESPROX[]" id="C0P19_MESPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_HPROX[]" id="C0P19_HPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_MPROX[]" id="C0P19_MPROX_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" maxlength="50" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' car_res" maxlength="1" name="C0P19_RVISITA[]" id="C0P19_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" readonly class="form-control input10 embc' + i + '" maxlength="50" name="C0P19_RVISITA_O[]" id="C0P19_RVISITA_O_' + i + '" value="" ><div class="help-block error"></div></td>';
 
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_DIA[]" id="C0P19_JEF_DIA_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_MES[]" id="C0P19_JEF_MES_' + i + '" value="" ><div class="help-block error"></div></td>';
@@ -1028,7 +1075,7 @@ $('#pcar_c_n tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_FH[]"  id="C0P19_JEF_FH_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="2" name="C0P19_JEF_FM[]"  id="C0P19_JEF_FM_' + i + '" value="" ><div class="help-block error"></div></td>';	    
 	
-	    asd +='<td><input type="text" class="form-control embc' + i + ' car_res" maxlength="1" name="C0P19_JEF_RVISITA[]" id="C0P19_JEF_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" maxlength="50" name="C0P19_JEF_RVISITA_O[]" id="C0P19_JEF_RVISITA_O_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' car_resj" maxlength="1" name="C0P19_JEF_RVISITA[]" id="C0P19_JEF_RVISITA_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" readonly class="form-control input10 embc' + i + '" maxlength="50" name="C0P19_JEF_RVISITA_O[]" id="C0P19_JEF_RVISITA_O_' + i + '" value="" ><div class="help-block error"></div></td>';
 
 	    asd += '</tr>';
 	    $('#pcar_c_n > tbody').append(asd);
@@ -1053,6 +1100,7 @@ $('#pcar_c_n tr').remove('.entrev');
 		   $('#C0P19_HPROX_' +  as).val(data.C0P19_HPROX);
 		   $('#C0P19_MPROX_' +  as).val(data.C0P19_MPROX);
 		   $('#C0P19_RVISITA_' +  as).val(data.C0P19_RVISITA);
+		   $('#C0P19_RVISITA_' +  as).trigger('change');
 		   $('#C0P19_RVISITA_O_' +  as).val(data.C0P19_RVISITA_O);
 
 		   $('#C0P19_JEF_DIA_' +  as).val(data.C0P19_JEF_DIA);
@@ -1062,6 +1110,7 @@ $('#pcar_c_n tr').remove('.entrev');
 		   $('#C0P19_JEF_FH_' +  as).val(data.C0P19_JEF_FH);
 		   $('#C0P19_JEF_FM_' +  as).val(data.C0P19_JEF_FM);
 		   $('#C0P19_JEF_RVISITA_' +  as).val(data.C0P19_JEF_RVISITA);
+		   $('#C0P19_JEF_RVISITA_' +  as).trigger('change');
 		   $('#C0P19_JEF_RVISITA_O_' +  as).val(data.C0P19_JEF_RVISITA_O);
 		   as++;
 	}); 

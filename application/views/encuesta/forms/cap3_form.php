@@ -119,6 +119,7 @@ $C3P307_C1C = array(
 	'id'	=> 'C3P307_C1C',
 	'maxlength'	=> 2,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 $C3P307_C2 = array(
@@ -133,6 +134,7 @@ $C3P307_C2C = array(
 	'id'	=> 'C3P307_C2C',
 	'maxlength'	=> 2,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 $C3P307_C3 = array(
@@ -147,6 +149,7 @@ $C3P307_C3C = array(
 	'id'	=> 'C3P307_C3C',
 	'maxlength'	=> 2,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 $C3P307_C4 = array(
@@ -161,6 +164,7 @@ $C3P307_C4C = array(
 	'id'	=> 'C3P307_C4C',
 	'maxlength'	=> 2,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 $C3P308 = array(
@@ -464,49 +468,49 @@ $C3P321_1 = array(
 	'name'	=> 'C3P321_1',
 	'id'	=> 'C3P321_1',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_2 = array(
 	'name'	=> 'C3P321_2',
 	'id'	=> 'C3P321_2',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_3 = array(
 	'name'	=> 'C3P321_3',
 	'id'	=> 'C3P321_3',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_4 = array(
 	'name'	=> 'C3P321_4',
 	'id'	=> 'C3P321_4',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_5 = array(
 	'name'	=> 'C3P321_5',
 	'id'	=> 'C3P321_5',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_6 = array(
 	'name'	=> 'C3P321_6',
 	'id'	=> 'C3P321_6',
-	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'maxlength'	=> 1, 
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_7 = array(
 	'name'	=> 'C3P321_7',
 	'id'	=> 'C3P321_7',
 	'maxlength'	=> 1,
-	'class' => 'form-control',
+	'class' => 'form-control cap3_res',
 );
 
 $C3P321_7OBS = array(
@@ -578,6 +582,7 @@ $C3P322_NCU = array(
 	'id'	=> 'C3P322_NCU',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 
@@ -593,6 +598,7 @@ $C3P323_NSA = array(
 	'id'	=> 'C3P323_NSA',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 $C3P324 = array(
@@ -607,6 +613,7 @@ $C3P324_NSA = array(
 	'id'	=> 'C3P324_NSA',
 	'maxlength'	=> 1,
 	'class' => 'form-control',
+	'disabled' => 'disabled',
 );
 
 $C3P325 = array(
@@ -1995,11 +2002,16 @@ echo '
 					                 <td>' . form_input($C3P321A_6) . '<div class="help-block error"></div></td>
 					              </tr>  
 						          <tr>
-					                 <td>Otra razón?... Especifique ' . form_input($C3P321_7OBS) . '<div class="help-block error"></div></td>
+					                 <td>Otra razón?... Especifique<div class="help-block error"></div></td>
 					                 <td>' . form_input($C3P321_7) . '<div class="help-block error"></div></td>
 					                 <td>' . form_input($C3P321A_7) . '<div class="help-block error"></div></td>
-					              </tr>  				              
-
+					              </tr>  	
+						          <tr>
+					                 <td>'. form_input($C3P321_7OBS) .'<div class="help-block error"></div></td>
+					                 <td></td>
+					                 <td></td>
+					              </tr>  						              			              
+					              
 
 			              </tbody>
 			           </table>								
@@ -2820,6 +2832,222 @@ echo form_close();
 
 $(function(){
 
+
+$('#C3P307_C1').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P307_C1C').removeAttr('disabled');
+	}else{
+		$('#C3P307_C1C').val('');
+		$('#C3P307_C1C').attr('disabled','disabled');
+	}
+});
+$('#C3P307_C2').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P307_C2C').removeAttr('disabled');
+	}else{
+		$('#C3P307_C2C').val('');
+		$('#C3P307_C2C').attr('disabled','disabled');
+	}
+});
+$('#C3P307_C3').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P307_C3C').removeAttr('disabled');
+	}else{
+		$('#C3P307_C3C').val('');
+		$('#C3P307_C3C').attr('disabled','disabled');
+	}
+});
+$('#C3P307_C4').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P307_C4C').removeAttr('disabled');
+	}else{
+		$('#C3P307_C4C').val('');
+		$('#C3P307_C4C').attr('disabled','disabled');
+	}
+});
+
+$('#C3P309_9').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P309_9OBS').removeAttr('disabled');
+	}else{
+		$('#C3P309_9OBS').val('');
+		$('#C3P309_9OBS').attr('disabled','disabled');
+	}
+});
+
+$('#C3P318_8').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P318_8OBS').removeAttr('disabled');
+	}else{
+		$('#C3P318_8OBS').val('');
+		$('#C3P318_8OBS').attr('disabled','disabled');
+	}
+});
+
+
+$('#C3P321_7').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P321_7OBS').removeAttr('disabled');
+	}else{
+		$('#C3P321_7OBS').val('');
+		$('#C3P321_7OBS').attr('disabled','disabled');
+	}
+});
+
+$(document).on("change",'.cap3_res',function() {
+		var pre = $(this).attr('id');
+		var nro;
+		nro = pre.substring(7,8);	
+
+	if($(this).val() == 1){
+		 	$('#C3P321A_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C3P321A_' + nro).val('');
+		 	$('#C3P321A_' + nro).attr('readonly','readonly');	
+	}
+
+});
+
+$('#C3P322').change(function(event) {
+	if($(this).val() == '' || $(this).val() == 0){
+		$('#C3P322_NCU').removeAttr('disabled');
+	}else{
+		$('#C3P322_NCU').val('');
+		$('#C3P322_NCU').attr('disabled','disabled');
+	}
+});
+
+$('#C3P323').change(function(event) {
+	if($(this).val() == '' || $(this).val() == 0){
+		$('#C3P323_NSA').removeAttr('disabled');
+	}else{
+		$('#C3P323_NSA').val('');
+		$('#C3P323_NSA').attr('disabled','disabled');
+	}
+});
+
+$('#C3P324').change(function(event) {
+	if($(this).val() == '' || $(this).val() == 0){
+		$('#C3P324_NSA').removeAttr('disabled');
+	}else{
+		$('#C3P324_NSA').val('');
+		$('#C3P324_NSA').attr('disabled','disabled');
+	}
+});
+
+
+$('#C3P329').change(function(event) {
+	if($(this).val() == 10){
+		$('#C3P329_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P329_OBS').val('');
+		$('#C3P329_OBS').attr('disabled','disabled');
+	}
+});
+
+
+$('#C3P330').change(function(event) {
+	if($(this).val() == '' || $(this).val() == 0){
+		$('#C3P330_NSA').removeAttr('disabled');
+	}else{
+		$('#C3P330_NSA').val('');
+		$('#C3P330_NSA').attr('disabled','disabled');
+	}
+});
+
+$('#C3P331').change(function(event) {
+	if($(this).val() == '' || $(this).val() == 0){
+		$('#C3P331_NSA').removeAttr('disabled');
+	}else{
+		$('#C3P331_NSA').val('');
+		$('#C3P331_NSA').attr('disabled','disabled');
+	}
+});
+
+
+$('#C3P332').change(function(event) {
+	if($(this).val() == '' || $(this).val() == 0){
+		$('#C3P332_NSA').removeAttr('disabled');
+	}else{
+		$('#C3P332_NSA').val('');
+		$('#C3P332_NSA').attr('disabled','disabled');
+	}
+});
+
+$('#C3P334').change(function(event) {
+	if($(this).val() == 6){
+		$('#C3P334_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P334_OBS').val('');
+		$('#C3P334_OBS').attr('disabled','disabled');
+	}
+});
+
+
+$('#C3P336_3').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P336_3OBS').removeAttr('disabled');
+	}else{
+		$('#C3P336_3OBS').val('');
+		$('#C3P336_3OBS').attr('disabled','disabled');
+	}
+});
+
+$('#C3P337').change(function(event) {
+	if($(this).val() == 5){
+		$('#C3P337_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P337_OBS').val('');
+		$('#C3P337_OBS').attr('disabled','disabled');
+	}
+});
+
+$('#C3P349').change(function(event) {
+	if($(this).val() == 4){
+		$('#C3P349_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P349_OBS').val('');
+		$('#C3P349_OBS').attr('disabled','disabled');
+	}
+});
+
+$('#C3P355').change(function(event) {
+	if($(this).val() == 5){
+		$('#C3P355_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P355_OBS').val('');
+		$('#C3P355_OBS').attr('disabled','disabled');
+	}
+});
+
+$('#C3P360_8').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P360_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P360_OBS').val('');
+		$('#C3P360_OBS').attr('disabled','disabled');
+	}
+});
+
+$('#C3P361_5').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P361_5OBS').removeAttr('disabled');
+	}else{
+		$('#C3P361_5OBS').val('');
+		$('#C3P361_5OBS').attr('disabled','disabled');
+	}
+});
+
+
+$('#C3P362_8').change(function(event) {
+	if($(this).val() == 1){
+		$('#C3P362_OBS').removeAttr('disabled');
+	}else{
+		$('#C3P362_OBS').val('');
+		$('#C3P362_OBS').attr('disabled','disabled');
+	}
+});
+
 $("#C3P304_CCDD").change(function(event) {
         var sel = null;
         var urlx = null;
@@ -2966,7 +3194,7 @@ $("#C3P314_CCPP").change(function(event) {
 if(<?php echo $CAP03->num_rows() ?> == 1){
 	$.each( <?php echo json_encode($CAP03->row()); ?>, function(fila, valor) {
 
-			if(fila == 'C3P304_CCDD' || fila == 'C3P314_CCDD'){
+			if(fila == 'C3P304_CCDD' || fila == 'C3P314_CCDD' || fila == 'C3P307_C1' || fila == 'C3P307_C2' || fila == 'C3P307_C3' || fila == 'C3P307_C4' || fila == 'C3P309_9' || fila == 'C3P318_8' || fila == 'C3P321_1' || fila == 'C3P321_2' || fila == 'C3P321_3' || fila == 'C3P321_4' || fila == 'C3P321_5' || fila == 'C3P321_6' || fila == 'C3P321_7' || fila == 'C3P322' || fila == 'C3P323' || fila == 'C3P324' || fila == 'C3P329' || fila == 'C3P330' || fila == 'C3P331' || fila == 'C3P332' || fila == 'C3P334' || fila == 'C3P336_3' || fila == 'C3P337' || fila == 'C3P349' || fila == 'C3P355' || fila == 'C3P360_8'  || fila == 'C3P361_5'  || fila == 'C3P362_8'){
 	   			$('#' + fila).val(valor);
 	   			$('#' + fila).trigger('change');	
 
@@ -3046,10 +3274,23 @@ $("#cap3_f").validate({
 		    	C3P305:{
 		    		required:true,
 		    	},		
-		    	C3P306:{
-		    		range:[1,4],			    			
+		    	C3P306_1:{
+		    		range:[0,1],			    			
 		    		required:true,
 		    	},	
+		    	C3P306_2:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P306_3:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+		    	C3P306_4:{
+		    		range:[0,1],			    			
+		    		required:true,
+		    	},	
+
 		    	C3P307_C1:{
 		    		range:[0,1],			    			
 		    		required:true,
@@ -3080,6 +3321,7 @@ $("#cap3_f").validate({
 		    	C3P307_C4:{
 		    		range:[0,1],			    			
 		    		required:true,
+		    		valexclusive:['C3P307_C1','C3P307_C2','C3P307_C3','C3P307_C4']
 		    	},	
 		    	C3P307_C4C:{
 		    		range:[0,50],			    			

@@ -305,6 +305,23 @@ $.validator.addMethod("valnueves", function(value, element, arg){
  }, "Existe 9, Todas las opciones deben ser omisión.");
 
 
+
+$.validator.addMethod("valexclusive", function(value, element, arg){
+    flag = true;
+    contador = 0;
+    if((!element.readOnly)){
+        for(var i = 0; i<=arg.length; i++){
+              if($('#' + arg[i]).val() == 1) 
+                contador += 1;
+        }
+        if( contador > 1 && contador < arg.length ){
+            flag = false;
+        }          
+    }
+    return flag;
+ }, "Solo se puede seleccionar 1 sola alternativa.");
+
+
 $.validator.addMethod("valninguno", function(value, element, arg){
     flag = true;
     if(value == 1){
@@ -331,6 +348,8 @@ $.validator.addMethod("valzerototal", function(value, element, arg){
     }
     return flag;
  }, "Debe ingresar al menos una opción, no pueden ser 0 todas las opciones.");  
+
+
 
 $.validator.addMethod("valningunototal", function(value, element, arg){
     flag = true;
@@ -514,6 +533,14 @@ function fu_disableCTRL(ctrl){
   $(ctrl).val("").attr("disabled","disabled");
 }
 
+
+function i_enable(ctrl){
+  $(ctrl).removeAttr("disabled");
+}
+
+function i_disable(ctrl){
+  $(ctrl).val("").attr("disabled","disabled");
+}
 </script>
 
 

@@ -132,7 +132,27 @@ echo form_close();
 
 $(function(){
 
+//val car_n
+$(document).on("change",'.cap1_res',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,7);
+		var nro;
 
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if($(this).val() == 6){
+		 	$('#C1P114_OBS_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C1P114_OBS_' + nro).val('');
+		 	$('#C1P114_OBS_' + nro).attr('readonly','readonly');
+	}
+
+});
 
 $('#pcap1_num').val((<?php echo $CAP01->num_rows(); ?> > 0) ? <?php echo $CAP01->num_rows(); ?> : '' );
 
@@ -167,7 +187,7 @@ $('#pcap1_bn tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P111[]"  id="C1P111_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P112[]"  id="C1P112_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P113[]"  id="C1P113_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P114[]"  id="C1P114_' + i + '" value="" ><div class="help-block error"></div> - Otro Especifique <div class="help-block error"></div><input type="text" class="form-control input10 embc' + i + '" maxlength="50" name="C1P114_OBS[]" id="C1P114_OBS_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' cap1_res" maxlength="1" name="C1P114[]"  id="C1P114_' + i + '" value="" ><div class="help-block error"></div> - Otro Especifique <div class="help-block error"></div><input type="text" readonly class="form-control input10 embc' + i + '" maxlength="50" name="C1P114_OBS[]" id="C1P114_OBS_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd += '</tr>';
 	    $('#pcap1_bn > tbody').append(asd);
 	  }
@@ -197,6 +217,7 @@ $('#pcap1_bn tr').remove('.entrev');
 		   $('#C1P112_' +  as).val(data.C1P112);
 		   $('#C1P113_' +  as).val(data.C1P113);
 		   $('#C1P114_' +  as).val(data.C1P114);
+		   $('#C1P114_' +  as).trigger('change');
 		   $('#C1P114_OBS_' +  as).val(data.C1P114_OBS);
 		   as++;
 	}); 
