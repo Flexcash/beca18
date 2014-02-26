@@ -810,12 +810,12 @@ $('#C4P412_4').change(function(event) {
 		i_disable('#C4P414_4');
 		i_disable('#C4P414_5');
 	}else{
-		i_esable('#C4P413');
-		i_esable('#C4P414_1');
-		i_esable('#C4P414_2');
-		i_esable('#C4P414_3');
-		i_esable('#C4P414_4');
-		i_esable('#C4P414_5');
+		i_enable('#C4P413');
+		i_enable('#C4P414_1');
+		i_enable('#C4P414_2');
+		i_enable('#C4P414_3');
+		i_enable('#C4P414_4');
+		i_enable('#C4P414_5');
 	}
 
 });
