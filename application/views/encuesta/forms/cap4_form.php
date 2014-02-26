@@ -164,6 +164,29 @@ echo form_close();
 
 $(function(){
 
+//val car_n
+$(document).on("change",'.cap4_res',function() {
+		var pre = $(this).attr('id');
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if($(this).val() == 7){
+		 	$('#C4P403_OBS_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C4P403_OBS_' + nro).val('');
+		 	$('#C4P403_OBS_' + nro).attr('readonly','readonly');
+	}
+
+});
+
+
+
 $('#pcap4_num').val((<?php echo $CAP04->num_rows(); ?> > 0) ? <?php echo $CAP04->num_rows(); ?> : '' );
 
 $('#pcap4_num').keyup(function(event) {
@@ -175,7 +198,7 @@ $('#pcap4_n tr').remove('.entrev');
 	    var asd = '<tr class="entrev">';
 	    asd +='<td><input type="text" class="form-control input3 embc' + i + '" maxlength="2" readonly name="C4P401[]" id="C4P401_' + i + '" value="' + i + '" ></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P402[]" id="C4P402_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P403[]" id="C4P403_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P403_OBS[]" id="C4P403_OBS_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control cap4_res embc' + i + '" maxlength="1" name="C4P403[]" id="C4P403_' + i + '" value="" > - Especifique <div class="help-block error"></div><input type="text" class="form-control embc' + i + '" maxlength="50" name="C4P403_OBS[]" id="C4P403_OBS_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P404[]"  id="C4P404_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P405[]"  id="C4P405_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C4P406[]"  id="C4P406_' + i + '" value="" ><div class="help-block error"></div></td>';
@@ -198,6 +221,7 @@ $('#pcap4_n tr').remove('.entrev');
 		   $('#C4P401_' +  as).val(data.C4P401);
 		   $('#C4P402_' +  as).val(data.C4P402);
 		   $('#C4P403_' +  as).val(data.C4P403);
+		   $('#C4P403_' +  as).trigger('change');
 		   $('#C4P403_OBS_' +  as).val(data.C4P403_OBS);
 		   $('#C4P404_' +  as).val(data.C4P404);
 		   $('#C4P405_' +  as).val(data.C4P405);

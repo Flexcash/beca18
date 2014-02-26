@@ -800,11 +800,36 @@ echo form_close();
 
 $(function(){
 
+$('#C4P412_4').change(function(event) {
+
+	if($(this).val() == 1){
+		i_disable('#C4P413');
+		i_disable('#C4P414_1');
+		i_disable('#C4P414_2');
+		i_disable('#C4P414_3');
+		i_disable('#C4P414_4');
+		i_disable('#C4P414_5');
+	}else{
+		i_esable('#C4P413');
+		i_esable('#C4P414_1');
+		i_esable('#C4P414_2');
+		i_esable('#C4P414_3');
+		i_esable('#C4P414_4');
+		i_esable('#C4P414_5');
+	}
+
+});
+
 
 if(<?php echo $CAP04B->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP04B->row()); ?>, function(fila, valor) {
-	        $('#' + fila).val(valor);       	   	
+	    if(fila == 'C4P412_4'){
+			$('#' + fila).val(valor);
+			$('#' + fila).trigger('change');		
+		}else{		
+	        $('#' + fila).val(valor);    
+	    }   	   	
 	}); 
 	
 // setTimeout(function(){

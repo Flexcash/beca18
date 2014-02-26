@@ -569,12 +569,56 @@ echo form_close();
 
 $(function(){
 
+$('#C5P504_9').change(function(event) {
+	if($(this).val() == 1){
+		i_enable('#C5P504_9OBS');
+	}else{
+		i_disable('#C5P504_9OBS');
+	}
+});
 
+$('#C5P507').change(function(event) {
+	if($(this).val() == 7){
+		i_enable('#C5P507_OBS');
+	}else{
+		i_disable('#C5P507_OBS');
+	}
+});
+
+$('#C5P508').change(function(event) {
+	if($(this).val() == 8){
+		i_enable('#C5P508_OBS');
+	}else{
+		i_disable('#C5P508_OBS');
+	}
+});
+
+
+$('#C5P513').change(function(event) {
+	if($(this).val() == 4){
+		i_enable('#C5P513_OBS');
+	}else{
+		i_disable('#C5P513_OBS');
+	}
+});
+
+$('#C5P514').change(function(event) {
+	if($(this).val() == 7){
+		i_enable('#C5P514_OBS');
+	}else{
+		i_disable('#C5P514_OBS');
+	}
+});
 
 if(<?php echo $CAP05->num_rows() ?> == 1){
 
 	$.each( <?php echo json_encode($CAP05->row()); ?>, function(fila, valor) {
-	        $('#' + fila).val(valor);       	
+	    if(fila == 'C5P504_9' || fila == 'C5P507' || fila == 'C5P508' || fila == 'C5P513' || fila == 'C5P513' || fila == 'C5P514'){
+			$('#' + fila).val(valor);
+			$('#' + fila).trigger('change');		
+		}else{			
+	        $('#' + fila).val(valor);    
+	    }   	
 	}); 
 
 }
