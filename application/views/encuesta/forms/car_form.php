@@ -801,6 +801,69 @@ echo form_close();
 
 $(function(){
 
+
+
+$('#C0PREEM').change(function(event) {
+	if($(this).val() == 1){
+		i_disable('#C0PREEMSEL');
+	}else{
+		i_enable('#C0PREEMSEL');
+	}
+});
+
+$('#C0VIVORIG').change(function(event) {
+
+	if($(this).val() == 1){
+		i_disable('#C0VOTIPVIA');
+		i_disable('#C0VONOMVIA');
+		i_disable('#C0VOPTANUM');
+		i_disable('#C0VOBLOCK');
+		i_disable('#C0VOINT');
+		i_disable('#C0VOPISO');
+		i_disable('#C0VOMZ');
+		i_disable('#C0VOLOTE');
+		i_disable('#C0VOKM');
+		i_disable('#C0VOTELEF');
+		i_disable('#C0VOCCDD');
+		i_disable('#C0VOCCPP');
+		i_disable('#C0VOCCDI');
+	}else{
+		i_enable('#C0VOTIPVIA');
+		i_enable('#C0VONOMVIA');
+		i_enable('#C0VOPTANUM');
+		i_enable('#C0VOBLOCK');
+		i_enable('#C0VOINT');
+		i_enable('#C0VOPISO');
+		i_enable('#C0VOMZ');
+		i_enable('#C0VOLOTE');
+		i_enable('#C0VOKM');
+		i_enable('#C0VOTELEF');
+		i_enable('#C0VOCCDD');
+		i_enable('#C0VOCCPP');
+		i_enable('#C0VOCCDI');
+	}
+
+});
+
+
+$('#C0MANZANA').change(function(event) {
+	if($(this).val() != ''){
+		i_disable('#C0AER');
+	}else{
+		i_enable('#C0AER');
+	}
+});
+
+$('#C0AER').change(function(event) {
+	if($(this).val() != ''){
+		i_disable('#C0ZONNUM');
+		i_disable('#C0MANZANA');
+	}else{
+		i_enable('#C0ZONNUM');
+		i_enable('#C0MANZANA');
+	}
+});
+
 //val car_n
 $(document).on("change",'.car_res',function() {
 		var pre = $(this).attr('id');
@@ -998,7 +1061,7 @@ $("#C0VOCCPP").change(function(event) {
 if(<?php echo $POSTULANTE->num_rows() ?> == 1){
 	$.each( <?php echo json_encode($POSTULANTE->row()); ?>, function(fila, valor) {
 
-			if(fila == 'C0CCDD' || fila == 'C0VOCCDD'){
+			if(fila == 'C0CCDD' || fila == 'C0VOCCDD' || fila == 'C0PREEM' || fila == 'C0VIVORIG' || fila == 'C0MANZANA' || fila == 'C0AER'){
 	   			$('#' + fila).val(valor);
 	   			$('#' + fila).trigger('change');	
 
@@ -1130,7 +1193,8 @@ $("#car_f").validate({
 		    	},		
 		    	C0PREEMSEL:{
 		    		digits:true,
-		    		exactlength:5,		    		
+		    		exactlength:5,	
+					requeridodis:true,   		
 		    	},		
 		    	C0ACCBECA:{
 		    		range:[1,2],
@@ -1289,6 +1353,9 @@ $("#car_f").validate({
 		    		range:[1,7],
 		    		required:true,			    		
 		    	},	
+		    	'C0P19_RVISITA_O[]':{
+		    		requeridodis:true,			    		
+		    	},			    	
 		    	'C0P19_JEF_DIA[]':{
 		    		valdia:true,		    		
 		    	},	
@@ -1310,6 +1377,9 @@ $("#car_f").validate({
 		    	'C0P19_JEF_RVISITA[]':{
 		    		range:[1,7],
 		    	},	
+		    	'C0P19_JEF_RVISITA_O[]':{
+		    		requeridodis:true,			    		
+		    	},			    	
 		    	C0P20_DIA:{
 		    		valdia:true,
 		    		required:true,	

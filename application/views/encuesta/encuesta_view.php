@@ -539,7 +539,7 @@ function i_enable(ctrl){
 }
 
 function i_disable(ctrl){
-  $(ctrl).val("").attr("disabled","disabled");
+  $(ctrl).val('').attr("disabled","disabled");
 }
 </script>
 

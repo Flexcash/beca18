@@ -132,6 +132,55 @@ echo form_close();
 
 $(function(){
 
+$(document).on("change",'.cap1_res10',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,7);
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if($(this).val() == 2 || $(this).val() == '' ){
+		 	$('#C1P111_' + nro).removeAttr('readonly');
+		 	$('#C1P112_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C1P111_' + nro).val('');
+		 	$('#C1P111_' + nro).attr('readonly','readonly');
+		 	$('#C1P112_' + nro).val('');
+		 	$('#C1P112_' + nro).attr('readonly','readonly');
+	}
+
+});
+
+$(document).on("change",'.cap1_res9',function() {
+		var pre = $(this).attr('id');
+		var tex = pre.substring(0,7);
+		var nro;
+
+			if(pre.length == 8){
+				 nro = pre.substring(7,8);
+			}
+			else if(pre.length == 9){
+				nro = pre.substring(7,9);
+			}				
+			
+	if($(this).val() == 1){
+		 	$('#C1P110_' + nro).removeAttr('readonly');
+	}else{
+		 	$('#C1P110_' + nro).val('');
+		 	$('#C1P110_' + nro).attr('readonly','readonly');
+	}
+	$('#C1P110_' + nro).trigger('change');
+
+});
+
+
+
+
 //val car_n
 $(document).on("change",'.cap1_res',function() {
 		var pre = $(this).attr('id');
@@ -182,8 +231,8 @@ $('#pcap1_bn tr').remove('.entrev');
 	    asd +='<td><input type="text" class="form-control input3 embc' + i + '" maxlength="2" readonly name="C1P101x[]" id="C1P101x_' + i + '" value="' + i + '" ></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P107[]" id="C1P107_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P108[]" id="C1P108_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P109[]"  id="C1P109_' + i + '" value="" ><div class="help-block error"></div></td>';
-	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P110[]"  id="C1P110_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' cap1_res9" maxlength="1" name="C1P109[]"  id="C1P109_' + i + '" value="" ><div class="help-block error"></div></td>';
+	    asd +='<td><input type="text" class="form-control embc' + i + ' cap1_res10" maxlength="1" name="C1P110[]"  id="C1P110_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P111[]"  id="C1P111_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P112[]"  id="C1P112_' + i + '" value="" ><div class="help-block error"></div></td>';
 	    asd +='<td><input type="text" class="form-control embc' + i + '" maxlength="1" name="C1P113[]"  id="C1P113_' + i + '" value="" ><div class="help-block error"></div></td>';
@@ -212,7 +261,9 @@ $('#pcap1_bn tr').remove('.entrev');
 		   $('#C1P107_' +  as).val(data.C1P107);
 		   $('#C1P108_' +  as).val(data.C1P108);
 		   $('#C1P109_' +  as).val(data.C1P109);
+		   $('#C1P109_' +  as).trigger('change');
 		   $('#C1P110_' +  as).val(data.C1P110);
+		   $('#C1P110_' +  as).trigger('change');
 		   $('#C1P111_' +  as).val(data.C1P111);
 		   $('#C1P112_' +  as).val(data.C1P112);
 		   $('#C1P113_' +  as).val(data.C1P113);
@@ -243,54 +294,67 @@ $("#cap1_f").validate({
 				    required: true,			    	
 				}, 
 				'C1P103[]':{
+		    		range:[0,9],
 					digits:true,
 				    required:true,
 				},	       
 				'C1P104[]':{
+		    		valrango:[1,2,9],
 					digits:true,
 				    required:true,
 				},  		              
 				'C1P105[]':{
+		    		valrango:[1,2,9],
 					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P106[]':{
+		    		valrango:[1,98,99],
 					digits:true,
 				    required:true,
 				},	       
 				'C1P107[]':{
+		    		range:[1,7],
 					digits:true,
 				    required:true,
 				},  		              
 				'C1P108[]':{
+		    		range:[1,7],
 					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P109[]':{
+		    		valrango:[1,2,9],
 					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P110[]':{
+		    		range:[1,2],
 					digits:true,
-				    required:true,
+					requeridodis:true,
 				},  		              
 				'C1P111[]':{
+		    		range:[1,2],
 					digits:true,
-				    required: true,			    	
+				    requeridodis: true,			    	
 				}, 		
 				'C1P112[]':{
+		    		valrango:[1,2,9],
 					digits:true,
-				    required: true,			    	
+				    requeridodis: true,			    	
 				}, 				
 				'C1P113[]':{
+		    		valrango:[1,2,9],
 					digits:true,
 				    required:true,
 				},  		              
 				'C1P114[]':{
+		    		valrango:[1,7,9],
 					digits:true,
 				    required: true,			    	
 				}, 		
 				'C1P114_OBS[]':{		    	
+				    requeridodis: true,			    	
 				}, 	
 
 

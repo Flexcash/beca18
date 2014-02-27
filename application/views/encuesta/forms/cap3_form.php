@@ -3040,11 +3040,11 @@ $('#C3P361_5').change(function(event) {
 
 
 $('#C3P362_8').change(function(event) {
-	if($(this).val() == 1){
-		$('#C3P362_OBS').removeAttr('disabled');
-	}else{
+	if($(this).val() == '' || $(this).val() == 0){
 		$('#C3P362_OBS').val('');
-		$('#C3P362_OBS').attr('disabled','disabled');
+		$('#C3P362_OBS').attr('disabled','disabled');		
+	}else{
+		$('#C3P362_OBS').removeAttr('disabled');
 	}
 });
 
